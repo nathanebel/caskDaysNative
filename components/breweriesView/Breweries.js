@@ -13,7 +13,7 @@ import styles from '../global/styles'
 import Header from '../global/Header'
 import Navbar from '../global/Navbar'
 
-class Locations extends Component {
+class Breweries extends Component {
 
   constructor(props) {
     super(props)
@@ -26,7 +26,7 @@ class Locations extends Component {
         <Header />
         <Grid>
           <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Hello Locations</Text>
+            <Text>Hello Breweries</Text>
           </Row>
         </Grid>
         <Navbar />
@@ -35,4 +35,4 @@ class Locations extends Component {
   }
 }
 
-export default Locations
+export default Breweries

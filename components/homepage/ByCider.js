@@ -15,7 +15,7 @@ import styles from './../global/styles'
 
 // TODO convert to stateless component
 
-class ByStyle extends Component {
+class ByCider extends Component {
 
   constructor(props) {
     super(props)
@@ -23,20 +23,20 @@ class ByStyle extends Component {
   }
 
   onButtonPress() {
-    console.log('going to styles')
+    console.log('going to cider')
     this.props.navigator.push({
-      id: 'Styles',
+      id: 'Cider',
       sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
     })
   }
 
+
   render() {
     return(
-
     <TouchableWithoutFeedback onPress={this.onButtonPress}>
-      <Col style={[ styles.homeSmall, { backgroundColor: '#FBCCCB' }]}>
+      <Col style={[ styles.homeHalfWidth, { backgroundColor: '#FFE9CF' } ]}>
         <View>
-          <Text>Browse by Style</Text>
+          <Text>Cider</Text>
         </View>
       </Col>
     </TouchableWithoutFeedback>
@@ -44,4 +44,4 @@ class ByStyle extends Component {
   }
 }
 
-export default ByStyle
+export default ByCider

@@ -15,8 +15,8 @@ import Navbar from '../global/Navbar'
 import ByBrewery from './ByBrewery'
 import ByLocation from './ByLocation'
 import ByStyle from './ByStyle'
-import Cider from './Cider'
-import Homebrew from './Homebrew'
+import ByCider from './ByCider'
+import Homebrew from './ByHomebrew'
 import IPAChallenge from './IPAChallenge'
 
 class HomePage extends Component {
@@ -26,30 +26,25 @@ class HomePage extends Component {
   }
 
   render() {
+    const nav = this.props.navigator
     return(
       <View>
           <Header />
           <Grid>
-            <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-              <ByLocation />
-            </Row>
-            <Row style={[ styles.homeLarge, { backgroundColor:'#DEECDE' }]}>
-              <ByBrewery />
-            </Row>
-            <Col style={[ styles.homeSmall, { backgroundColor: '#FBCCCB' }]}>
-              <ByStyle />
-            </Col>
-            <Row style={styles.homeHalfWidthContainer}>
-              <Col style={[ styles.homeHalfWidth, { backgroundColor: '#FFE9CF' } ]}>
-                <Cider />
-              </Col>
-              <Col style={[ styles.homeHalfWidth, { backgroundColor: '#B0DFE2' } ]}>
-                <Homebrew />
-              </Col>
-            </Row>
-            <Col style={[ styles.homeSmall, { backgroundColor: '#DEECDE' }]}>
-              <IPAChallenge />
-            </Col>
+
+              <ByLocation navigator={nav} />
+              <ByBrewery navigator={nav} />
+              <ByStyle navigator={nav} />
+
+              <Row style={styles.homeHalfWidthContainer}>
+
+                  <ByCider navigator={nav} />
+                  <Homebrew navigator={nav} />
+
+              </Row>
+
+              <IPAChallenge navigator={nav} />
+
           </Grid>
         <Navbar />
       </View>

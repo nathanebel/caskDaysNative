@@ -36,6 +36,9 @@ const styles = StyleSheet.create({
   homeHalfWidthContainer: {
     height:winHeight / 10,
   },
+  homeLocationText: {
+    color:'purple'
+  },
   navbar: {
     top: winHeight - winHeight / 10,
     left: 0,

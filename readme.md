@@ -1,6 +1,6 @@
 ## Cask Days Native
 
-Nate Ebel - [twitter](http://wwww.twitter.com/nateebel)
+Nate Ebel - [twitter](http://twitter.com/nateebel)
 
 This is a concept app for Cask Days, an awesome beer festival in Toronto. (http://www.caskdays.com/)
 
