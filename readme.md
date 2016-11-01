@@ -14,7 +14,7 @@ For the record I'm not associated with Cask Days. Just a big fan who wanted to b
 
 Status report - Monday Oct 31st 
 
-[High-ref gfycat](https://gfycat.com/WatchfulSecondaryAnteater)
+[High-res gfycat](https://gfycat.com/WatchfulSecondaryAnteater)
 
 ![gif of current state](https://thumbs.gfycat.com/WatchfulSecondaryAnteater-size_restricted.gif)
 
