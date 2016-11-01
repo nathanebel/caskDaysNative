@@ -27,14 +27,23 @@ class HomePage extends Component {
 
   constructor(props) {
     super(props)
+    this.onButtonPress = this.onButtonPress.bind(this)
   }
 
+  onButtonPress(target) {
+    console.log('going to ' + target)
+    this.props.navigator.push({
+      screen: target,
+      title: target
+    });
+  }
+  
   render() {
     const nav = this.props.navigator
     return(
       <View>
         <Grid>
-          <ByLocation navigator={nav} />
+          <ByLocation target='Locations' onPress={this.onButtonPress} navigator={nav} />
           <ByBrewery navigator={nav} />
           <ByStyle navigator={nav} />
 
@@ -51,6 +60,10 @@ class HomePage extends Component {
       </View>
     )
   }
+}
+
+ByLocation.propTypes = {
+  onPress:React.PropTypes.func
 }
 
 export default HomePage
