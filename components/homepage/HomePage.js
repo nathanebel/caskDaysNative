@@ -37,24 +37,24 @@ class HomePage extends Component {
       title: target
     });
   }
-  
+
   render() {
     const nav = this.props.navigator
     return(
       <View>
         <Grid>
           <ByLocation target='Locations' onPress={this.onButtonPress} navigator={nav} />
-          <ByBrewery navigator={nav} />
-          <ByStyle navigator={nav} />
+          <ByBrewery target='Breweries' onPress={this.onButtonPress} navigator={nav} />
+          <ByStyle target='Styles' onPress={this.onButtonPress} navigator={nav} />
 
           <Row style={styles.homeHalfWidthContainer}>
 
-            <ByCider navigator={nav} />
-            <Homebrew navigator={nav} />
+            <ByCider target='Cider' onPress={this.onButtonPress} navigator={nav} />
+            <Homebrew target='Homebrew' onPress={this.onButtonPress} navigator={nav} />
 
           </Row>
 
-          <IPAChallenge navigator={nav} />
+          <IPAChallenge target='IPAs' onPress={this.onButtonPress} navigator={nav} />
 
         </Grid>
       </View>
@@ -62,8 +62,5 @@ class HomePage extends Component {
   }
 }
 
-ByLocation.propTypes = {
-  onPress:React.PropTypes.func
-}
-
 export default HomePage
+

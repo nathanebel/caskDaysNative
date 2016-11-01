@@ -19,20 +19,11 @@ class ByHomebrew extends Component {
 
   constructor(props) {
     super(props)
-    this.onButtonPress = this.onButtonPress.bind(this)
-  }
-
-  onButtonPress() {
-    console.log('going to Homebrew')
-    this.props.navigator.push({
-      id: 'Homebrew',
-      sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
-    })
   }
 
   render() {
     return(
-    <TouchableWithoutFeedback>
+    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
       <Col style={[ styles.homeHalfWidth, { backgroundColor: '#B0DFE2' } ]}>
         <View>
           <Text>Homebrew</Text>

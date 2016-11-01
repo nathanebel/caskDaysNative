@@ -19,20 +19,11 @@ class IPAChallenge extends Component {
 
   constructor(props) {
     super(props)
-    this.onButtonPress = this.onButtonPress.bind(this)
-  }
-
-  onButtonPress() {
-    console.log('going to cider')
-    this.props.navigator.push({
-      id: 'IPAs',
-      sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
-    })
   }
 
   render() {
     return(
-    <TouchableWithoutFeedback onPress={this.onButtonPress}>
+    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
       <Col style={[ styles.homeSmall, { backgroundColor: '#DEECDE' }]}>
         <View>
           <Text>IPA Challenge</Text>

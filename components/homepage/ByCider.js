@@ -19,21 +19,11 @@ class ByCider extends Component {
 
   constructor(props) {
     super(props)
-    this.onButtonPress = this.onButtonPress.bind(this)
   }
-
-  onButtonPress() {
-    console.log('going to cider')
-    this.props.navigator.push({
-      id: 'Cider',
-      sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
-    })
-  }
-
 
   render() {
     return(
-    <TouchableWithoutFeedback>
+    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
       <Col style={[ styles.homeHalfWidth, { backgroundColor: '#FFE9CF' } ]}>
         <View>
           <Text>Cider</Text>

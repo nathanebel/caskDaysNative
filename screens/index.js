@@ -16,6 +16,14 @@ import BritishColumbia from './../components/locationsView/BritishColumbia'
 import Quebec from './../components/locationsView/Quebec'
 import Ontario from './../components/locationsView/Ontario'
 
+// Categories
+
+import Styles from './../components/stylesView/Styles'
+import Cider from './../components/ciderView/Cider'
+import IPAs from './../components/IPAView/IPAs'
+import Homebrew from './../components/homebrewView/Homebrew'
+
+
 // register all screens of the app (including internal ones)
 export function registerScreens() {
   Navigation.registerComponent('HomePage', () => HomePage)
@@ -32,6 +40,15 @@ export function registerScreens() {
   Navigation.registerComponent('British Columbia', () => BritishColumbia)
   Navigation.registerComponent('Quebec', () => Quebec)
   Navigation.registerComponent('Ontario', () => Ontario)
+
+  // Categories
+
+  Navigation.registerComponent('Cider', () => Cider)
+  Navigation.registerComponent('IPAs', () => IPAs)
+  Navigation.registerComponent('Styles', () => Styles)
+  Navigation.registerComponent('Homebrew', () => Homebrew)
+
+
 
 
 }

@@ -23,7 +23,6 @@ class Cider extends Component {
     console.log('rendering locations')
     return(
       <View>
-        <Header />
         <Grid>
           <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
             <Text>Hello Cider</Text>

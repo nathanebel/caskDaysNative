@@ -23,7 +23,6 @@ class Breweries extends Component {
   render() {
     return(
       <View>
-        <Header />
         <Grid>
           <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
             <Text>Hello Breweries</Text>

@@ -19,21 +19,11 @@ class ByStyle extends Component {
 
   constructor(props) {
     super(props)
-    this.onButtonPress = this.onButtonPress.bind(this)
-  }
-
-  onButtonPress() {
-    console.log('going to styles')
-    this.props.navigator.push({
-      id: 'Styles',
-      sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
-    })
   }
 
   render() {
     return(
-
-    <TouchableWithoutFeedback>
+    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
       <Col style={[ styles.homeSmall, { backgroundColor: '#FBCCCB' }]}>
         <View>
           <Text>Browse by Style</Text>
