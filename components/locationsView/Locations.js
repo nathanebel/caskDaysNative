@@ -18,8 +18,6 @@ import Navbar from '../global/Navbar'
 
 class Locations extends Component {
   static navigatorStyle = {
-    navBarTranslucent:true,
-    drawUnderNavBar:true,
     navBarBackgroundColor:'#07698C',
     navBarTextColor:'#DEECDE',
     navBarButtonColor:'#DEECDE'
@@ -33,7 +31,6 @@ class Locations extends Component {
     console.log('rendering locations')
     return(
       <View>
-        <Header />
         <ScrollView>
           <Grid>
             <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>

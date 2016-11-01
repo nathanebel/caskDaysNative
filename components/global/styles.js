@@ -5,7 +5,7 @@ import Dimensions from 'Dimensions'
 console.log(Dimensions.get('window'))
 
 const winWidth = Dimensions.get('window').width
-const winHeight = Dimensions.get('window').height
+const winHeight = Dimensions.get('window').height - 25
 
 const styles = StyleSheet.create({
   container: {
@@ -40,12 +40,12 @@ const styles = StyleSheet.create({
     color:'purple'
   },
   listRow:{
-    height:winHeight / 6
+    height:winHeight / 7
   },
   locationText: {
     textAlign:'center',
-    lineHeight: winHeight / 6,
-    fontWeight:'100',
+    lineHeight: winHeight / 7,
+    fontWeight:'200',
     fontSize:32,
   },
   navbar: {
@@ -65,7 +65,6 @@ const styles = StyleSheet.create({
   },
   header: {
     height: winHeight / 10,
-    paddingTop:25,
     backgroundColor:'#07698C'
   }
 })
