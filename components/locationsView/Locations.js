@@ -14,10 +14,6 @@ import { Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
 
-import beer from './../../beer.json'
-
-const beerList = beer.beer
-
 class Locations extends Component {
   static navigatorStyle = {
     navBarBackgroundColor:'#07698C',
