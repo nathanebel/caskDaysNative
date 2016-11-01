@@ -19,7 +19,7 @@ Navigation.startTabBasedApp({
     {
       label: 'Home',
       screen: 'HomePage', // this is a registered name for a screen
-      title: 'Cask Days'
+      title: 'Cask Days',
     },
     {
       label: 'My List',

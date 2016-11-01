@@ -10,16 +10,13 @@ import {
   Image,
 } from 'react-native';
 
+import navStyle from './../global/navigatorStyle'
 import { Row, Grid } from "react-native-easy-grid";
-
 import styles from '../global/styles'
 
 class Locations extends Component {
-  static navigatorStyle = {
-    navBarBackgroundColor:'#07698C',
-    navBarTextColor:'#DEECDE',
-    navBarButtonColor:'#DEECDE'
-  }
+
+  static navigatorStyle = navStyle.navigatorStyle
 
   constructor(props) {
     super(props)

@@ -5,20 +5,14 @@ import {
   ScrollView,
 } from 'react-native';
 
+import navStyle from './../global/navigatorStyle'
 import beer from './../../beer.json'
-
+import BeerBlock from './BeerBlock'
 const beerList = beer.beer
 
-import BeerBlock from './BeerBlock'
-
 class Quebec extends Component {
-  static navigatorStyle = {
-    navBarTranslucent:true,
-    drawUnderNavBar:true,
-    navBarBackgroundColor:'#07698C',
-    navBarTextColor:'#DEECDE',
-    navBarButtonColor:'#DEECDE'
-  }
+
+  static navigatorStyle = navStyle.navigatorStyle
 
   constructor(props) {
     super(props)

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 import { Row, Grid } from "react-native-easy-grid";
-
+import navStyle from './../global/navigatorStyle'
 import styles from '../global/styles'
 import ByBrewery from './ByBrewery'
 import ByLocation from './ByLocation'
@@ -19,11 +19,7 @@ import IPAChallenge from './IPAChallenge'
 
 class HomePage extends Component {
 
-  static navigatorStyle = {
-    navBarBackgroundColor:'#07698C',
-    navBarTextColor:'#DEECDE',
-    navBarButtonColor:'#DEECDE'
-  }
+  static navigatorStyle = navStyle.navigatorStyle
 
   constructor(props) {
     super(props)
@@ -34,7 +30,8 @@ class HomePage extends Component {
     console.log('going to ' + target)
     this.props.navigator.push({
       screen: target,
-      title: target
+      title: target,
+      backButtonTitle: '',
     });
   }
 
