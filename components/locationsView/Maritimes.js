@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import {
   Text,
   View,
+  ScrollView,
 } from 'react-native';
 
-import {  Row, Grid } from "react-native-easy-grid";
+import beer from './../../beer.json'
 
-import styles from '../global/styles'
-import Header from '../global/Header'
+const beerList = beer.beer
+
+import BeerBlock from './BeerBlock'
 
 class Maritimes extends Component {
+  // TODO consolidate all navigatorStyles for child pages into one import or something
   static navigatorStyle = {
     navBarTranslucent:true,
     drawUnderNavBar:true,
@@ -23,15 +26,19 @@ class Maritimes extends Component {
   }
 
   render() {
-    console.log('rendering locations')
+    let getBeers = beerList.map(function(currentBeer, index) {
+      if( currentBeer.section === 'Maritimes' ) {
+        return <BeerBlock key={index} beerData={currentBeer} />
+      }
+    })
+
     return(
       <View>
-        <Grid>
-          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Maritimes</Text>
-          </Row>
-        </Grid>
+        <ScrollView>
+          { getBeers }
+        </ScrollView>
       </View>
+
     )
   }
 }

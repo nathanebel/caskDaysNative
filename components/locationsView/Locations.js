@@ -30,7 +30,8 @@ class Locations extends Component {
     console.log('going to ' + target)
     this.props.navigator.push({
       screen: target,
-      title: target
+      title: target,
+      backButtonTitle: '',
     });
   }
 

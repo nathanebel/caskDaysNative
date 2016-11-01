@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import {
   Text,
   View,
+  ScrollView
 } from 'react-native';
 
-import {  Row, Grid } from "react-native-easy-grid";
+import beer from './../../beer.json'
 
-import styles from '../global/styles'
-import Header from '../global/Header'
+const beerList = beer.beer
+
+import BeerBlock from './BeerBlock'
 
 class Oregon extends Component {
   static navigatorStyle = {
     navBarTranslucent:true,
-    drawUnderNavBar:true,
     navBarBackgroundColor:'#07698C',
     navBarTextColor:'#DEECDE',
     navBarButtonColor:'#DEECDE'
@@ -22,23 +23,20 @@ class Oregon extends Component {
     super(props)
   }
 
-  // saving this little 'filter location' function snippet for later, not using it for anything yet
-  filterByLocation(item) {
-    if(item.section === 'Ontario') {
-      console.log(item)
-    }
-  }
-
   render() {
-    console.log('rendering locations')
+    let getBeers = beerList.map(function(currentBeer, index) {
+      if( currentBeer.section === 'Oregon' ) {
+        return <BeerBlock key={index} beerData={currentBeer} />
+      }
+    })
+
     return(
       <View>
-        <Grid>
-          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Oregon</Text>
-          </Row>
-        </Grid>
+        <ScrollView>
+          { getBeers }
+        </ScrollView>
       </View>
+
     )
   }
 }
