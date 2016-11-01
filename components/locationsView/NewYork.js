@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
   View,
-  StatusBar
 } from 'react-native';
 
-import { Col, Row, Grid } from "react-native-easy-grid";
+import {  Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
 import Header from '../global/Header'
-import Navbar from '../global/Navbar'
 
-class IPAs extends Component {
+class NewYork extends Component {
+  static navigatorStyle = {
+    navBarTranslucent:true,
+    drawUnderNavBar:true,
+    navBarBackgroundColor:'#07698C',
+    navBarTextColor:'#DEECDE',
+    navBarButtonColor:'#DEECDE'
+  }
 
   constructor(props) {
     super(props)
@@ -23,16 +26,14 @@ class IPAs extends Component {
     console.log('rendering locations')
     return(
       <View>
-        <Header />
         <Grid>
           <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Hello IPAs</Text>
+            <Text>NewYork</Text>
           </Row>
         </Grid>
-        <Navbar />
       </View>
     )
   }
 }
 
-export default IPAs
+export default NewYork

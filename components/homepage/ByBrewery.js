@@ -32,7 +32,7 @@ class ByBrewery extends Component {
 
   render() {
     return(
-      <TouchableWithoutFeedback onPress={this.onButtonPress}>
+      <TouchableWithoutFeedback>
         <Row style={ [ styles.homeLarge, { backgroundColor:'#DEECDE' } ] }>
           <View>
             <Text style={ styles.homeLocationText }>Browse by Brewery</Text>

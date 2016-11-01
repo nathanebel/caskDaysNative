@@ -18,8 +18,16 @@ import ByStyle from './ByStyle'
 import ByCider from './ByCider'
 import Homebrew from './ByHomebrew'
 import IPAChallenge from './IPAChallenge'
+import NavWrap from './../global/NavWrap'
 
 class HomePage extends Component {
+
+  static navigatorStyle = {
+    navBarHidden: true,
+    navBarBackgroundColor:'#07698C',
+    navBarTextColor:'#DEECDE',
+    navBarButtonColor:'#DEECDE'
+  }
 
   constructor(props) {
     super(props)
@@ -29,24 +37,22 @@ class HomePage extends Component {
     const nav = this.props.navigator
     return(
       <View>
+        <Grid>
           <Header />
-          <Grid>
+          <ByLocation navigator={nav} />
+          <ByBrewery navigator={nav} />
+          <ByStyle navigator={nav} />
 
-              <ByLocation navigator={nav} />
-              <ByBrewery navigator={nav} />
-              <ByStyle navigator={nav} />
+          <Row style={styles.homeHalfWidthContainer}>
 
-              <Row style={styles.homeHalfWidthContainer}>
+            <ByCider navigator={nav} />
+            <Homebrew navigator={nav} />
 
-                  <ByCider navigator={nav} />
-                  <Homebrew navigator={nav} />
+          </Row>
 
-              </Row>
+          <IPAChallenge navigator={nav} />
 
-              <IPAChallenge navigator={nav} />
-
-          </Grid>
-        <Navbar />
+        </Grid>
       </View>
     )
   }

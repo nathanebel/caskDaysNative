@@ -33,7 +33,7 @@ class ByStyle extends Component {
   render() {
     return(
 
-    <TouchableWithoutFeedback onPress={this.onButtonPress}>
+    <TouchableWithoutFeedback>
       <Col style={[ styles.homeSmall, { backgroundColor: '#FBCCCB' }]}>
         <View>
           <Text>Browse by Style</Text>

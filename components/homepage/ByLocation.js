@@ -25,9 +25,9 @@ class ByLocation extends Component {
   onButtonPress() {
     console.log('going to locations')
     this.props.navigator.push({
-      id: 'Locations',
-      sceneConfig: Navigator.SceneConfigs.HorizontalSwipeJump
-    })
+      screen: 'Locations',
+      title: 'Locations'
+    });
   }
 
   render() {

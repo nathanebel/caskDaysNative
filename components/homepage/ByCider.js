@@ -33,7 +33,7 @@ class ByCider extends Component {
 
   render() {
     return(
-    <TouchableWithoutFeedback onPress={this.onButtonPress}>
+    <TouchableWithoutFeedback>
       <Col style={[ styles.homeHalfWidth, { backgroundColor: '#FFE9CF' } ]}>
         <View>
           <Text>Cider</Text>

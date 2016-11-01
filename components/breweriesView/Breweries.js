@@ -4,7 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
-  StatusBar
+  StatusBar,
+  Navigator
 } from 'react-native';
 
 import { Col, Row, Grid } from "react-native-easy-grid";
@@ -20,7 +21,6 @@ class Breweries extends Component {
   }
 
   render() {
-    console.log('rendering locations')
     return(
       <View>
         <Header />

@@ -27,17 +27,26 @@ const styles = StyleSheet.create({
     height: winHeight / 4
   },
   homeSmall: {
-    height: winHeight / 10
+    height: winHeight / 8
   },
   homeHalfWidth: {
-    height: winHeight / 10,
+    height: winHeight / 8,
     width: winWidth /2
   },
   homeHalfWidthContainer: {
-    height:winHeight / 10,
+    height:winHeight / 8,
   },
   homeLocationText: {
     color:'purple'
+  },
+  listRow:{
+    height:winHeight / 6
+  },
+  locationText: {
+    textAlign:'center',
+    lineHeight: winHeight / 6,
+    fontWeight:'100',
+    fontSize:32,
   },
   navbar: {
     top: winHeight - winHeight / 10,

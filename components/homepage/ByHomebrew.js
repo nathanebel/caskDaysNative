@@ -32,7 +32,7 @@ class ByHomebrew extends Component {
 
   render() {
     return(
-    <TouchableWithoutFeedback onPress={this.onButtonPress}>
+    <TouchableWithoutFeedback>
       <Col style={[ styles.homeHalfWidth, { backgroundColor: '#B0DFE2' } ]}>
         <View>
           <Text>Homebrew</Text>
