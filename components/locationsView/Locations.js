@@ -10,7 +10,7 @@ import {
   Image,
 } from 'react-native';
 
-import { Col, Row, Grid } from "react-native-easy-grid";
+import { Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
 
@@ -26,7 +26,7 @@ class Locations extends Component {
   }
 
   render() {
-    // TODO this can definitely be split up into multiple smaller components, and maybe we can loop through the beers here and feed only the relevant # beers as props ¯\_(ツ)_/¯ 
+    // TODO this can definitely be split up into multiple smaller components, and maybe we can loop through the beers here and feed only the relevant # beers as props ¯\_(ツ)_/¯
     console.log('rendering locations')
     return(
       <View>
