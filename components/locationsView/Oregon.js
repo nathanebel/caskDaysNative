@@ -22,6 +22,13 @@ class Oregon extends Component {
     super(props)
   }
 
+  // saving this little 'filter location' function snippet for later, not using it for anything yet
+  filterByLocation(item) {
+    if(item.section === 'Ontario') {
+      console.log(item)
+    }
+  }
+
   render() {
     console.log('rendering locations')
     return(

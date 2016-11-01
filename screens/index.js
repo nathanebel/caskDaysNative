@@ -47,8 +47,4 @@ export function registerScreens() {
   Navigation.registerComponent('IPAs', () => IPAs)
   Navigation.registerComponent('Styles', () => Styles)
   Navigation.registerComponent('Homebrew', () => Homebrew)
-
-
-
-
 }

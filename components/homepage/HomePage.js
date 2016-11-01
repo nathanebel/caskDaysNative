@@ -38,6 +38,7 @@ class HomePage extends Component {
     });
   }
 
+
   render() {
     const nav = this.props.navigator
     return(
