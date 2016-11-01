@@ -26,6 +26,7 @@ class Locations extends Component {
   }
 
   render() {
+    // TODO this can definitely be split up into multiple smaller components, and maybe we can loop through the beers here and feed only the relevant # beers as props ¯\_(ツ)_/¯ 
     console.log('rendering locations')
     return(
       <View>
