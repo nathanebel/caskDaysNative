@@ -13,8 +13,6 @@ import {
 import { Col, Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
-import Header from '../global/Header'
-import Navbar from '../global/Navbar'
 
 class Locations extends Component {
   static navigatorStyle = {

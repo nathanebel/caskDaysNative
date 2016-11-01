@@ -12,6 +12,12 @@ We'll see how this evolves, since I'm still getting the hang of React Native. If
 
 For the record I'm not associated with Cask Days. Just a big fan who wanted to build something fun.
 
+Status report - Monday Oct 31st 
+
+[High-ref gfycat](https://gfycat.com/WatchfulSecondaryAnteater)
+
+![gif of current state](https://thumbs.gfycat.com/WatchfulSecondaryAnteater-size_restricted.gif)
+
 Rough mocks -
 
 ![Mocks 1](http://i.imgur.com/A6g1frP.png "Mocks 1")
