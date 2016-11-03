@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  StyleSheet,
   Text,
   View,
-  Navigator
 } from 'react-native';
 
 import { Navigation } from 'react-native-navigation';

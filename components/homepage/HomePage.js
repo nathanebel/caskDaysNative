@@ -16,6 +16,25 @@ import ByStyle from './ByStyle'
 import ByCider from './ByCider'
 import Homebrew from './ByHomebrew'
 import IPAChallenge from './IPAChallenge'
+import store from './../../store'
+
+console.log('store')
+console.log(store)
+
+store.dispatch({
+  type: 'ADD_TODO',
+  text: 'Read the docs'
+})
+
+store.dispatch({
+  type: 'ADD_TODO',
+  text: 'Read the docszzzzz'
+})
+
+console.log(store.getState())
+// [ 'Use Redux', 'Read the docs' ]
+
+console.log(store.getState())
 
 class HomePage extends Component {
 
