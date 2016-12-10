@@ -19,8 +19,7 @@ class BeerBlock extends Component {
   }
 
   render() {
-    let newBeer
-    newBeer = this.props.beerData
+    let newBeer = this.props.beerData
 
     return(
         <View style={styles.listRow}>
