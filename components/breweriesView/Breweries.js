@@ -21,10 +21,8 @@ class Breweries extends Component {
 
   render() {
 
-    console.log('getting uniques')
     const uniqueBreweries = [...new Set(beerList.map(item => item.brewery))];
     const breweriesSorted = uniqueBreweries.sort()
-    console.log(breweriesSorted)
 
     function createBreweryBlocks(elem, index, arr) {
 
