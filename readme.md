@@ -16,7 +16,7 @@ Status report - December 9th
 
 Navigation all done, sorting working, add / remove to list done. need to make components match mocks style-wise.
 
-[High-res gfycat](https://gfycat.com/ShallowEcstaticAracari)
+[Click here for high-res gfycat](https://gfycat.com/ShallowEcstaticAracari)
 
 ![gif of current state](https://thumbs.gfycat.com/ShallowEcstaticAracari-size_restricted.gif)
 
