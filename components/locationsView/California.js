@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import {
-  Text,
   View,
   ScrollView,
 } from 'react-native';
 
-import navStyle from './../global/navigatorStyle'
 import beer from './../../beer.json'
 import BeerBlock from './BeerBlock'
 const beerList = beer.beer
 
 class California extends Component {
-
-  static navigatorStyle = navStyle.navigatorStyle
 
   constructor(props) {
     super(props)
@@ -27,7 +23,7 @@ class California extends Component {
 
     return(
       <View>
-        <ScrollView>
+        <ScrollView style={{ marginTop:62 }}>
           { getBeers }
         </ScrollView>
       </View>

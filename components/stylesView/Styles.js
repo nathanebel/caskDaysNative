@@ -7,11 +7,14 @@ import {
   StatusBar
 } from 'react-native';
 
-import { Col, Row, Grid } from "react-native-easy-grid";
+import beer from './../../beer.json'
+const beerList = beer.beer
+
+import { Row, Grid } from "react-native-easy-grid";
+
+import BeerBlock from './../locationsView/BeerBlock'
 
 import styles from '../global/styles'
-import Header from '../global/Header'
-import Navbar from '../global/Navbar'
 
 class Styles extends Component {
 
@@ -20,15 +23,14 @@ class Styles extends Component {
   }
 
   render() {
-    console.log('rendering locations')
+
     return(
       <View>
         <Grid>
-          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
+          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2', marginTop:62}]}>
             <Text>Hello Styles</Text>
           </Row>
         </Grid>
-        <Navbar />
       </View>
     )
   }

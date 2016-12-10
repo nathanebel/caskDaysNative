@@ -8,28 +8,18 @@ import { Button } from 'native-base'
 
 import styles from '../global/styles'
 
-import store from './../../store'
+import { connect } from 'react-redux'
 
-
+import * as actions from '../../actions/index'
 
 class BeerBlock extends Component {
 
   constructor(props) {
     super(props)
-    this.addBeer = this.addBeer.bind(this)
-  }
-
-  addBeer() {
-    newBeer = this.props.beerData
-    console.log('adding beer')
-    store.dispatch({
-      type: 'ADD_TODO',
-      text: newBeer.name
-    })
   }
 
   render() {
-
+    let newBeer
     newBeer = this.props.beerData
 
     return(
@@ -37,7 +27,7 @@ class BeerBlock extends Component {
           <Text>{newBeer.name}</Text>
           <Text>{newBeer.brewery}</Text>
           <Text>{newBeer.caskNum}</Text>
-          <Button onPress={this.addBeer}>
+          <Button onPress={() => { this.props.onAddClick(newBeer) }}>
             Add
           </Button>
         </View>
@@ -45,4 +35,18 @@ class BeerBlock extends Component {
   }
 }
 
-export default BeerBlock
+function mapStateToProps(state) {
+  return { selectedBeers: state }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onAddClick: (beerData) => {
+      dispatch(actions.addBeer(beerData))
+    }
+  }
+}
+
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(BeerBlock);

@@ -1,29 +1,31 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
   View,
   StatusBar,
-  TouchableWithoutFeedback,
-  Navigator
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import { Col } from 'react-native-easy-grid'
 
-import styles from './../global/styles'
+import { Actions } from 'react-native-router-flux';
 
-// TODO convert to stateless component
+import styles from './../global/styles'
 
 class IPAChallenge extends Component {
 
   constructor(props) {
     super(props)
+    this.onButtonPress = this.onButtonPress.bind(this)
+  }
+
+  onButtonPress() {
+    Actions.IPAs()
   }
 
   render() {
     return(
-    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
+    <TouchableWithoutFeedback onPress={this.onButtonPress}>
       <Col style={[ styles.homeSmall, { backgroundColor: '#DEECDE' }]}>
         <View>
           <Text>IPA Challenge</Text>

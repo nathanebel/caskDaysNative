@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
   View,
-  StatusBar
+  ScrollView
 } from 'react-native';
 
-import { Col, Row, Grid } from "react-native-easy-grid";
+import BeerBlock from './../locationsView/BeerBlock'
 
-import styles from '../global/styles'
-import Header from '../global/Header'
-import Navbar from '../global/Navbar'
+import beer from './../../beer.json'
+const beerList = beer.beer
 
 class Homebrew extends Component {
 
@@ -20,15 +16,19 @@ class Homebrew extends Component {
   }
 
   render() {
-    console.log('rendering locations')
+
+    let getBeers = beerList.map(function(currentBeer, index) {
+
+      if( currentBeer.section === 'Homebrew' ) {
+        return <BeerBlock key={index} beerData={beerList[index]} />
+      }
+    }, this)
+
     return(
-      <View>
-        <Grid>
-          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Hello Homebrew</Text>
-          </Row>
-        </Grid>
-        <Navbar />
+      <View style={{marginTop:62}}>
+        <ScrollView>
+          { getBeers }
+        </ScrollView>
       </View>
     )
   }

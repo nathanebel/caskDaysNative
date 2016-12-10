@@ -1,2650 +1,3091 @@
 {
-  "beer": [
+  "beer":[
     {
-      "brewery": "Baerlic Brewing Company",
-      "section": "Oregon",
-      "name": "Altera, North West Red Ale",
-      "caskNum": 1
+      "style":"Red Ale",
+      "brewery":"Baerlic Brewing Company",
+      "section":"Oregon",
+      "name":"Altera, North West Red Ale",
+      "caskNum":1
     },
     {
-      "brewery": "Baerlic Brewing Company",
-      "section": "Oregon",
-      "name": "Noble, Oatmeal Stout",
-      "caskNum": 2
+      "style":"Stout",
+      "brewery":"Baerlic Brewing Company",
+      "section":"Oregon",
+      "name":"Noble, Oatmeal Stout",
+      "caskNum":2
     },
     {
-      "brewery": "Boneyard Beer",
-      "section": "Oregon",
-      "name": "Notorious IPA3, Triple IPA",
-      "caskNum": 3
+      "style":"IPA",
+      "brewery":"Boneyard Beer",
+      "section":"Oregon",
+      "name":"Notorious IPA3, Triple IPA",
+      "caskNum":3
     },
     {
-      "brewery": "Boneyard Beer",
-      "section": "Oregon",
-      "name": "Diablo Rojo, American Red Ale",
-      "caskNum": 4
+      "style":"Red Ale",
+      "brewery":"Boneyard Beer",
+      "section":"Oregon",
+      "name":"Diablo Rojo, American Red Ale",
+      "caskNum":4
     },
     {
-      "brewery": "Breakside Brewery",
-      "section": "Oregon",
-      "name": "Helles, German Helles w. Cucumbers",
-      "caskNum": 5
+      "style":"Helles",
+      "brewery":"Breakside Brewery",
+      "section":"Oregon",
+      "name":"Helles, German Helles w. Cucumbers",
+      "caskNum":5
     },
     {
-      "brewery": "Breakside Brewery",
-      "section": "Oregon",
-      "name": "Passionfruit Sour, Sour Ale w. Habanero",
-      "caskNum": 6
+      "style":"Sour Ale",
+      "brewery":"Breakside Brewery",
+      "section":"Oregon",
+      "name":"Passionfruit Sour, Sour Ale w. Habanero",
+      "caskNum":6
     },
     {
-      "brewery": "Brewers Union Local 180",
-      "section": "Oregon",
-      "name": "Wotcha A La Sorachi, Best Bitter",
-      "caskNum": 7
+      "style":"Bitter",
+      "brewery":"Brewers Union Local 180",
+      "section":"Oregon",
+      "name":"Wotcha A La Sorachi, Best Bitter",
+      "caskNum":7
     },
     {
-      "brewery": "Buoy Beer Company",
-      "section": "Oregon",
-      "name": "Buoy IPA, American IPA",
-      "caskNum": 8
+      "style":"IPA",
+      "brewery":"Buoy Beer Company",
+      "section":"Oregon",
+      "name":"Buoy IPA, American IPA",
+      "caskNum":8
     },
     {
-      "brewery": "Buoy Beer Company",
-      "section": "Oregon",
-      "name": "Buoy Red Ale, North West Red Ale",
-      "caskNum": 9
+      "style":"Red Ale",
+      "brewery":"Buoy Beer Company",
+      "section":"Oregon",
+      "name":"Buoy Red Ale, North West Red Ale",
+      "caskNum":9
     },
     {
-      "brewery": "Burnside Brewing Co",
-      "section": "Oregon",
-      "name": "Thundarr The Bavarian, Weizenbock",
-      "caskNum": 10
+      "style":"Weizenbock",
+      "brewery":"Burnside Brewing Co",
+      "section":"Oregon",
+      "name":"Thundarr The Bavarian, Weizenbock",
+      "caskNum":10
     },
     {
-      "brewery": "Burnside Brewing Co",
-      "section": "Oregon",
-      "name": "Fresh Hop Keller Couch Lager, Helles",
-      "caskNum": 11
+      "style":"Helles",
+      "brewery":"Burnside Brewing Co",
+      "section":"Oregon",
+      "name":"Fresh Hop Keller Couch Lager, Helles",
+      "caskNum":11
     },
     {
-      "brewery": "Burnside Brewing Co",
-      "section": "Oregon",
-      "name": "Blueberry Pie, Cream Ale w. Blueberry Jam",
-      "caskNum": 12
+      "style":"Cream Ale",
+      "brewery":"Burnside Brewing Co",
+      "section":"Oregon",
+      "name":"Blueberry Pie, Cream Ale w. Blueberry Jam",
+      "caskNum":12
     },
     {
-      "brewery": "Cascade Brewing Company",
-      "section": "Oregon",
-      "name": "Pumpkin Smash '15 , Northwest Sour Ale",
-      "caskNum": 13
+      "style":"Sour Ale",
+      "brewery":"Cascade Brewing Company",
+      "section":"Oregon",
+      "name":"Pumpkin Smash '15 , Northwest Sour Ale",
+      "caskNum":13
     },
     {
-      "brewery": "Cascade Brewing Company",
-      "section": "Oregon",
-      "name": "Cranberry '16, Northwest Sour Ale",
-      "caskNum": 14
+      "style":"Sour Ale",
+      "brewery":"Cascade Brewing Company",
+      "section":"Oregon",
+      "name":"Cranberry '16, Northwest Sour Ale",
+      "caskNum":14
     },
     {
-      "brewery": "Cascade Brewing Company",
-      "section": "Oregon",
-      "name": "Sang Royal '13, Northwest Sour Ale",
-      "caskNum": 15
+      "style":"Sour Ale",
+      "brewery":"Cascade Brewing Company",
+      "section":"Oregon",
+      "name":"Sang Royal '13, Northwest Sour Ale",
+      "caskNum":15
     },
     {
-      "brewery": "Cascade Brewing Company",
-      "section": "Oregon",
-      "name": "Oblique Irish Breakfast, Wood-Aged Coffee Blond Ale",
-      "caskNum": 16
+      "style":"Blonde Ale",
+      "brewery":"Cascade Brewing Company",
+      "section":"Oregon",
+      "name":"Oblique Irish Breakfast, Wood-Aged Coffee Blond Ale",
+      "caskNum":16
     },
     {
-      "brewery": "Commons Brewery",
-      "section": "Oregon",
-      "name": "Dark Mild, English Mild",
-      "caskNum": 17
+      "style":"English Mild",
+      "brewery":"Commons Brewery",
+      "section":"Oregon",
+      "name":"Dark Mild, English Mild",
+      "caskNum":17
     },
     {
-      "brewery": "Commons Brewery",
-      "section": "Oregon",
-      "name": "Earl Grey Dark Mild, English Mild w. Earl Grey",
-      "caskNum": 18
+      "style":"English Mild",
+      "brewery":"Commons Brewery",
+      "section":"Oregon",
+      "name":"Earl Grey Dark Mild, English Mild w. Earl Grey",
+      "caskNum":18
     },
     {
-      "brewery": "Commons Brewery",
-      "section": "Oregon",
-      "name": "KellerVienne, Kellerbier",
-      "caskNum": 19
+      "style":"Kellerbier",
+      "brewery":"Commons Brewery",
+      "section":"Oregon",
+      "name":"KellerVienne, Kellerbier",
+      "caskNum":19
     },
     {
-      "brewery": "Deschutes Brewery",
-      "section": "Oregon",
-      "name": "Fresh Hop Fresh Squeezed, American IPA",
-      "caskNum": 20
+      "style":"IPA",
+      "brewery":"Deschutes Brewery",
+      "section":"Oregon",
+      "name":"Fresh Hop Fresh Squeezed, American IPA",
+      "caskNum":20
     },
     {
-      "brewery": "Deschutes Brewery",
-      "section": "Oregon",
-      "name": "Mirror Pond Pale Ale, American Pale Ale",
-      "caskNum": 21
+      "style":"Pale Ale",
+      "brewery":"Deschutes Brewery",
+      "section":"Oregon",
+      "name":"Mirror Pond Pale Ale, American Pale Ale",
+      "caskNum":21
     },
     {
-      "brewery": "Double Mountain Brewery",
-      "section": "Oregon",
-      "name": "Killer Green, Fresh Hop IPA",
-      "caskNum": 22
+      "style":"IPA",
+      "brewery":"Double Mountain Brewery",
+      "section":"Oregon",
+      "name":"Killer Green, Fresh Hop IPA",
+      "caskNum":22
     },
     {
-      "brewery": "Double Mountain Brewery",
-      "section": "Oregon",
-      "name": "Killer Randall, Fresh Hop IPA",
-      "caskNum": 23
+      "style":"IPA",
+      "brewery":"Double Mountain Brewery",
+      "section":"Oregon",
+      "name":"Killer Randall, Fresh Hop IPA",
+      "caskNum":23
     },
     {
-      "brewery": "Ecliptic Brewing",
-      "section": "Oregon",
-      "name": "Capella Porter, Brown Porter",
-      "caskNum": 24
+      "style":"Porter",
+      "brewery":"Ecliptic Brewing",
+      "section":"Oregon",
+      "name":"Capella Porter, Brown Porter",
+      "caskNum":24
     },
     {
-      "brewery": "Ecliptic Brewing",
-      "section": "Oregon",
-      "name": "Orbiter IPA, American IPA",
-      "caskNum": 25
+      "style":"IPA",
+      "brewery":"Ecliptic Brewing",
+      "section":"Oregon",
+      "name":"Orbiter IPA, American IPA",
+      "caskNum":25
     },
     {
-      "brewery": "Ecliptic Brewing",
-      "section": "Oregon",
-      "name": "Quasar Pale Ale, American Pale Ale",
-      "caskNum": 26
+      "style":"Pale Ale",
+      "brewery":"Ecliptic Brewing",
+      "section":"Oregon",
+      "name":"Quasar Pale Ale, American Pale Ale",
+      "caskNum":26
     },
     {
-      "brewery": "Ex Novo Brewing Co.",
-      "section": "Oregon",
-      "name": "Elliot IPA, American IPA",
-      "caskNum": 27
+      "style":"IPA",
+      "brewery":"Ex Novo Brewing Co.",
+      "section":"Oregon",
+      "name":"Elliot IPA, American IPA",
+      "caskNum":27
     },
     {
-      "brewery": "Ex Novo Brewing Co.",
-      "section": "Oregon",
-      "name": "Browntown Abbey, English Brown",
-      "caskNum": 28
+      "style":"Brown Ale",
+      "brewery":"Ex Novo Brewing Co.",
+      "section":"Oregon",
+      "name":"Browntown Abbey, English Brown",
+      "caskNum":28
     },
     {
-      "brewery": "Fat Heads",
-      "section": "Oregon",
-      "name": "Built for Speed IPA, American IPA",
-      "caskNum": 29
+      "style":"IPA",
+      "brewery":"Fat Heads",
+      "section":"Oregon",
+      "name":"Built for Speed IPA, American IPA",
+      "caskNum":29
     },
     {
-      "brewery": "Fat Heads",
-      "section": "Oregon",
-      "name": "Belgian Chocolate Stout, Stout w. Raspberries",
-      "caskNum": 30
+      "style":"Stout",
+      "brewery":"Fat Heads",
+      "section":"Oregon",
+      "name":"Belgian Chocolate Stout, Stout w. Raspberries",
+      "caskNum":30
     },
     {
-      "brewery": "Fort George Brewery",
-      "section": "Oregon",
-      "name": "Drunkin Pumpkin, Amber Ale",
-      "caskNum": 31
+      "style":"Amber Ale",
+      "brewery":"Fort George Brewery",
+      "section":"Oregon",
+      "name":"Drunkin Pumpkin, Amber Ale",
+      "caskNum":31
     },
     {
-      "brewery": "Fort George Brewery",
-      "section": "Oregon",
-      "name": "Cavatica Stout, American Stout",
-      "caskNum": 32
+      "style":"Stout",
+      "brewery":"Fort George Brewery",
+      "section":"Oregon",
+      "name":"Cavatica Stout, American Stout",
+      "caskNum":32
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Gigantic IPA, American IPA Dry Hopped w. Citra & Simcoe Hops",
-      "caskNum": 33
+      "style":"IPA",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Gigantic IPA, American IPA Dry Hopped w. Citra & Simcoe Hops",
+      "caskNum":33
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Gigantic IPA, American IPA Dry Hopped w. South African Hops",
-      "caskNum": 34
+      "style":"IPA",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Gigantic IPA, American IPA Dry Hopped w. South African Hops",
+      "caskNum":34
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Ginormous, Imperial IPA",
-      "caskNum": 35
+      "style":"IPA",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Ginormous, Imperial IPA",
+      "caskNum":35
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Scrilla Pale Ale, American Pale Ale",
-      "caskNum": 36
+      "style":"Pale Ale",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Scrilla Pale Ale, American Pale Ale",
+      "caskNum":36
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "High Voltage Winter IPA, American IPA",
-      "caskNum": 37
+      "style":"IPA",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"High Voltage Winter IPA, American IPA",
+      "caskNum":37
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Sodbusted Fresh Hop Simcoe IV: The Goblet of Simcoe, Fresh Hop Pale Ale",
-      "caskNum": 38
+      "style":"Pale Ale",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Sodbusted Fresh Hop Simcoe IV: The Goblet of Simcoe, Fresh Hop Pale Ale",
+      "caskNum":38
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Shazoo Imperial Milk Stout",
-      "caskNum": 39
+      "style":"Stout",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Shazoo Imperial Milk Stout",
+      "caskNum":39
     },
     {
-      "brewery": "Gigantic Brewing",
-      "section": "Oregon",
-      "name": "Shazoo Imperial Milk Stout w. Toasted Coconut & Cold Brewed Coava Coffee",
-      "caskNum": 40
+      "style":"Stout",
+      "brewery":"Gigantic Brewing",
+      "section":"Oregon",
+      "name":"Shazoo Imperial Milk Stout w. Toasted Coconut & Cold Brewed Coava Coffee",
+      "caskNum":40
     },
     {
-      "brewery": "Hair of the Dog ",
-      "section": "Oregon",
-      "name": "Doggie Claws, Barley Wine",
-      "caskNum": 41
+      "style":"Barley Wine",
+      "brewery":"Hair of the Dog ",
+      "section":"Oregon",
+      "name":"Doggie Claws, Barley Wine",
+      "caskNum":41
     },
     {
-      "brewery": "Hair of the Dog ",
-      "section": "Oregon",
-      "name": "Adam, Old Ale",
-      "caskNum": 42
+      "style":"Old Ale",
+      "brewery":"Hair of the Dog ",
+      "section":"Oregon",
+      "name":"Adam, Old Ale",
+      "caskNum":42
     },
     {
-      "brewery": "Hopworks Urban Brewery",
-      "section": "Oregon",
-      "name": "Abominable Winter Ale, Strong Red Ale",
-      "caskNum": 43
+      "style":"Red Ale",
+      "brewery":"Hopworks Urban Brewery",
+      "section":"Oregon",
+      "name":"Abominable Winter Ale, Strong Red Ale",
+      "caskNum":43
     },
     {
-      "brewery": "Hopworks Urban Brewery",
-      "section": "Oregon",
-      "name": "Ace of Spades, Double IPA",
-      "caskNum": 44
+      "style":"IPA",
+      "brewery":"Hopworks Urban Brewery",
+      "section":"Oregon",
+      "name":"Ace of Spades, Double IPA",
+      "caskNum":44
     },
     {
-      "brewery": "Laurelwood Brewery",
-      "section": "Oregon",
-      "name": "Laurelwood Pumpkin Ale, Pumpkin Ale",
-      "caskNum": 45
+      "style":"Pumpkin Ale",
+      "brewery":"Laurelwood Brewery",
+      "section":"Oregon",
+      "name":"Laurelwood Pumpkin Ale, Pumpkin Ale",
+      "caskNum":45
     },
     {
-      "brewery": "Laurelwood Brewery",
-      "section": "Oregon",
-      "name": "Hingle McCringleberry, Pale Ale",
-      "caskNum": 46
+      "style":"Pale Ale",
+      "brewery":"Laurelwood Brewery",
+      "section":"Oregon",
+      "name":"Hingle McCringleberry, Pale Ale",
+      "caskNum":46
     },
     {
-      "brewery": "Pelican Brewing Company",
-      "section": "Oregon",
-      "name": "Pekko IPA, American IPA w. Pekko Hops",
-      "caskNum": 47
+      "style":"IPA",
+      "brewery":"Pelican Brewing Company",
+      "section":"Oregon",
+      "name":"Pekko IPA, American IPA w. Pekko Hops",
+      "caskNum":47
     },
     {
-      "brewery": "Pelican Brewing Company",
-      "section": "Oregon",
-      "name": "Doryman's Ale, American Brown Ale",
-      "caskNum": 48
+      "style":"Brown Ale",
+      "brewery":"Pelican Brewing Company",
+      "section":"Oregon",
+      "name":"Doryman's Ale, American Brown Ale",
+      "caskNum":48
     },
     {
-      "brewery": "Upright Brewing",
-      "section": "Oregon",
-      "name": "Saison Vert, Saison",
-      "caskNum": 49
+      "style":"Saison",
+      "brewery":"Upright Brewing",
+      "section":"Oregon",
+      "name":"Saison Vert, Saison",
+      "caskNum":49
     },
     {
-      "brewery": "Beachwood Brewing & BBQ",
-      "section": "California",
-      "name": "Melrose Imperiale, Imperial IPA",
-      "caskNum": 50
+      "style":"IPA",
+      "brewery":"Beachwood Brewing & BBQ",
+      "section":"California",
+      "name":"Melrose Imperiale, Imperial IPA",
+      "caskNum":50
     },
     {
-      "brewery": "El Segundo Brewing Co.",
-      "section": "California",
-      "name": "White Dog IPA, American IPA",
-      "caskNum": 51
+      "style":"IPA",
+      "brewery":"El Segundo Brewing Co.",
+      "section":"California",
+      "name":"White Dog IPA, American IPA",
+      "caskNum":51
     },
     {
-      "brewery": "El Segundo Brewing Co.",
-      "section": "California",
-      "name": "White Dog IPA, American IPA w. Apricots",
-      "caskNum": 52
+      "style":"IPA",
+      "brewery":"El Segundo Brewing Co.",
+      "section":"California",
+      "name":"White Dog IPA, American IPA w. Apricots",
+      "caskNum":52
     },
     {
-      "brewery": "Golden Road Brewing",
-      "section": "California",
-      "name": "The Way Of The Light, American IPA w. Hallertau Blanc Hops",
-      "caskNum": 53
+      "style":"IPA",
+      "brewery":"Golden Road Brewing",
+      "section":"California",
+      "name":"The Way Of The Light, American IPA w. Hallertau Blanc Hops",
+      "caskNum":53
     },
     {
-      "brewery": "Golden Road Brewing",
-      "section": "California",
-      "name": "Point The Way, American IPA w. Guava",
-      "caskNum": 54
+      "style":"IPA",
+      "brewery":"Golden Road Brewing",
+      "section":"California",
+      "name":"Point The Way, American IPA w. Guava",
+      "caskNum":54
     },
     {
-      "brewery": "King Harbor Brewing Co.",
-      "section": "California",
-      "name": "Hawaiian Swirly, American Brown Ale",
-      "caskNum": 55
+      "style":"Brown Ale",
+      "brewery":"King Harbor Brewing Co.",
+      "section":"California",
+      "name":"Hawaiian Swirly, American Brown Ale",
+      "caskNum":55
     },
     {
-      "brewery": "King Harbor Brewing Co.",
-      "section": "California",
-      "name": "Coconut IPA, American IPA w. Coconut",
-      "caskNum": 56
+      "style":"IPA",
+      "brewery":"King Harbor Brewing Co.",
+      "section":"California",
+      "name":"Coconut IPA, American IPA w. Coconut",
+      "caskNum":56
     },
     {
-      "brewery": "Ladyface Ale Companie",
-      "section": "California",
-      "name": "Coquine, Chardonnay Barrel-Aged Belgian Tripel w. Brett.",
-      "caskNum": 57
+      "style":"Tripel",
+      "brewery":"Ladyface Ale Companie",
+      "section":"California",
+      "name":"Coquine, Chardonnay Barrel-Aged Belgian Tripel w. Brett.",
+      "caskNum":57
     },
     {
-      "brewery": "Ladyface Ale Companie",
-      "section": "California",
-      "name": "Ladyface Weizenbock w. Rum Soaked Oak Chips & Nutmeg",
-      "caskNum": 58
+      "style":"Weizenbock",
+      "brewery":"Ladyface Ale Companie",
+      "section":"California",
+      "name":"Ladyface Weizenbock w. Rum Soaked Oak Chips & Nutmeg",
+      "caskNum":58
     },
     {
-      "brewery": "MacLeod Ale Brewing Co.",
-      "section": "California",
-      "name": "1918 IPA, Traditional English IPA",
-      "caskNum": 59
+      "style":"IPA",
+      "brewery":"MacLeod Ale Brewing Co.",
+      "section":"California",
+      "name":"1918 IPA, Traditional English IPA",
+      "caskNum":59
     },
     {
-      "brewery": "MacLeod Ale Brewing Co.",
-      "section": "California",
-      "name": "The Black Bear, Traditional Porter",
-      "caskNum": 60
+      "style":"Porter",
+      "brewery":"MacLeod Ale Brewing Co.",
+      "section":"California",
+      "name":"The Black Bear, Traditional Porter",
+      "caskNum":60
     },
     {
-      "brewery": "Mikkeller Brewing San Diego",
-      "section": "California",
-      "name": "Spells, Double IPA w. Mango & Jalapeño",
-      "caskNum": 61
+      "style":"IPA",
+      "brewery":"Mikkeller Brewing San Diego",
+      "section":"California",
+      "name":"Spells, Double IPA w. Mango & Jalapeño",
+      "caskNum":61
     },
     {
-      "brewery": "Mikkeller Brewing San Diego",
-      "section": "California",
-      "name": "Brand New Normal, Berliner Weisse w. Peaches, Vanilla, & Cinnamon",
-      "caskNum": 62
+      "style":"Weisse",
+      "brewery":"Mikkeller Brewing San Diego",
+      "section":"California",
+      "name":"Brand New Normal, Berliner Weisse w. Peaches, Vanilla, & Cinnamon",
+      "caskNum":62
     },
     {
-      "brewery": "Modern Times",
-      "section": "California",
-      "name": "Orderville, American IPA w. Southern Passion Hops",
-      "caskNum": 63
+      "style":"IPA",
+      "brewery":"Modern Times",
+      "section":"California",
+      "name":"Orderville, American IPA w. Southern Passion Hops",
+      "caskNum":63
     },
     {
-      "brewery": "Modern Times",
-      "section": "California",
-      "name": "MegaBlackHouse, Coffee Imperial Stout",
-      "caskNum": 64
+      "style":"Stout",
+      "brewery":"Modern Times",
+      "section":"California",
+      "name":"MegaBlackHouse, Coffee Imperial Stout",
+      "caskNum":64
     },
     {
-      "brewery": "Modern Times",
-      "section": "California",
-      "name": "Sleepless City, Brown Ale w. Coffee",
-      "caskNum": 65
+      "style":"Brown Ale",
+      "brewery":"Modern Times",
+      "section":"California",
+      "name":"Sleepless City, Brown Ale w. Coffee",
+      "caskNum":65
     },
     {
-      "brewery": "Pizza Port Brewing Co.",
-      "section": "California",
-      "name": "Graveyards Pale Ale, American Pale Ale",
-      "caskNum": 66
+      "style":"Pale Ale",
+      "brewery":"Pizza Port Brewing Co.",
+      "section":"California",
+      "name":"Graveyards Pale Ale, American Pale Ale",
+      "caskNum":66
     },
     {
-      "brewery": "Pizza Port Brewing Co.",
-      "section": "California",
-      "name": "Ranchero, American IPA",
-      "caskNum": 67
+      "style":"IPA",
+      "brewery":"Pizza Port Brewing Co.",
+      "section":"California",
+      "name":"Ranchero, American IPA",
+      "caskNum":67
     },
     {
-      "brewery": "Sierra Nevada Brewing Co.",
-      "section": "California",
-      "name": "Pale Ale, American Pale Ale",
-      "caskNum": 68
+      "style":"Pale Ale",
+      "brewery":"Sierra Nevada Brewing Co.",
+      "section":"California",
+      "name":"Pale Ale, American Pale Ale",
+      "caskNum":68
     },
     {
-      "brewery": "Sierra Nevada Brewing Co.",
-      "section": "California",
-      "name": "Torpedo Extra IPA, American IPA",
-      "caskNum": 69
+      "style":"IPA",
+      "brewery":"Sierra Nevada Brewing Co.",
+      "section":"California",
+      "name":"Torpedo Extra IPA, American IPA",
+      "caskNum":69
     },
     {
-      "brewery": "Sierra Nevada Brewing Co.",
-      "section": "California",
-      "name": "Northern Hemisphere, Harvest Wet Hop Ale",
-      "caskNum": 70
+      "style":"Wet Hop Ale",
+      "brewery":"Sierra Nevada Brewing Co.",
+      "section":"California",
+      "name":"Northern Hemisphere, Harvest Wet Hop Ale",
+      "caskNum":70
     },
     {
-      "brewery": "Sierra Nevada Brewing Co.",
-      "section": "California",
-      "name": "Narwhal, Russian Imperial Stout",
-      "caskNum": 71
+      "style":"Stout",
+      "brewery":"Sierra Nevada Brewing Co.",
+      "section":"California",
+      "name":"Narwhal, Russian Imperial Stout",
+      "caskNum":71
     },
     {
-      "brewery": "Smog City Brewing",
-      "section": "California",
-      "name": "Bloody Knuckle, Robust Porter",
-      "caskNum": 72
+      "style":"Porter",
+      "brewery":"Smog City Brewing",
+      "section":"California",
+      "name":"Bloody Knuckle, Robust Porter",
+      "caskNum":72
     },
     {
-      "brewery": "Smog City Brewing",
-      "section": "California",
-      "name": "Sabre-Toothed Squirrel, Hoppy American Amber",
-      "caskNum": 73
+      "style":"Amber Ale",
+      "brewery":"Smog City Brewing",
+      "section":"California",
+      "name":"Sabre-Toothed Squirrel, Hoppy American Amber",
+      "caskNum":73
     },
     {
-      "brewery": "Stone Brewing Co.",
-      "section": "California",
-      "name": "Coffee Milk Stout, Milk Stout",
-      "caskNum": 74
+      "style":"Stout",
+      "brewery":"Stone Brewing Co.",
+      "section":"California",
+      "name":"Coffee Milk Stout, Milk Stout",
+      "caskNum":74
     },
     {
-      "brewery": "Stone Brewing Co.",
-      "section": "California",
-      "name": "Ruination 2.0, Double IPA",
-      "caskNum": 75
+      "style":"IPA",
+      "brewery":"Stone Brewing Co.",
+      "section":"California",
+      "name":"Ruination 2.0, Double IPA",
+      "caskNum":75
     },
     {
-      "brewery": "Stone Brewing Co.",
-      "section": "California",
-      "name": "Stone IPA, West Coast IPA",
-      "caskNum": 76
+      "style":"IPA",
+      "brewery":"Stone Brewing Co.",
+      "section":"California",
+      "name":"Stone IPA, West Coast IPA",
+      "caskNum":76
     },
     {
-      "brewery": "Stone Brewing Co.",
-      "section": "California",
-      "name": "Go-To, American IPA w. Ginger, Lemon Drop Hops, & Lemon Peel",
-      "caskNum": 77
+      "style":"IPA",
+      "brewery":"Stone Brewing Co.",
+      "section":"California",
+      "name":"Go-To, American IPA w. Ginger, Lemon Drop Hops, & Lemon Peel",
+      "caskNum":77
     },
     {
-      "brewery": "12 Gates Brewing Company",
-      "section": "New York",
-      "name": "Chocolate Peanut Butter Stout, American Double Stout",
-      "caskNum": 78
+      "style":"Stout",
+      "brewery":"12 Gates Brewing Company",
+      "section":"New York",
+      "name":"Chocolate Peanut Butter Stout, American Double Stout",
+      "caskNum":78
     },
     {
-      "brewery": "12 Gates Brewing Company",
-      "section": "New York",
-      "name": "French Oak Apricot Pale Ale, American Pale Ale",
-      "caskNum": 79
+      "style":"Pale Ale",
+      "brewery":"12 Gates Brewing Company",
+      "section":"New York",
+      "name":"French Oak Apricot Pale Ale, American Pale Ale",
+      "caskNum":79
     },
     {
-      "brewery": "42 North Brewing Company",
-      "section": "New York",
-      "name": "Wallonia Wit, Belgian name Wit",
-      "caskNum": 80
+      "style":"Wit",
+      "brewery":"42 North Brewing Company",
+      "section":"New York",
+      "name":"Wallonia Wit, Belgian Wit",
+      "caskNum":80
     },
     {
-      "brewery": "Barrier Brewing Co.",
-      "section": "New York",
-      "name": "Money IPA, American IPA w. Whole Leaf Simcoe Hops",
-      "caskNum": 81
+      "style":"IPA",
+      "brewery":"Barrier Brewing Co.",
+      "section":"New York",
+      "name":"Money IPA, American IPA w. Whole Leaf Simcoe Hops",
+      "caskNum":81
     },
     {
-      "brewery": "Barrier Brewing Co.",
-      "section": "New York",
-      "name": "Impostor, Czech Pilsner w. Hallertau Hops",
-      "caskNum": 82
+      "style":"Pilsner",
+      "brewery":"Barrier Brewing Co.",
+      "section":"New York",
+      "name":"Impostor, Czech Pilsner w. Hallertau Hops",
+      "caskNum":82
     },
     {
-      "brewery": "Barrier Brewing Co.",
-      "section": "New York",
-      "name": "Boons Brew: Thai Bird Chilies, American Pale Dry w. Citra Hops",
-      "caskNum": 83
+      "style":"Pale Ale",
+      "brewery":"Barrier Brewing Co.",
+      "section":"New York",
+      "name":"Boons Brew: Thai Bird Chilies, American Pale Dry w. Citra Hops",
+      "caskNum":83
     },
     {
-      "brewery": "Barrier Brewing Co.",
-      "section": "New York",
-      "name": "Earth, Brown Ale w. Ethiopian Yirgacheffe",
-      "caskNum": 84
+      "style":"Brown Ale",
+      "brewery":"Barrier Brewing Co.",
+      "section":"New York",
+      "name":"Earth, Brown Ale w. Ethiopian Yirgacheffe",
+      "caskNum":84
     },
     {
-      "brewery": "Barrier Brewing Co.",
-      "section": "New York",
-      "name": "Dunegrass, Double IPA w. Centennial Hops",
-      "caskNum": 85
+      "style":"IPA",
+      "brewery":"Barrier Brewing Co.",
+      "section":"New York",
+      "name":"Dunegrass, Double IPA w. Centennial Hops",
+      "caskNum":85
     },
     {
-      "brewery": "Captain Lawrence Brewing Company",
-      "section": "New York",
-      "name": "Palate Shifter, Imperial IPA w. Motueka & Green Bullet Hops",
-      "caskNum": 86
+      "style":"IPA",
+      "brewery":"Captain Lawrence Brewing Company",
+      "section":"New York",
+      "name":"Palate Shifter, Imperial IPA w. Motueka & Green Bullet Hops",
+      "caskNum":86
     },
     {
-      "brewery": "Captain Lawrence Brewing Company",
-      "section": "New York",
-      "name": "Sour Commute, Sour IPA w. Columbus, Mosaic, Motueka & Citra Hops",
-      "caskNum": 87
+      "style":"Sour IPA",
+      "brewery":"Captain Lawrence Brewing Company",
+      "section":"New York",
+      "name":"Sour Commute, Sour IPA w. Columbus, Mosaic, Motueka & Citra Hops",
+      "caskNum":87
     },
     {
-      "brewery": "Community Beer Works",
-      "section": "New York",
-      "name": "THE Double IPA, Imperial IPA",
-      "caskNum": 88
+      "style":"IPA",
+      "brewery":"Community Beer Works",
+      "section":"New York",
+      "name":"THE Double IPA, Imperial IPA",
+      "caskNum":88
     },
     {
-      "brewery": "Community Beer Works",
-      "section": "New York",
-      "name": "Heatrays, Barleywine",
-      "caskNum": 89
+      "style":"Barley Wine",
+      "brewery":"Community Beer Works",
+      "section":"New York",
+      "name":"Heatrays, Barleywine",
+      "caskNum":89
     },
     {
-      "brewery": "Flying Bison Brewing Company",
-      "section": "New York",
-      "name": "Dry Hopped Aviator Red, Irish Red Ale",
-      "caskNum": 90
+      "style":"Red Ale",
+      "brewery":"Flying Bison Brewing Company",
+      "section":"New York",
+      "name":"Dry Hopped Aviator Red, Irish Red Ale",
+      "caskNum":90
     },
     {
-      "brewery": "Flying Bison Brewing Company",
-      "section": "New York",
-      "name": "2015 Spot Coffee Stout w. Cocoa Nibs, Imperial Oatmeal Coffee Stout",
-      "caskNum": 91
+      "style":"Stout",
+      "brewery":"Flying Bison Brewing Company",
+      "section":"New York",
+      "name":"2015 Spot Coffee Stout w. Cocoa Nibs, Imperial Oatmeal Coffee Stout",
+      "caskNum":91
     },
     {
-      "brewery": "Hamburg Brewing Company",
-      "section": "New York",
-      "name": "Irish Red Ale, Irish name Red Ale",
-      "caskNum": 92
+      "style":"Red Ale",
+      "brewery":"Hamburg Brewing Company",
+      "section":"New York",
+      "name":"Irish Red Ale",
+      "caskNum":92
     },
     {
-      "brewery": "Hamburg Brewing Company",
-      "section": "New York",
-      "name": "Hoppenstance, American Double India Pale Ale",
-      "caskNum": 93
+      "style":"IPA",
+      "brewery":"Hamburg Brewing Company",
+      "section":"New York",
+      "name":"Hoppenstance, American Double India Pale Ale",
+      "caskNum":93
     },
     {
-      "brewery": "Middle Ages Brewing",
-      "section": "New York",
-      "name": "Single Batch IPA #7, India Pale Ale",
-      "caskNum": 94
+      "style":"IPA",
+      "brewery":"Middle Ages Brewing",
+      "section":"New York",
+      "name":"Single Batch IPA #7, India Pale Ale",
+      "caskNum":94
     },
     {
-      "brewery": "Middle Ages Brewing",
-      "section": "New York",
-      "name": "Syracuse Pale Ale, Golden Ale Age On Toasted French Oak Spirals",
-      "caskNum": 95
+      "style":"Pale Ale",
+      "brewery":"Middle Ages Brewing",
+      "section":"New York",
+      "name":"Syracuse Pale Ale, Golden Ale Age On Toasted French Oak Spirals",
+      "caskNum":95
     },
     {
-      "brewery": "New York Beer Project",
-      "section": "New York",
-      "name": "Borough Brown, American Brown Ale",
-      "caskNum": 96
+      "style":"Brown Ale",
+      "brewery":"New York Beer Project",
+      "section":"New York",
+      "name":"Borough Brown, American Brown Ale",
+      "caskNum":96
     },
     {
-      "brewery": "Pearl Street Grill & Brewery",
-      "section": "New York",
-      "name": "Trainwreck Amber Ale",
-      "caskNum": 97
+      "style":"Amber Ale",
+      "brewery":"Pearl Street Grill & Brewery",
+      "section":"New York",
+      "name":"Trainwreck Amber Ale",
+      "caskNum":97
     },
     {
-      "brewery": "Resurgence Brewing Company",
-      "section": "New York",
-      "name": "Imperial Irish Breakfast, Smoked Irish Red w. Maple",
-      "caskNum": 98
+      "style":"Red Ale",
+      "brewery":"Resurgence Brewing Company",
+      "section":"New York",
+      "name":"Imperial Irish Breakfast, Smoked Irish Red w. Maple",
+      "caskNum":98
     },
     {
-      "brewery": "SingleCut Beersmiths",
-      "section": "New York",
-      "name": "Full Stock, Double IPA",
-      "caskNum": 99
+      "style":"IPA",
+      "brewery":"SingleCut Beersmiths",
+      "section":"New York",
+      "name":"Full Stock, Double IPA",
+      "caskNum":99
     },
     {
-      "brewery": "SingleCut Beersmiths",
-      "section": "New York",
-      "name": "Forty Things We Share, Double IPA",
-      "caskNum": 100
+      "style":"IPA",
+      "brewery":"SingleCut Beersmiths",
+      "section":"New York",
+      "name":"Forty Things We Share, Double IPA",
+      "caskNum":100
     },
     {
-      "brewery": "Stoneyard Brewing Company",
-      "section": "New York",
-      "name": "Cherry Lime Sour, Fruited Sour",
-      "caskNum": 101
+      "style":"Sour Ale",
+      "brewery":"Stoneyard Brewing Company",
+      "section":"New York",
+      "name":"Cherry Lime Sour, Fruited Sour",
+      "caskNum":101
     },
     {
-      "brewery": "Stoneyard Brewing Company",
-      "section": "New York",
-      "name": "Rye-it Porter, Robust Rye Porter w. Amaretto & Toasted Coconut",
-      "caskNum": 102
+      "style":"Porter",
+      "brewery":"Stoneyard Brewing Company",
+      "section":"New York",
+      "name":"Rye-it Porter, Robust Rye Porter w. Amaretto & Toasted Coconut",
+      "caskNum":102
     },
     {
-      "brewery": "Thin Man Brewery",
-      "section": "New York",
-      "name": "No Pressure, American IPA",
-      "caskNum": 103
+      "style":"IPA",
+      "brewery":"Thin Man Brewery",
+      "section":"New York",
+      "name":"No Pressure, American IPA",
+      "caskNum":103
     },
     {
-      "brewery": "Thin Man Brewery",
-      "section": "New York",
-      "name": "Dummy, Belgian Pale Ale",
-      "caskNum": 104
+      "style":"Pale Ale",
+      "brewery":"Thin Man Brewery",
+      "section":"New York",
+      "name":"Dummy, Belgian Pale Ale",
+      "caskNum":104
     },
     {
-      "brewery": "Bad Apple",
-      "section": "Maritimes",
-      "name": "Black & Tackle, Russian Imperial Stout",
-      "caskNum": 105
+      "style":"Stout",
+      "brewery":"Bad Apple",
+      "section":"Maritimes",
+      "name":"Black & Tackle, Russian Imperial Stout",
+      "caskNum":105
     },
     {
-      "brewery": "Bad Apple",
-      "section": "Maritimes",
-      "name": "Mosaic, Double IPA",
-      "caskNum": 106
+      "style":"IPA",
+      "brewery":"Bad Apple",
+      "section":"Maritimes",
+      "name":"Mosaic, Double IPA",
+      "caskNum":106
     },
     {
-      "brewery": "Big Spruce",
-      "section": "Maritimes",
-      "name": "Bitter Get'er India, Organic Black IPA",
-      "caskNum": 107
+      "style":"IPA",
+      "brewery":"Big Spruce",
+      "section":"Maritimes",
+      "name":"Bitter Get'er India, Organic Black IPA",
+      "caskNum":107
     },
     {
-      "brewery": "Big Spruce",
-      "section": "Maritimes",
-      "name": "Craig Goes Yard, Organic Wet Hopped Harvest IPA",
-      "caskNum": 108
+      "style":"IPA",
+      "brewery":"Big Spruce",
+      "section":"Maritimes",
+      "name":"Craig Goes Yard, Organic Wet Hopped Harvest IPA",
+      "caskNum":108
     },
     {
-      "brewery": "Big Spruce",
-      "section": "Maritimes",
-      "name": "Cereal Killer, Oatmeal Stout",
-      "caskNum": 109
+      "style":"Stout",
+      "brewery":"Big Spruce",
+      "section":"Maritimes",
+      "name":"Cereal Killer, Oatmeal Stout",
+      "caskNum":109
     },
     {
-      "brewery": "Boxing Rock",
-      "section": "Maritimes",
-      "name": "Hunky Dory Pale Ale w. Ginger",
-      "caskNum": 110
+      "style":"Pale Ale",
+      "brewery":"Boxing Rock",
+      "section":"Maritimes",
+      "name":"Hunky Dory Pale Ale w. Ginger",
+      "caskNum":110
     },
     {
-      "brewery": "Boxing Rock",
-      "section": "Maritimes",
-      "name": "Crafty Jack English Ale",
-      "caskNum": 111
+      "style":"English Ale",
+      "brewery":"Boxing Rock",
+      "section":"Maritimes",
+      "name":"Crafty Jack English Ale",
+      "caskNum":111
     },
     {
-      "brewery": "Garrison",
-      "section": "Maritimes",
-      "name": "Wet & Dry IPA, American IPA",
-      "caskNum": 112
+      "style":"IPA",
+      "brewery":"Garrison",
+      "section":"Maritimes",
+      "name":"Wet & Dry IPA, American IPA",
+      "caskNum":112
     },
     {
-      "brewery": "Garrison",
-      "section": "Maritimes",
-      "name": "Juicy Fruit, Double IPA",
-      "caskNum": 113
+      "style":"",
+      "brewery":"Garrison",
+      "section":"Maritimes",
+      "name":"Juicy Fruit, Double IPA",
+      "caskNum":113
     },
     {
-      "brewery": "Garrison",
-      "section": "Maritimes",
-      "name": "Peanut Butter & Honey, Brown Ale",
-      "caskNum": 114
+      "style":"",
+      "brewery":"Garrison",
+      "section":"Maritimes",
+      "name":"Peanut Butter & Honey, Brown Ale",
+      "caskNum":114
     },
     {
-      "brewery": "PEI Brewing Company",
-      "section": "Maritimes",
-      "name": "Brett on the Beach, Barrel Aged Saison w.Brett",
-      "caskNum": 115
+      "style":"",
+      "brewery":"PEI Brewing Company",
+      "section":"Maritimes",
+      "name":"Brett on the Beach, Barrel Aged Saison w.Brett",
+      "caskNum":115
     },
     {
-      "brewery": "PEI Brewing Company",
-      "section": "Maritimes",
-      "name": "The Farmer's Daughter, Dry Hopped Brett Saison w. Apricots",
-      "caskNum": 116
+      "style":"",
+      "brewery":"PEI Brewing Company",
+      "section":"Maritimes",
+      "name":"The Farmer's Daughter, Dry Hopped Brett Saison w. Apricots",
+      "caskNum":116
     },
     {
-      "brewery": "Pumphouse",
-      "section": "Maritimes",
-      "name": "Pumphouse Oktoberfest, Oktoberfest",
-      "caskNum": 117
+      "style":"",
+      "brewery":"Pumphouse",
+      "section":"Maritimes",
+      "name":"Pumphouse Oktoberfest, Oktoberfest",
+      "caskNum":117
     },
     {
-      "brewery": "Spindrift",
-      "section": "Maritimes",
-      "name": "Abyss, Schwarzbier",
-      "caskNum": 118
+      "style":"",
+      "brewery":"Spindrift",
+      "section":"Maritimes",
+      "name":"Abyss, Schwarzbier",
+      "caskNum":118
     },
     {
-      "brewery": "Spindrift",
-      "section": "Maritimes",
-      "name": "Kenobier, Munich Helles w. Mandarina Bavaria Hops",
-      "caskNum": 119
+      "style":"",
+      "brewery":"Spindrift",
+      "section":"Maritimes",
+      "name":"Kenobier, Munich Helles w. Mandarina Bavaria Hops",
+      "caskNum":119
     },
     {
-      "brewery": "Spindrift",
-      "section": "Maritimes",
-      "name": "Knotty Buoy 2.0, Kellerpils w. Herkules & Huell Melon Hops",
-      "caskNum": 120
+      "style":"",
+      "brewery":"Spindrift",
+      "section":"Maritimes",
+      "name":"Knotty Buoy 2.0, Kellerpils w. Herkules & Huell Melon Hops",
+      "caskNum":120
     },
     {
-      "brewery": "Tatamagouche ",
-      "section": "Maritimes",
-      "name": "Cellar Slammer, India Session Ale",
-      "caskNum": 121
+      "style":"",
+      "brewery":"Tatamagouche ",
+      "section":"Maritimes",
+      "name":"Cellar Slammer, India Session Ale",
+      "caskNum":121
     },
     {
-      "brewery": "Tatamagouche ",
-      "section": "Maritimes",
-      "name": "BaTATAry Park, West Coast Pale Ale",
-      "caskNum": 122
+      "style":"",
+      "brewery":"Tatamagouche ",
+      "section":"Maritimes",
+      "name":"BaTATAry Park, West Coast Pale Ale",
+      "caskNum":122
     },
     {
-      "brewery": "Unfiltered ",
-      "section": "Maritimes",
-      "name": "Mosaic SMaSH, Double IPA",
-      "caskNum": 123
+      "style":"",
+      "brewery":"Unfiltered ",
+      "section":"Maritimes",
+      "name":"Mosaic SMaSH, Double IPA",
+      "caskNum":123
     },
     {
-      "brewery": "Unfiltered ",
-      "section": "Maritimes",
-      "name": "Flat Black Jesus, American Stout",
-      "caskNum": 124
+      "style":"",
+      "brewery":"Unfiltered ",
+      "section":"Maritimes",
+      "name":"Flat Black Jesus, American Stout",
+      "caskNum":124
     },
     {
-      "brewery": "Upstreet",
-      "section": "Maritimes",
-      "name": "Pretty Sweet Life, Imperial Pumpkin Spice Latte Ale",
-      "caskNum": 125
+      "style":"",
+      "brewery":"Upstreet",
+      "section":"Maritimes",
+      "name":"Pretty Sweet Life, Imperial Pumpkin Spice Latte Ale",
+      "caskNum":125
     },
     {
-      "brewery": "Parallel 49 Brewing",
-      "section": "British Columbia",
-      "name": "Vow of Silence, Belgian Strong Ale",
-      "caskNum": 126
+      "style":"",
+      "brewery":"Parallel 49 Brewing",
+      "section":"British Columbia",
+      "name":"Vow of Silence, Belgian Strong Ale",
+      "caskNum":126
     },
     {
-      "brewery": "Parallel 49 Brewing",
-      "section": "British Columbia",
-      "name": "Don't Razz Me About The Gypsy, Red Ale w. Raspberries & Cinnamon",
-      "caskNum": 127
+      "style":"",
+      "brewery":"Parallel 49 Brewing",
+      "section":"British Columbia",
+      "name":"Don't Razz Me About The Gypsy, Red Ale w. Raspberries & Cinnamon",
+      "caskNum":127
     },
     {
-      "brewery": "Parallel 49 Brewing",
-      "section": "British Columbia",
-      "name": "Filthy Fruit Madness, American IPA",
-      "caskNum": 128
+      "style":"",
+      "brewery":"Parallel 49 Brewing",
+      "section":"British Columbia",
+      "name":"Filthy Fruit Madness, American IPA",
+      "caskNum":128
     },
     {
-      "brewery": "Parallel 49 Brewing",
-      "section": "British Columbia",
-      "name": "The Detox, Ruby Ale w. Hallertau Blanc Hops",
-      "caskNum": 129
+      "style":"",
+      "brewery":"Parallel 49 Brewing",
+      "section":"British Columbia",
+      "name":"The Detox, Ruby Ale w. Hallertau Blanc Hops",
+      "caskNum":129
     },
     {
-      "brewery": "Parallel 49 Brewing",
-      "section": "British Columbia",
-      "name": "Hangover Killer, Ruby Ale w. Orange & Cinnamon",
-      "caskNum": 130
+      "style":"",
+      "brewery":"Parallel 49 Brewing",
+      "section":"British Columbia",
+      "name":"Hangover Killer, Ruby Ale w. Orange & Cinnamon",
+      "caskNum":130
     },
     {
-      "brewery": "Bridge",
-      "section": "British Columbia",
-      "name": "Bourbon Blood Orange, Oaked Wheat Ale w. Blood Orange & Bourbon",
-      "caskNum": 131
+      "style":"",
+      "brewery":"Bridge",
+      "section":"British Columbia",
+      "name":"Bourbon Blood Orange, Oaked Wheat Ale w. Blood Orange & Bourbon",
+      "caskNum":131
     },
     {
-      "brewery": "Central City",
-      "section": "British Columbia",
-      "name": "Central City Sour III, Farmhouse Ale w. Raspberries",
-      "caskNum": 132
+      "style":"",
+      "brewery":"Central City",
+      "section":"British Columbia",
+      "name":"Central City Sour III, Farmhouse Ale w. Raspberries",
+      "caskNum":132
     },
     {
-      "brewery": "Central City",
-      "section": "British Columbia",
-      "name": "Red Racer X Parkside breweryCentral Park, Fresh Hopped XPA",
-      "caskNum": 133
+      "style":"",
+      "brewery":"Central City",
+      "section":"British Columbia",
+      "name":"Red Racer X Parkside breweryCentral Park, Fresh Hopped XPA",
+      "caskNum":133
     },
     {
-      "brewery": "Driftwood",
-      "section": "British Columbia",
-      "name": "Blackstone, London Dry Porter",
-      "caskNum": 134
+      "style":"",
+      "brewery":"Driftwood",
+      "section":"British Columbia",
+      "name":"Blackstone, London Dry Porter",
+      "caskNum":134
     },
     {
-      "brewery": "Four Winds",
-      "section": "British Columbia",
-      "name": "Nectarous, Dry Hopped Sour",
-      "caskNum": 135
+      "style":"",
+      "brewery":"Four Winds",
+      "section":"British Columbia",
+      "name":"Nectarous, Dry Hopped Sour",
+      "caskNum":135
     },
     {
-      "brewery": "Four Winds",
-      "section": "British Columbia",
-      "name": "Juxtapose, Wild IPA w. Mango & Habanero",
-      "caskNum": 136
+      "style":"",
+      "brewery":"Four Winds",
+      "section":"British Columbia",
+      "name":"Juxtapose, Wild IPA w. Mango & Habanero",
+      "caskNum":136
     },
     {
-      "brewery": "Four Winds",
-      "section": "British Columbia",
-      "name": "Pequeno Cabo, Tequilla Barrel Aged Berliner Weisse",
-      "caskNum": 137
+      "style":"",
+      "brewery":"Four Winds",
+      "section":"British Columbia",
+      "name":"Pequeno Cabo, Tequilla Barrel Aged Berliner Weisse",
+      "caskNum":137
     },
     {
-      "brewery": "Four Winds",
-      "section": "British Columbia",
-      "name": "Vexillum, Imperial IPA",
-      "caskNum": 138
+      "style":"",
+      "brewery":"Four Winds",
+      "section":"British Columbia",
+      "name":"Vexillum, Imperial IPA",
+      "caskNum":138
     },
     {
-      "brewery": "Four Winds",
-      "section": "British Columbia",
-      "name": "Featherweight IPA, Session IPA",
-      "caskNum": 139
+      "style":"",
+      "brewery":"Four Winds",
+      "section":"British Columbia",
+      "name":"Featherweight IPA, Session IPA",
+      "caskNum":139
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Sky Pilot, North West Pale Ale",
-      "caskNum": 140
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Sky Pilot, North West Pale Ale",
+      "caskNum":140
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Wee Beastie, Oak Aged Wee Heavy Scotch Ale",
-      "caskNum": 141
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Wee Beastie, Oak Aged Wee Heavy Scotch Ale",
+      "caskNum":141
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Baltic Porter w. Red Grape Must & Sour Plums",
-      "caskNum": 142
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Baltic Porter w. Red Grape Must & Sour Plums",
+      "caskNum":142
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Pumpkineater, Rum & Chocolate Aged Pumpkin Ale",
-      "caskNum": 143
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Pumpkineater, Rum & Chocolate Aged Pumpkin Ale",
+      "caskNum":143
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Equinox, Rye Oak Aged IPA",
-      "caskNum": 144
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Equinox, Rye Oak Aged IPA",
+      "caskNum":144
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Dubbel, Belgian name Dubbel w. Cold Brew Coffee",
-      "caskNum": 145
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Dubbel, Belgian name Dubbel w. Cold Brew Coffee",
+      "caskNum":145
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Megadestroyer, Imperial Licorice Stout",
-      "caskNum": 146
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Megadestroyer, Imperial Licorice Stout",
+      "caskNum":146
     },
     {
-      "brewery": "Howe Sound",
-      "section": "British Columbia",
-      "name": "Devil's Elbow IPA, Dry Hopped English IPA",
-      "caskNum": 147
+      "style":"",
+      "brewery":"Howe Sound",
+      "section":"British Columbia",
+      "name":"Devil's Elbow IPA, Dry Hopped English IPA",
+      "caskNum":147
     },
     {
-      "brewery": "Moody Ales",
-      "section": "British Columbia",
-      "name": "Raspberry Lime IPA, American IPA w. Raspberries & Lime",
-      "caskNum": 148
+      "style":"",
+      "brewery":"Moody Ales",
+      "section":"British Columbia",
+      "name":"Raspberry Lime IPA, American IPA w. Raspberries & Lime",
+      "caskNum":148
     },
     {
-      "brewery": "Moody Ales",
-      "section": "British Columbia",
-      "name": "Mango Pale Ale, American Pale Ale w. Mango",
-      "caskNum": 149
+      "style":"",
+      "brewery":"Moody Ales",
+      "section":"British Columbia",
+      "name":"Mango Pale Ale, American Pale Ale w. Mango",
+      "caskNum":149
     },
     {
-      "brewery": "Steel & Oak",
-      "section": "British Columbia",
-      "name": "ESB w. Cascade, Galaxy, Simcoe and Mandarina Bavaria Hops, Extra Special Bitter",
-      "caskNum": 150
+      "style":"",
+      "brewery":"Steel & Oak",
+      "section":"British Columbia",
+      "name":"ESB w. Cascade, Galaxy, Simcoe and Mandarina Bavaria Hops, Extra Special Bitter",
+      "caskNum":150
     },
     {
-      "brewery": "Steel Toad",
-      "section": "British Columbia",
-      "name": "Yorkshire Best Bitter, Best Bitter",
-      "caskNum": 151
+      "style":"",
+      "brewery":"Steel Toad",
+      "section":"British Columbia",
+      "name":"Yorkshire Best Bitter, Best Bitter",
+      "caskNum":151
     },
     {
-      "brewery": "Steel Toad",
-      "section": "British Columbia",
-      "name": "Dry Hopped Sour, Dry Hopped Berliner Weisse",
-      "caskNum": 152
+      "style":"",
+      "brewery":"Steel Toad",
+      "section":"British Columbia",
+      "name":"Dry Hopped Sour, Dry Hopped Berliner Weisse",
+      "caskNum":152
     },
     {
-      "brewery": "Steel Toad",
-      "section": "British Columbia",
-      "name": "Raspberry Sour, Fruit Berliner Weisse",
-      "caskNum": 153
+      "style":"",
+      "brewery":"Steel Toad",
+      "section":"British Columbia",
+      "name":"Raspberry Sour, Fruit Berliner Weisse",
+      "caskNum":153
     },
     {
-      "brewery": "Yellow Dog",
-      "section": "British Columbia",
-      "name": "Pineapple Play Dead, American IPA",
-      "caskNum": 154
+      "style":"",
+      "brewery":"Yellow Dog",
+      "section":"British Columbia",
+      "name":"Pineapple Play Dead, American IPA",
+      "caskNum":154
     },
     {
-      "brewery": "À La Fût",
-      "section": "Quebec",
-      "name": "Assemblage de LambiQcs, Wild Fermented Barrel-Aged Sour Ale",
-      "caskNum": 155
+      "style":"",
+      "brewery":"À La Fût",
+      "section":"Quebec",
+      "name":"Assemblage de LambiQcs, Wild Fermented Barrel-Aged Sour Ale",
+      "caskNum":155
     },
     {
-      "brewery": "Benelux",
-      "section": "Quebec",
-      "name": "Gloriosa, White IPA",
-      "caskNum": 156
+      "style":"",
+      "brewery":"Benelux",
+      "section":"Quebec",
+      "name":"Gloriosa, White IPA",
+      "caskNum":156
     },
     {
-      "brewery": "Benelux",
-      "section": "Quebec",
-      "name": "Mascarade, American IPA",
-      "caskNum": 157
+      "style":"",
+      "brewery":"Benelux",
+      "section":"Quebec",
+      "name":"Mascarade, American IPA",
+      "caskNum":157
     },
     {
-      "brewery": "Benelux",
-      "section": "Quebec",
-      "name": "Buzz, American IPA",
-      "caskNum": 158
+      "style":"",
+      "brewery":"Benelux",
+      "section":"Quebec",
+      "name":"Buzz, American IPA",
+      "caskNum":158
     },
     {
-      "brewery": "Benelux",
-      "section": "Quebec",
-      "name": "San Lupùlo, American Pale Ale",
-      "caskNum": 159
+      "style":"",
+      "brewery":"Benelux",
+      "section":"Quebec",
+      "name":"San Lupùlo, American Pale Ale",
+      "caskNum":159
     },
     {
-      "brewery": "Brasserie Dunham",
-      "section": "Quebec",
-      "name": "Tropicale IPA, Farmhouse IPA",
-      "caskNum": 160
+      "style":"",
+      "brewery":"Brasserie Dunham",
+      "section":"Quebec",
+      "name":"Tropicale IPA, Farmhouse IPA",
+      "caskNum":160
     },
     {
-      "brewery": "Brasserie Dunham",
-      "section": "Quebec",
-      "name": "Oro Zuur, Dry Hopped Golden Sour Ale",
-      "caskNum": 161
+      "style":"",
+      "brewery":"Brasserie Dunham",
+      "section":"Quebec",
+      "name":"Oro Zuur, Dry Hopped Golden Sour Ale",
+      "caskNum":161
     },
     {
-      "brewery": "Brasserie Dunham",
-      "section": "Quebec",
-      "name": "Coco Chipotle Porter, Bourbon Barrel-Aged Robust Porter",
-      "caskNum": 162
+      "style":"",
+      "brewery":"Brasserie Dunham",
+      "section":"Quebec",
+      "name":"Coco Chipotle Porter, Bourbon Barrel-Aged Robust Porter",
+      "caskNum":162
     },
     {
-      "brewery": "Brasserie Dunham",
-      "section": "Quebec",
-      "name": "Saison Fleurs Sauvages ''Été'', Wildflower Saison",
-      "caskNum": 163
+      "style":"",
+      "brewery":"Brasserie Dunham",
+      "section":"Quebec",
+      "name":"Saison Fleurs Sauvages ''Été'', Wildflower Saison",
+      "caskNum":163
     },
     {
-      "brewery": "Brassuers Du Monde",
-      "section": "Quebec",
-      "name": "Saison Balsam Fir, Saison",
-      "caskNum": 164
+      "style":"",
+      "brewery":"Brassuers Du Monde",
+      "section":"Quebec",
+      "name":"Saison Balsam Fir, Saison",
+      "caskNum":164
     },
     {
-      "brewery": "Brassuers Du Monde",
-      "section": "Quebec",
-      "name": "Gose Mozaik, German Sour Wheat",
-      "caskNum": 165
+      "style":"",
+      "brewery":"Brassuers Du Monde",
+      "section":"Quebec",
+      "name":"Gose Mozaik, German Sour Wheat",
+      "caskNum":165
     },
     {
-      "brewery": "Brassuers Du Monde",
-      "section": "Quebec",
-      "name": "SMASH Simco Tamarin, American Pale Ale",
-      "caskNum": 166
+      "style":"",
+      "brewery":"Brassuers Du Monde",
+      "section":"Quebec",
+      "name":"SMASH Simco Tamarin, American Pale Ale",
+      "caskNum":166
     },
     {
-      "brewery": "Brassuers Du Monde",
-      "section": "Quebec",
-      "name": "Interdite, American Pale Ale w. Kiwi & Juniper",
-      "caskNum": 167
+      "style":"",
+      "brewery":"Brassuers Du Monde",
+      "section":"Quebec",
+      "name":"Interdite, American Pale Ale w. Kiwi & Juniper",
+      "caskNum":167
     },
     {
-      "brewery": "Brassuers Du Monde",
-      "section": "Quebec",
-      "name": "Big Ben, Porter w. Coffee",
-      "caskNum": 168
+      "style":"",
+      "brewery":"Brassuers Du Monde",
+      "section":"Quebec",
+      "name":"Big Ben, Porter w. Coffee",
+      "caskNum":168
     },
     {
-      "brewery": "Dieu Du Ciel! ",
-      "section": "Quebec",
-      "name": "Chez Suzanne Rhubarb, Stout w. Rhubarb",
-      "caskNum": 169
+      "style":"",
+      "brewery":"Dieu Du Ciel! ",
+      "section":"Quebec",
+      "name":"Chez Suzanne Rhubarb, Stout w. Rhubarb",
+      "caskNum":169
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Sul' Pouce Vers La Galaxie, American IPA w. Galaxy Hops",
-      "caskNum": 170
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Sul' Pouce Vers La Galaxie, American IPA w. Galaxy Hops",
+      "caskNum":170
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Tête de Corbeau Denali Hop, American Pale Ale",
-      "caskNum": 171
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Tête de Corbeau Denali Hop, American Pale Ale",
+      "caskNum":171
     },
     {
-      "brewery": "Dieu Du Ciel! ",
-      "section": "Quebec",
-      "name": "Alban Elved, Harvest Ale w. Quebec Hops",
-      "caskNum": 172
+      "style":"",
+      "brewery":"Dieu Du Ciel! ",
+      "section":"Quebec",
+      "name":"Alban Elved, Harvest Ale w. Quebec Hops",
+      "caskNum":172
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Vaisseau des Songes, American IPA w. Golding Hops",
-      "caskNum": 173
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Vaisseau des Songes, American IPA w. Golding Hops",
+      "caskNum":173
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Résurrection, Porter w. Bourbon Soaked Oak Chips",
-      "caskNum": 174
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Résurrection, Porter w. Bourbon Soaked Oak Chips",
+      "caskNum":174
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Castelnau, Brown Ale w. Golding Hops",
-      "caskNum": 175
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Castelnau, Brown Ale w. Golding Hops",
+      "caskNum":175
     },
     {
-      "brewery": "Dieu Du Ciel!",
-      "section": "Quebec",
-      "name": "Ultra Mosaïka, American Pale Ale w. Mosaic Hops",
-      "caskNum": 176
+      "style":"",
+      "brewery":"Dieu Du Ciel!",
+      "section":"Quebec",
+      "name":"Ultra Mosaïka, American Pale Ale w. Mosaic Hops",
+      "caskNum":176
     },
     {
-      "brewery": "Hopera",
-      "section": "Quebec",
-      "name": "Trizo Prune, Tripel w. Fresh Plums",
-      "caskNum": 177
+      "style":"",
+      "brewery":"Hopera",
+      "section":"Quebec",
+      "name":"Trizo Prune, Tripel w. Fresh Plums",
+      "caskNum":177
     },
     {
-      "brewery": "Hopera",
-      "section": "Quebec",
-      "name": "Strawberry Wine MCV Basilic, Barleywine w. Strawberries",
-      "caskNum": 178
+      "style":"",
+      "brewery":"Hopera",
+      "section":"Quebec",
+      "name":"Strawberry Wine MCV Basilic, Barleywine w. Strawberries",
+      "caskNum":178
     },
     {
-      "brewery": "Hopera",
-      "section": "Quebec",
-      "name": "IS Radical L’érudit Café-Vanille, Imperial Stout w. Coffee",
-      "caskNum": 179
+      "style":"",
+      "brewery":"Hopera",
+      "section":"Quebec",
+      "name":"IS Radical L’érudit Café-Vanille, Imperial Stout w. Coffee",
+      "caskNum":179
     },
     {
-      "brewery": "Hopfenstark",
-      "section": "Quebec",
-      "name": "Postcolonial IPA, Amercian IPA",
-      "caskNum": 180
+      "style":"",
+      "brewery":"Hopfenstark",
+      "section":"Quebec",
+      "name":"Postcolonial IPA, Amercian IPA",
+      "caskNum":180
     },
     {
-      "brewery": "Hopfenstark",
-      "section": "Quebec",
-      "name": "End of the Trail, American Pale Ale",
-      "caskNum": 181
+      "style":"",
+      "brewery":"Hopfenstark",
+      "section":"Quebec",
+      "name":"End of the Trail, American Pale Ale",
+      "caskNum":181
     },
     {
-      "brewery": "Isle De Garde ",
-      "section": "Quebec",
-      "name": "IPA Resineuse, Resinous IPA",
-      "caskNum": 182
+      "style":"",
+      "brewery":"Isle De Garde ",
+      "section":"Quebec",
+      "name":"IPA Resineuse, Resinous IPA",
+      "caskNum":182
     },
     {
-      "brewery": "Isle De Garde ",
-      "section": "Quebec",
-      "name": "Pale Ale Americaine, American Pale Ale",
-      "caskNum": 183
+      "style":"",
+      "brewery":"Isle De Garde ",
+      "section":"Quebec",
+      "name":"Pale Ale Americaine, American Pale Ale",
+      "caskNum":183
     },
     {
-      "brewery": "La Succursale",
-      "section": "Quebec",
-      "name": "1814 Coconut & Vanilla Porter, Porter",
-      "caskNum": 184
+      "style":"",
+      "brewery":"La Succursale",
+      "section":"Quebec",
+      "name":"1814 Coconut & Vanilla Porter, Porter",
+      "caskNum":184
     },
     {
-      "brewery": "La Succursale",
-      "section": "Quebec",
-      "name": "Assemblage Café, Berliner Weiss & Porter Blend w. Coffee",
-      "caskNum": 185
+      "style":"",
+      "brewery":"La Succursale",
+      "section":"Quebec",
+      "name":"Assemblage Café, Berliner Weiss & Porter Blend w. Coffee",
+      "caskNum":185
     },
     {
-      "brewery": "Le Castor ",
-      "section": "Quebec",
-      "name": "Yakima IPA, American IPA",
-      "caskNum": 186
+      "style":"",
+      "brewery":"Le Castor ",
+      "section":"Quebec",
+      "name":"Yakima IPA, American IPA",
+      "caskNum":186
     },
     {
-      "brewery": "Le Castor ",
-      "section": "Quebec",
-      "name": "Session Houblon, Session IPA",
-      "caskNum": 187
+      "style":"",
+      "brewery":"Le Castor ",
+      "section":"Quebec",
+      "name":"Session Houblon, Session IPA",
+      "caskNum":187
     },
     {
-      "brewery": "Le Castor ",
-      "section": "Quebec",
-      "name": "Oatmeal Stout, Oatmeal Stout",
-      "caskNum": 188
+      "style":"",
+      "brewery":"Le Castor ",
+      "section":"Quebec",
+      "name":"Oatmeal Stout, Oatmeal Stout",
+      "caskNum":188
     },
     {
-      "brewery": "Le Trefle Noir",
-      "section": "Quebec",
-      "name": "California, American IPA w. Citra, Lemon & Grapefruit",
-      "caskNum": 189
+      "style":"",
+      "brewery":"Le Trefle Noir",
+      "section":"Quebec",
+      "name":"California, American IPA w. Citra, Lemon & Grapefruit",
+      "caskNum":189
     },
     {
-      "brewery": "Le Trefle Noir",
-      "section": "Quebec",
-      "name": "Trefle Noir, Oatmeal Stout w. Vanilla & Chai Tea",
-      "caskNum": 190
+      "style":"",
+      "brewery":"Le Trefle Noir",
+      "section":"Quebec",
+      "name":"Trefle Noir, Oatmeal Stout w. Vanilla & Chai Tea",
+      "caskNum":190
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "Dulcis Succubus, Barrel Aged Saison",
-      "caskNum": 191
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"Dulcis Succubus, Barrel Aged Saison",
+      "caskNum":191
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "L'Impératrice, Bourbon Barrel Aged Imperial Stout",
-      "caskNum": 192
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"L'Impératrice, Bourbon Barrel Aged Imperial Stout",
+      "caskNum":192
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "L'Ours, Blend of Young & Sour Saisons",
-      "caskNum": 193
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"L'Ours, Blend of Young & Sour Saisons",
+      "caskNum":193
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "Le Coq, Sour Saison w. Cherries",
-      "caskNum": 194
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"Le Coq, Sour Saison w. Cherries",
+      "caskNum":194
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "La Buteuse, Barrel Aged Belgian Tripel",
-      "caskNum": 195
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"La Buteuse, Barrel Aged Belgian Tripel",
+      "caskNum":195
     },
     {
-      "brewery": "Le Trou Du Diable",
-      "section": "Quebec",
-      "name": "La Willow Gose w. Raspberries",
-      "caskNum": 196
+      "style":"",
+      "brewery":"Le Trou Du Diable",
+      "section":"Quebec",
+      "name":"La Willow Gose w. Raspberries",
+      "caskNum":196
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Saison Osmanthus, Saison w. Osmanthus Flowers",
-      "caskNum": 197
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Saison Osmanthus, Saison w. Osmanthus Flowers",
+      "caskNum":197
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Wasabi Denial, Sour Ale w. Wasabi",
-      "caskNum": 198
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Wasabi Denial, Sour Ale w. Wasabi",
+      "caskNum":198
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Brett Me Up, Scotty!, Scotch Barrel-Aged Dark Ale w. Brett",
-      "caskNum": 199
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Brett Me Up, Scotty!, Scotch Barrel-Aged Dark Ale w. Brett",
+      "caskNum":199
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Worchestershire Mild Ale, English Mild w. Worchestershire Sauce",
-      "caskNum": 200
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Worchestershire Mild Ale, English Mild w. Worchestershire Sauce",
+      "caskNum":200
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Shitake Brown Ale, Brown Ale w. Shitake Mushrooms",
-      "caskNum": 201
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Shitake Brown Ale, Brown Ale w. Shitake Mushrooms",
+      "caskNum":201
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "Quebec",
-      "name": "Porter Baltique Special Edition 2015, Aged in Brandy & Bourbon Barrels",
-      "caskNum": 202
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"Quebec",
+      "name":"Porter Baltique Special Edition 2015, Aged in Brandy & Bourbon Barrels",
+      "caskNum":202
     },
     {
-      "brewery": "Macallen Farm & Brewery",
-      "section": "Quebec",
-      "name": "Repit Du Fermier, English Country Side Ale",
-      "caskNum": 203
+      "style":"",
+      "brewery":"Macallen Farm & Brewery",
+      "section":"Quebec",
+      "name":"Repit Du Fermier, English Country Side Ale",
+      "caskNum":203
     },
     {
-      "brewery": "Macallen Farm & Brewery",
-      "section": "Quebec",
-      "name": "Belier Noire, Double Porter",
-      "caskNum": 204
+      "style":"",
+      "brewery":"Macallen Farm & Brewery",
+      "section":"Quebec",
+      "name":"Belier Noire, Double Porter",
+      "caskNum":204
     },
     {
-      "brewery": "Macallen Farm & Brewery",
-      "section": "Quebec",
-      "name": "Recession à la Ferme, Rye Session IPA",
-      "caskNum": 205
+      "style":"",
+      "brewery":"Macallen Farm & Brewery",
+      "section":"Quebec",
+      "name":"Recession à la Ferme, Rye Session IPA",
+      "caskNum":205
     },
     {
-      "brewery": "Macallen Farm & Brewery",
-      "section": "Quebec",
-      "name": "Kildare, Paysanne Pilsner",
-      "caskNum": 206
+      "style":"",
+      "brewery":"Macallen Farm & Brewery",
+      "section":"Quebec",
+      "name":"Kildare, Paysanne Pilsner",
+      "caskNum":206
     },
     {
-      "brewery": "Micro Brasserie La Memphré",
-      "section": "Quebec",
-      "name": "1908, Milk Stout w. Liquorice Wood, Coffee & Columbus Hops",
-      "caskNum": 207
+      "style":"",
+      "brewery":"Micro Brasserie La Memphré",
+      "section":"Quebec",
+      "name":"1908, Milk Stout w. Liquorice Wood, Coffee & Columbus Hops",
+      "caskNum":207
     },
     {
-      "brewery": "Micro Brasserie La Memphré",
-      "section": "Quebec",
-      "name": "Hatley, American Pale Ale",
-      "caskNum": 208
+      "style":"",
+      "brewery":"Micro Brasserie La Memphré",
+      "section":"Quebec",
+      "name":"Hatley, American Pale Ale",
+      "caskNum":208
     },
     {
-      "brewery": "3 Brewers",
-      "section": "Ontario",
-      "name": "Little Tipuna, Wheat Ale",
-      "caskNum": 209
+      "style":"",
+      "brewery":"3 Brewers",
+      "section":"Ontario",
+      "name":"Little Tipuna, Wheat Ale",
+      "caskNum":209
     },
     {
-      "brewery": "3 Brewers",
-      "section": "Ontario",
-      "name": "Juicy Pink Stuff, American IPA",
-      "caskNum": 210
+      "style":"",
+      "brewery":"3 Brewers",
+      "section":"Ontario",
+      "name":"Juicy Pink Stuff, American IPA",
+      "caskNum":210
     },
     {
-      "brewery": "3 Brewers",
-      "section": "Ontario",
-      "name": "I'se the B'y, Saison & Gose Hybrid",
-      "caskNum": 211
+      "style":"",
+      "brewery":"3 Brewers",
+      "section":"Ontario",
+      "name":"I'se the B'y, Saison & Gose Hybrid",
+      "caskNum":211
     },
     {
-      "brewery": "Amsterdam Brewery",
-      "section": "Ontario",
-      "name": "El Jaguar, Barrel Aged Double Tempest w. Chocolate & Chilies",
-      "caskNum": 212
+      "style":"",
+      "brewery":"Amsterdam Brewery",
+      "section":"Ontario",
+      "name":"El Jaguar, Barrel Aged Double Tempest w. Chocolate & Chilies",
+      "caskNum":212
     },
     {
-      "brewery": "Amsterdam Brewery",
-      "section": "Ontario",
-      "name": "18 Dirty Hands, Rustic Pale Ale w. Brettanomyces",
-      "caskNum": 213
+      "style":"",
+      "brewery":"Amsterdam Brewery",
+      "section":"Ontario",
+      "name":"18 Dirty Hands, Rustic Pale Ale w. Brettanomyces",
+      "caskNum":213
     },
     {
-      "brewery": "Amsterdam Brewery",
-      "section": "Ontario",
-      "name": "Brush Fire, Smoked Porter",
-      "caskNum": 214
+      "style":"",
+      "brewery":"Amsterdam Brewery",
+      "section":"Ontario",
+      "name":"Brush Fire, Smoked Porter",
+      "caskNum":214
     },
     {
-      "brewery": "Amsterdam breweryX Great Lakes Brewing",
-      "section": "Ontario",
-      "name": "Coup de Grace, Barrel Aged Double Stout",
-      "caskNum": 215
+      "style":"",
+      "brewery":"Amsterdam breweryX Great Lakes Brewing",
+      "section":"Ontario",
+      "name":"Coup de Grace, Barrel Aged Double Stout",
+      "caskNum":215
     },
     {
-      "brewery": "Bandit Brewery",
-      "section": "Ontario",
-      "name": "South Indian Saison, Sour Farmhouse Ale",
-      "caskNum": 216
+      "style":"",
+      "brewery":"Bandit Brewery",
+      "section":"Ontario",
+      "name":"South Indian Saison, Sour Farmhouse Ale",
+      "caskNum":216
     },
     {
-      "brewery": "Bandit Brewery",
-      "section": "Ontario",
-      "name": "Pepper in the Sky, American Porter w. Smoked Malt & Peppercorns",
-      "caskNum": 217
+      "style":"",
+      "brewery":"Bandit Brewery",
+      "section":"Ontario",
+      "name":"Pepper in the Sky, American Porter w. Smoked Malt & Peppercorns",
+      "caskNum":217
     },
     {
-      "brewery": "Barncat Artisan Ales",
-      "section": "Ontario",
-      "name": "Durian Saison, Fruit Saison",
-      "caskNum": 218
+      "style":"",
+      "brewery":"Barncat Artisan Ales",
+      "section":"Ontario",
+      "name":"Durian Saison, Fruit Saison",
+      "caskNum":218
     },
     {
-      "brewery": "Barncat Artisan Ales",
-      "section": "Ontario",
-      "name": "Cat Deactivator w. Simcoe Hops, Barley Wine",
-      "caskNum": 219
+      "style":"",
+      "brewery":"Barncat Artisan Ales",
+      "section":"Ontario",
+      "name":"Cat Deactivator w. Simcoe Hops, Barley Wine",
+      "caskNum":219
     },
     {
-      "brewery": "Barnstormer Brewing Co.",
-      "section": "Ontario",
-      "name": "Flocking Fokker, Oktoberfest",
-      "caskNum": 220
+      "style":"",
+      "brewery":"Barnstormer Brewing Co.",
+      "section":"Ontario",
+      "name":"Flocking Fokker, Oktoberfest",
+      "caskNum":220
     },
     {
-      "brewery": "Barnstormer Brewing Co.",
-      "section": "Ontario",
-      "name": "Billy's Bong Water, English Brown Ale",
-      "caskNum": 221
+      "style":"",
+      "brewery":"Barnstormer Brewing Co.",
+      "section":"Ontario",
+      "name":"Billy's Bong Water, English Brown Ale",
+      "caskNum":221
     },
     {
-      "brewery": "BATCH",
-      "section": "Ontario",
-      "name": "Plum Saison, Saison w. Plums",
-      "caskNum": 222
+      "style":"",
+      "brewery":"BATCH",
+      "section":"Ontario",
+      "name":"Plum Saison, Saison w. Plums",
+      "caskNum":222
     },
     {
-      "brewery": "Beau's All Natural Brewing Co.",
-      "section": "Ontario",
-      "name": "Farm Table: Märzen, Oktoberfest Lager",
-      "caskNum": 223
+      "style":"",
+      "brewery":"Beau's All Natural Brewing Co.",
+      "section":"Ontario",
+      "name":"Farm Table: Märzen, Oktoberfest Lager",
+      "caskNum":223
     },
     {
-      "brewery": "Beau's All Natural Brewing Co.",
-      "section": "Ontario",
-      "name": "Farm Table: English Bitter, British-name Pale Ale",
-      "caskNum": 224
+      "style":"",
+      "brewery":"Beau's All Natural Brewing Co.",
+      "section":"Ontario",
+      "name":"Farm Table: English Bitter, British-name Pale Ale",
+      "caskNum":224
     },
     {
-      "brewery": "Beau's All Natural Brewing Co.",
-      "section": "Ontario",
-      "name": "B-Side Brewing Label: Kissmeyer NPA, Nordic Pale Ale",
-      "caskNum": 225
+      "style":"",
+      "brewery":"Beau's All Natural Brewing Co.",
+      "section":"Ontario",
+      "name":"B-Side Brewing Label: Kissmeyer NPA, Nordic Pale Ale",
+      "caskNum":225
     },
     {
-      "brewery": "Beau's All Natural Brewing Co.",
-      "section": "Ontario",
-      "name": "B-Side Brewing Label: Gigantic La Formidable, American Belgo-IPA",
-      "caskNum": 226
+      "style":"",
+      "brewery":"Beau's All Natural Brewing Co.",
+      "section":"Ontario",
+      "name":"B-Side Brewing Label: Gigantic La Formidable, American Belgo-IPA",
+      "caskNum":226
     },
     {
-      "brewery": "Bellwoods Brewery",
-      "section": "Ontario",
-      "name": "Jelly King Mandarina Bavaria, Dry Hopped Sour",
-      "caskNum": 227
+      "style":"",
+      "brewery":"Bellwoods Brewery",
+      "section":"Ontario",
+      "name":"Jelly King Mandarina Bavaria, Dry Hopped Sour",
+      "caskNum":227
     },
     {
-      "brewery": "Bellwoods Brewery",
-      "section": "Ontario",
-      "name": "Jelly King Nelson Sauvin, Dry Hopped Sour",
-      "caskNum": 228
+      "style":"",
+      "brewery":"Bellwoods Brewery",
+      "section":"Ontario",
+      "name":"Jelly King Nelson Sauvin, Dry Hopped Sour",
+      "caskNum":228
     },
     {
-      "brewery": "Bellwoods Brewery",
-      "section": "Ontario",
-      "name": "Jelly King Galaxy, Dry Hopped Sour",
-      "caskNum": 229
+      "style":"",
+      "brewery":"Bellwoods Brewery",
+      "section":"Ontario",
+      "name":"Jelly King Galaxy, Dry Hopped Sour",
+      "caskNum":229
     },
     {
-      "brewery": "Big Rig Brewery",
-      "section": "Ontario",
-      "name": "Salty Stache, Gose",
-      "caskNum": 230
+      "style":"",
+      "brewery":"Big Rig Brewery",
+      "section":"Ontario",
+      "name":"Salty Stache, Gose",
+      "caskNum":230
     },
     {
-      "brewery": "Big Rig Brewery",
-      "section": "Ontario",
-      "name": "CH CH Cherry Bomb, Cherry Oaked Chocolate Belgian Brown",
-      "caskNum": 231
+      "style":"",
+      "brewery":"Big Rig Brewery",
+      "section":"Ontario",
+      "name":"CH CH Cherry Bomb, Cherry Oaked Chocolate Belgian Brown",
+      "caskNum":231
     },
     {
-      "brewery": "Big Rock Brewery",
-      "section": "Ontario",
-      "name": "Dan's First Diss-Track, Bourbon Barrel Aged Dark Amber",
-      "caskNum": 232
+      "style":"",
+      "brewery":"Big Rock Brewery",
+      "section":"Ontario",
+      "name":"Dan's First Diss-Track, Bourbon Barrel Aged Dark Amber",
+      "caskNum":232
     },
     {
-      "brewery": "Big Rock Brewery",
-      "section": "Ontario",
-      "name": "The Naked Swordsman, Smoked Spruce Tip & Raspberry Ale",
-      "caskNum": 233
+      "style":"",
+      "brewery":"Big Rock Brewery",
+      "section":"Ontario",
+      "name":"The Naked Swordsman, Smoked Spruce Tip & Raspberry Ale",
+      "caskNum":233
     },
     {
-      "brewery": "Black Oak Brewery",
-      "section": "Ontario",
-      "name": "Sink or Swim, Citra Saison",
-      "caskNum": 234
+      "style":"",
+      "brewery":"Black Oak Brewery",
+      "section":"Ontario",
+      "name":"Sink or Swim, Citra Saison",
+      "caskNum":234
     },
     {
-      "brewery": "Black Oak Brewery",
-      "section": "Ontario",
-      "name": "Side Piece, Brett IPA",
-      "caskNum": 235
+      "style":"",
+      "brewery":"Black Oak Brewery",
+      "section":"Ontario",
+      "name":"Side Piece, Brett IPA",
+      "caskNum":235
     },
     {
-      "brewery": "Black Oak Brewery",
-      "section": "Ontario",
-      "name": "Nox Aeterna, Smoked Stout w. Rhum",
-      "caskNum": 236
+      "style":"",
+      "brewery":"Black Oak Brewery",
+      "section":"Ontario",
+      "name":"Nox Aeterna, Smoked Stout w. Rhum",
+      "caskNum":236
     },
     {
-      "brewery": "Blood Brothers Brewing",
-      "section": "Ontario",
-      "name": "The Swarm, Oatmeal Honey Ae",
-      "caskNum": 237
+      "style":"",
+      "brewery":"Blood Brothers Brewing",
+      "section":"Ontario",
+      "name":"The Swarm, Oatmeal Honey Ae",
+      "caskNum":237
     },
     {
-      "brewery": "Blood Brothers Brewing",
-      "section": "Ontario",
-      "name": "Sköllm, Brett Stout",
-      "caskNum": 238
+      "style":"",
+      "brewery":"Blood Brothers Brewing",
+      "section":"Ontario",
+      "name":"Sköllm, Brett Stout",
+      "caskNum":238
     },
     {
-      "brewery": "Blood Brothers Brewing",
-      "section": "Ontario",
-      "name": "Torch, Brett Double IPA",
-      "caskNum": 239
+      "style":"",
+      "brewery":"Blood Brothers Brewing",
+      "section":"Ontario",
+      "name":"Torch, Brett Double IPA",
+      "caskNum":239
     },
     {
-      "brewery": "Bobcaygeon Brewing Company",
-      "section": "Ontario",
-      "name": "Common Loon, American Pale Ale w. Motueka & Centennial Hops",
-      "caskNum": 240
+      "style":"",
+      "brewery":"Bobcaygeon Brewing Company",
+      "section":"Ontario",
+      "name":"Common Loon, American Pale Ale w. Motueka & Centennial Hops",
+      "caskNum":240
     },
     {
-      "brewery": "Bobcaygeon Brewing Company",
-      "section": "Ontario",
-      "name": "Porter After Nine w. Yirgacheffe Coffee, Robust Porter",
-      "caskNum": 241
+      "style":"",
+      "brewery":"Bobcaygeon Brewing Company",
+      "section":"Ontario",
+      "name":"Porter After Nine w. Yirgacheffe Coffee, Robust Porter",
+      "caskNum":241
     },
     {
-      "brewery": "Boshkung",
-      "section": "Ontario",
-      "name": "It's Not Easy' Ale, Wine Barrel Aged Frambroise w. Brett",
-      "caskNum": 242
+      "style":"",
+      "brewery":"Boshkung",
+      "section":"Ontario",
+      "name":"It's Not Easy' Ale, Wine Barrel Aged Frambroise w. Brett",
+      "caskNum":242
     },
     {
-      "brewery": "Brasserie Étienne Brûlé",
-      "section": "Ontario",
-      "name": "Back Draft, Organic Black IPA w. Tart Cherries",
-      "caskNum": 243
+      "style":"",
+      "brewery":"Brasserie Étienne Brûlé",
+      "section":"Ontario",
+      "name":"Back Draft, Organic Black IPA w. Tart Cherries",
+      "caskNum":243
     },
     {
-      "brewery": "Brasserie Étienne Brûlé ",
-      "section": "Ontario",
-      "name": "L'Éternelle, Organic Brett Saison w. Cranberries & Raspberries",
-      "caskNum": 244
+      "style":"",
+      "brewery":"Brasserie Étienne Brûlé ",
+      "section":"Ontario",
+      "name":"L'Éternelle, Organic Brett Saison w. Cranberries & Raspberries",
+      "caskNum":244
     },
     {
-      "brewery": "Burdock Brewery",
-      "section": "Ontario",
-      "name": "Pinot 16, Beer-Wine Hybrid",
-      "caskNum": 245
+      "style":"",
+      "brewery":"Burdock Brewery",
+      "section":"Ontario",
+      "name":"Pinot 16, Beer-Wine Hybrid",
+      "caskNum":245
     },
     {
-      "brewery": "Burdock Brewery",
-      "section": "Ontario",
-      "name": "Chard 16, Beer-Wine Hybrid",
-      "caskNum": 246
+      "style":"",
+      "brewery":"Burdock Brewery",
+      "section":"Ontario",
+      "name":"Chard 16, Beer-Wine Hybrid",
+      "caskNum":246
     },
     {
-      "brewery": "Calabogie Brewing",
-      "section": "Ontario",
-      "name": "Down Stream, Kettle Sour w. Brett & Apricots",
-      "caskNum": 247
+      "style":"",
+      "brewery":"Calabogie Brewing",
+      "section":"Ontario",
+      "name":"Down Stream, Kettle Sour w. Brett & Apricots",
+      "caskNum":247
     },
     {
-      "brewery": "Calabogie Brewing",
-      "section": "Ontario",
-      "name": "Brown Cow, Bourbon Barrel Aged Stout w. Cacao Nibs",
-      "caskNum": 248
+      "style":"",
+      "brewery":"Calabogie Brewing",
+      "section":"Ontario",
+      "name":"Brown Cow, Bourbon Barrel Aged Stout w. Cacao Nibs",
+      "caskNum":248
     },
     {
-      "brewery": "Calabogie Brewing",
-      "section": "Ontario",
-      "name": "Big Black Donald, Bourbon Barrel-Aged Imperial Stout w. Madagascar Vanilla Beans",
-      "caskNum": 249
+      "style":"",
+      "brewery":"Calabogie Brewing",
+      "section":"Ontario",
+      "name":"Big Black Donald, Bourbon Barrel-Aged Imperial Stout w. Madagascar Vanilla Beans",
+      "caskNum":249
     },
     {
-      "brewery": "Cameron's Brewing Company",
-      "section": "Ontario",
-      "name": "Crammed w. Hippos, American IPA",
-      "caskNum": 250
+      "style":"",
+      "brewery":"Cameron's Brewing Company",
+      "section":"Ontario",
+      "name":"Crammed w. Hippos, American IPA",
+      "caskNum":250
     },
     {
-      "brewery": "Cameron's Brewing Company",
-      "section": "Ontario",
-      "name": "Celebrity Sex Tape Vol 2, Wild Saison",
-      "caskNum": 251
+      "style":"",
+      "brewery":"Cameron's Brewing Company",
+      "section":"Ontario",
+      "name":"Celebrity Sex Tape Vol 2, Wild Saison",
+      "caskNum":251
     },
     {
-      "brewery": "Cheshire Valley Brewing Co.",
-      "section": "Ontario",
-      "name": "CV-ESB, Extra Special Bitter",
-      "caskNum": 252
+      "style":"",
+      "brewery":"Cheshire Valley Brewing Co.",
+      "section":"Ontario",
+      "name":"CV-ESB, Extra Special Bitter",
+      "caskNum":252
     },
     {
-      "brewery": "Clifford Brewing Co.",
-      "section": "Ontario",
-      "name": "Sour Cherry Porter, Robust Porter",
-      "caskNum": 253
+      "style":"",
+      "brewery":"Clifford Brewing Co.",
+      "section":"Ontario",
+      "name":"Sour Cherry Porter, Robust Porter",
+      "caskNum":253
     },
     {
-      "brewery": "Clifford Brewing Co.",
-      "section": "Ontario",
-      "name": "Pinball Wizard (Dry Hopped Barrel Aged Blend), American Pale Ale",
-      "caskNum": 254
+      "style":"",
+      "brewery":"Clifford Brewing Co.",
+      "section":"Ontario",
+      "name":"Pinball Wizard (Dry Hopped Barrel Aged Blend), American Pale Ale",
+      "caskNum":254
     },
     {
-      "brewery": "Collective Arts Brewing Co.",
-      "section": "Ontario",
-      "name": "Stranger Than Fiction, Porter",
-      "caskNum": 255
+      "style":"",
+      "brewery":"Collective Arts Brewing Co.",
+      "section":"Ontario",
+      "name":"Stranger Than Fiction, Porter",
+      "caskNum":255
     },
     {
-      "brewery": "Collective Arts Brewing Co.",
-      "section": "Ontario",
-      "name": "Collective Project: Sour Pumpkin Saison",
-      "caskNum": 256
+      "style":"",
+      "brewery":"Collective Arts Brewing Co.",
+      "section":"Ontario",
+      "name":"Collective Project: Sour Pumpkin Saison",
+      "caskNum":256
     },
     {
-      "brewery": "Collective Arts Brewing Co.",
-      "section": "Ontario",
-      "name": "Rhyme & Reason, Extra Pale Ale",
-      "caskNum": 257
+      "style":"",
+      "brewery":"Collective Arts Brewing Co.",
+      "section":"Ontario",
+      "name":"Rhyme & Reason, Extra Pale Ale",
+      "caskNum":257
     },
     {
-      "brewery": "Collective Arts Brewing Co.",
-      "section": "Ontario",
-      "name": "State of Mind, Session IPA",
-      "caskNum": 258
+      "style":"",
+      "brewery":"Collective Arts Brewing Co.",
+      "section":"Ontario",
+      "name":"State of Mind, Session IPA",
+      "caskNum":258
     },
     {
-      "brewery": "County Durham Brewing Company",
-      "section": "Ontario",
-      "name": "Mad Cow, Milk Stout ",
-      "caskNum": 259
+      "style":"",
+      "brewery":"County Durham Brewing Company",
+      "section":"Ontario",
+      "name":"Mad Cow, Milk Stout ",
+      "caskNum":259
     },
     {
-      "brewery": "Craft Heads Brewing Company",
-      "section": "Ontario",
-      "name": "Large Hoptron Collider, Imperial IPA",
-      "caskNum": 260
+      "style":"",
+      "brewery":"Craft Heads Brewing Company",
+      "section":"Ontario",
+      "name":"Large Hoptron Collider, Imperial IPA",
+      "caskNum":260
     },
     {
-      "brewery": "Craft Heads Brewing Company",
-      "section": "Ontario",
-      "name": "Brett ",
-      "caskNum": 261
+      "style":"",
+      "brewery":"Craft Heads Brewing Company",
+      "section":"Ontario",
+      "name":"Brett ",
+      "caskNum":261
     },
     {
-      "brewery": "Elora Brewing",
-      "section": "Ontario",
-      "name": "Elora Borealis, Pale Ale w. Citra Hops",
-      "caskNum": 262
+      "style":"",
+      "brewery":"Elora Brewing",
+      "section":"Ontario",
+      "name":"Elora Borealis, Pale Ale w. Citra Hops",
+      "caskNum":262
     },
     {
-      "brewery": "Flying Monkeys",
-      "section": "Ontario",
-      "name": "Betty White Stout, Stout",
-      "caskNum": 263
+      "style":"",
+      "brewery":"Flying Monkeys",
+      "section":"Ontario",
+      "name":"Betty White Stout, Stout",
+      "caskNum":263
     },
     {
-      "brewery": "Flying Monkeys",
-      "section": "Ontario",
-      "name": "Deep Tracks, American Brown Ale",
-      "caskNum": 264
+      "style":"",
+      "brewery":"Flying Monkeys",
+      "section":"Ontario",
+      "name":"Deep Tracks, American Brown Ale",
+      "caskNum":264
     },
     {
-      "brewery": "Folly Brewing",
-      "section": "Ontario",
-      "name": "ULLA!, Dark Farmhouse Ale w. Raspberries",
-      "caskNum": 265
+      "style":"",
+      "brewery":"Folly Brewing",
+      "section":"Ontario",
+      "name":"ULLA!, Dark Farmhouse Ale w. Raspberries",
+      "caskNum":265
     },
     {
-      "brewery": "Forked River Brewing Company",
-      "section": "Ontario",
-      "name": "Reforest Kelley, Sour Bourbon Barrel Aged Imperial Stout",
-      "caskNum": 266
+      "style":"",
+      "brewery":"Forked River Brewing Company",
+      "section":"Ontario",
+      "name":"Reforest Kelley, Sour Bourbon Barrel Aged Imperial Stout",
+      "caskNum":266
     },
     {
-      "brewery": "Forked River Brewing Company",
-      "section": "Ontario",
-      "name": "Talk Brett'y To Me , Brett Wheat Ale",
-      "caskNum": 267
+      "style":"",
+      "brewery":"Forked River Brewing Company",
+      "section":"Ontario",
+      "name":"Talk Brett'y To Me , Brett Wheat Ale",
+      "caskNum":267
     },
     {
-      "brewery": "Granite Brewery",
-      "section": "Ontario",
-      "name": "Galactic Pale Ale, American Pale Ale",
-      "caskNum": 268
+      "style":"",
+      "brewery":"Granite Brewery",
+      "section":"Ontario",
+      "name":"Galactic Pale Ale, American Pale Ale",
+      "caskNum":268
     },
     {
-      "brewery": "Granite Brewery",
-      "section": "Ontario",
-      "name": "Darkside Black IPA, American IPA",
-      "caskNum": 269
+      "style":"",
+      "brewery":"Granite Brewery",
+      "section":"Ontario",
+      "name":"Darkside Black IPA, American IPA",
+      "caskNum":269
     },
     {
-      "brewery": "Granite Brewery",
-      "section": "Ontario",
-      "name": "Pumpkin Jack Flash, Pumpkin Ale",
-      "caskNum": 270
+      "style":"",
+      "brewery":"Granite Brewery",
+      "section":"Ontario",
+      "name":"Pumpkin Jack Flash, Pumpkin Ale",
+      "caskNum":270
     },
     {
-      "brewery": "Granite Brewery",
-      "section": "Ontario",
-      "name": "1812 Porter, Robust Porter",
-      "caskNum": 271
+      "style":"",
+      "brewery":"Granite Brewery",
+      "section":"Ontario",
+      "name":"1812 Porter, Robust Porter",
+      "caskNum":271
     },
     {
-      "brewery": "Great Lakes Brewery",
-      "section": "Ontario",
-      "name": "No Chance w. Miranda, Brett Saison",
-      "caskNum": 272
+      "style":"",
+      "brewery":"Great Lakes Brewery",
+      "section":"Ontario",
+      "name":"No Chance w. Miranda, Brett Saison",
+      "caskNum":272
     },
     {
-      "brewery": "Great Lakes Brewery",
-      "section": "Ontario",
-      "name": "Mocha Machine, Bourbon Barrel-Aged Coffee & Chocolate Porter",
-      "caskNum": 273
+      "style":"",
+      "brewery":"Great Lakes Brewery",
+      "section":"Ontario",
+      "name":"Mocha Machine, Bourbon Barrel-Aged Coffee & Chocolate Porter",
+      "caskNum":273
     },
     {
-      "brewery": "Great Lakes Brewery",
-      "section": "Ontario",
-      "name": "Behind The Wavy Wall, Imperial Stout w. Vanilla Bean",
-      "caskNum": 274
+      "style":"",
+      "brewery":"Great Lakes Brewery",
+      "section":"Ontario",
+      "name":"Behind The Wavy Wall, Imperial Stout w. Vanilla Bean",
+      "caskNum":274
     },
     {
-      "brewery": "Great Lakes Brewery",
-      "section": "Ontario",
-      "name": "Notella, Chocolate Hazlenut Stout",
-      "caskNum": 275
+      "style":"",
+      "brewery":"Great Lakes Brewery",
+      "section":"Ontario",
+      "name":"Notella, Chocolate Hazlenut Stout",
+      "caskNum":275
     },
     {
-      "brewery": "Halo Brewery",
-      "section": "Ontario",
-      "name": "Event Horizon, Foreign Extra Stout w. Sarsaparilla",
-      "caskNum": 276
+      "style":"",
+      "brewery":"Halo Brewery",
+      "section":"Ontario",
+      "name":"Event Horizon, Foreign Extra Stout w. Sarsaparilla",
+      "caskNum":276
     },
     {
-      "brewery": "Halo Brewery",
-      "section": "Ontario",
-      "name": "Elder God, Malt Cider w. Elderberry & Elderflower",
-      "caskNum": 277
+      "style":"",
+      "brewery":"Halo Brewery",
+      "section":"Ontario",
+      "name":"Elder God, Malt Cider w. Elderberry & Elderflower",
+      "caskNum":277
     },
     {
-      "brewery": "Henderson Brewing Company",
-      "section": "Ontario",
-      "name": "Dry Hopped Tart, Cherry Berliner Weisse",
-      "caskNum": 278
+      "style":"",
+      "brewery":"Henderson Brewing Company",
+      "section":"Ontario",
+      "name":"Dry Hopped Tart, Cherry Berliner Weisse",
+      "caskNum":278
     },
     {
-      "brewery": "Henderson Brewing Company",
-      "section": "Ontario",
-      "name": "Unfiltered Henderson's Best Amber Ale w. Canadian Whiskey Soaked Figs & Cocoa Nibs",
-      "caskNum": 279
+      "style":"",
+      "brewery":"Henderson Brewing Company",
+      "section":"Ontario",
+      "name":"Unfiltered Henderson's Best Amber Ale w. Canadian Whiskey Soaked Figs & Cocoa Nibs",
+      "caskNum":279
     },
     {
-      "brewery": "High Park Brewery",
-      "section": "Ontario",
-      "name": "Across the Pond English Special Ale, Traditional ESB",
-      "caskNum": 280
+      "style":"",
+      "brewery":"High Park Brewery",
+      "section":"Ontario",
+      "name":"Across the Pond English Special Ale, Traditional ESB",
+      "caskNum":280
     },
     {
-      "brewery": "Hockley Valley Brewing Company",
-      "section": "Ontario",
-      "name": "Caskus Clay -Thrilla w. Vanilla, English Ale",
-      "caskNum": 281
+      "style":"",
+      "brewery":"Hockley Valley Brewing Company",
+      "section":"Ontario",
+      "name":"Caskus Clay -Thrilla w. Vanilla, English Ale",
+      "caskNum":281
     },
     {
-      "brewery": "Hockley Valley Brewing Company",
-      "section": "Ontario",
-      "name": "Outlandish Bee In Amber, Amber Ale",
-      "caskNum": 282
+      "style":"",
+      "brewery":"Hockley Valley Brewing Company",
+      "section":"Ontario",
+      "name":"Outlandish Bee In Amber, Amber Ale",
+      "caskNum":282
     },
     {
-      "brewery": "Indie Ale House",
-      "section": "Ontario",
-      "name": "Breakfast Porter, Porter",
-      "caskNum": 283
+      "style":"",
+      "brewery":"Indie Ale House",
+      "section":"Ontario",
+      "name":"Breakfast Porter, Porter",
+      "caskNum":283
     },
     {
-      "brewery": "Indie Ale House",
-      "section": "Ontario",
-      "name": "Strawberry Instigator IPA, Fruit IPA",
-      "caskNum": 284
+      "style":"",
+      "brewery":"Indie Ale House",
+      "section":"Ontario",
+      "name":"Strawberry Instigator IPA, Fruit IPA",
+      "caskNum":284
     },
     {
-      "brewery": "Indie Ale House",
-      "section": "Ontario",
-      "name": "Brett IPA, American IPA w. Brett.",
-      "caskNum": 285
+      "style":"",
+      "brewery":"Indie Ale House",
+      "section":"Ontario",
+      "name":"Brett IPA, American IPA w. Brett.",
+      "caskNum":285
     },
     {
-      "brewery": "Indie Ale House",
-      "section": "Ontario",
-      "name": "Raffaele, American IPA w. Equinox Hops",
-      "caskNum": 286
+      "style":"",
+      "brewery":"Indie Ale House",
+      "section":"Ontario",
+      "name":"Raffaele, American IPA w. Equinox Hops",
+      "caskNum":286
     },
     {
-      "brewery": "Junction Craft Brewing",
-      "section": "Ontario",
-      "name": "Stoked & Smoked, English Mild",
-      "caskNum": 287
+      "style":"",
+      "brewery":"Junction Craft Brewing",
+      "section":"Ontario",
+      "name":"Stoked & Smoked, English Mild",
+      "caskNum":287
     },
     {
-      "brewery": "Junction Craft Brewing",
-      "section": "Ontario",
-      "name": "DESTRUCTOR, Cascadian Dark",
-      "caskNum": 288
+      "style":"",
+      "brewery":"Junction Craft Brewing",
+      "section":"Ontario",
+      "name":"DESTRUCTOR, Cascadian Dark",
+      "caskNum":288
     },
     {
-      "brewery": "Kensington Brewhouse",
-      "section": "Ontario",
-      "name": "Bonfire, Rye Session Stout w. Roasted Marshmallows",
-      "caskNum": 289
+      "style":"",
+      "brewery":"Kensington Brewhouse",
+      "section":"Ontario",
+      "name":"Bonfire, Rye Session Stout w. Roasted Marshmallows",
+      "caskNum":289
     },
     {
-      "brewery": "Leftfield Brewery",
-      "section": "Ontario",
-      "name": "Go Ahead, German Sour Wheat w. Raspberries & Hibiscus",
-      "caskNum": 290
+      "style":"",
+      "brewery":"Leftfield Brewery",
+      "section":"Ontario",
+      "name":"Go Ahead, German Sour Wheat w. Raspberries & Hibiscus",
+      "caskNum":290
     },
     {
-      "brewery": "Leftfield Brewery",
-      "section": "Ontario",
-      "name": "Midnight Sun Game, Dark American Wheat",
-      "caskNum": 291
+      "style":"",
+      "brewery":"Leftfield Brewery",
+      "section":"Ontario",
+      "name":"Midnight Sun Game, Dark American Wheat",
+      "caskNum":291
     },
     {
-      "brewery": "Louis Cifer Brew Works",
-      "section": "Ontario",
-      "name": "Darkhorse Espresso APA, Single Hop APA w. Espresso",
-      "caskNum": 292
+      "style":"",
+      "brewery":"Louis Cifer Brew Works",
+      "section":"Ontario",
+      "name":"Darkhorse Espresso APA, Single Hop APA w. Espresso",
+      "caskNum":292
     },
     {
-      "brewery": "Louis Cifer Brew Works",
-      "section": "Ontario",
-      "name": "Detox, American Double IPA",
-      "caskNum": 293
+      "style":"",
+      "brewery":"Louis Cifer Brew Works",
+      "section":"Ontario",
+      "name":"Detox, American Double IPA",
+      "caskNum":293
     },
     {
-      "brewery": "Louis Cifer Brew Works",
-      "section": "Ontario",
-      "name": "Ukrainian Imperial Stout, Imperial stout w. Vanilla & Sour Cherry",
-      "caskNum": 294
+      "style":"",
+      "brewery":"Louis Cifer Brew Works",
+      "section":"Ontario",
+      "name":"Ukrainian Imperial Stout, Imperial stout w. Vanilla & Sour Cherry",
+      "caskNum":294
     },
     {
-      "brewery": "MacKinnon Brothers Brewing",
-      "section": "Ontario",
-      "name": "Red Fox Radler, Summer Ale",
-      "caskNum": 295
+      "style":"",
+      "brewery":"MacKinnon Brothers Brewing",
+      "section":"Ontario",
+      "name":"Red Fox Radler, Summer Ale",
+      "caskNum":295
     },
     {
-      "brewery": "MacKinnon Brothers Brewing",
-      "section": "Ontario",
-      "name": "Honey 8Man, English Pale Ale",
-      "caskNum": 296
+      "style":"",
+      "brewery":"MacKinnon Brothers Brewing",
+      "section":"Ontario",
+      "name":"Honey 8Man, English Pale Ale",
+      "caskNum":296
     },
     {
-      "brewery": "MacLean's Ales Inc",
-      "section": "Ontario",
-      "name": "MacLean's ESB, Extra Special Bitter",
-      "caskNum": 297
+      "style":"",
+      "brewery":"MacLean's Ales Inc",
+      "section":"Ontario",
+      "name":"MacLean's ESB, Extra Special Bitter",
+      "caskNum":297
     },
     {
-      "brewery": "Manantler Craft Brewing Co.",
-      "section": "Ontario",
-      "name": "Liquid Swords, American IPA w. Pineapple",
-      "caskNum": 298
+      "style":"",
+      "brewery":"Manantler Craft Brewing Co.",
+      "section":"Ontario",
+      "name":"Liquid Swords, American IPA w. Pineapple",
+      "caskNum":298
     },
     {
-      "brewery": "Mill Street Brewery",
-      "section": "Ontario",
-      "name": "Witches' Knickers, English IPA",
-      "caskNum": 299
+      "style":"",
+      "brewery":"Mill Street Brewery",
+      "section":"Ontario",
+      "name":"Witches' Knickers, English IPA",
+      "caskNum":299
     },
     {
-      "brewery": "Mill Street Brewery",
-      "section": "Ontario",
-      "name": "Frambozen Raspberry Ale, Belgian name Wheat",
-      "caskNum": 300
+      "style":"",
+      "brewery":"Mill Street Brewery",
+      "section":"Ontario",
+      "name":"Frambozen Raspberry Ale, Belgian name Wheat",
+      "caskNum":300
     },
     {
-      "brewery": "Muddy York Brewing Co.",
-      "section": "Ontario",
-      "name": "Muddy York Chai Porter , Spiced Porter",
-      "caskNum": 301
+      "style":"",
+      "brewery":"Muddy York Brewing Co.",
+      "section":"Ontario",
+      "name":"Muddy York Chai Porter , Spiced Porter",
+      "caskNum":301
     },
     {
-      "brewery": "Muskoka Brewery",
-      "section": "Ontario",
-      "name": "One Bomb, Double IPA",
-      "caskNum": 302
+      "style":"",
+      "brewery":"Muskoka Brewery",
+      "section":"Ontario",
+      "name":"One Bomb, Double IPA",
+      "caskNum":302
     },
     {
-      "brewery": "Niagara Oast House Brewers",
-      "section": "Ontario",
-      "name": "Niagara Verjus Sour Ale, Golden Sour w. Verjus",
-      "caskNum": 303
+      "style":"",
+      "brewery":"Niagara Oast House Brewers",
+      "section":"Ontario",
+      "name":"Niagara Verjus Sour Ale, Golden Sour w. Verjus",
+      "caskNum":303
     },
     {
-      "brewery": "Niagara Oast House Brewers",
-      "section": "Ontario",
-      "name": "Maple Bacon Stout, Foreign Extra Stout w. Maple Syrup & Bacon",
-      "caskNum": 304
+      "style":"",
+      "brewery":"Niagara Oast House Brewers",
+      "section":"Ontario",
+      "name":"Maple Bacon Stout, Foreign Extra Stout w. Maple Syrup & Bacon",
+      "caskNum":304
     },
     {
-      "brewery": "Nickel Brook Brewing Co",
-      "section": "Ontario",
-      "name": "Uncommon Element, Brett Pale Ale",
-      "caskNum": 305
+      "style":"",
+      "brewery":"Nickel Brook Brewing Co",
+      "section":"Ontario",
+      "name":"Uncommon Element, Brett Pale Ale",
+      "caskNum":305
     },
     {
-      "brewery": "Nickel Brook Brewing Co",
-      "section": "Ontario",
-      "name": "Naughty Neighbour, American Pale Ale",
-      "caskNum": 306
+      "style":"",
+      "brewery":"Nickel Brook Brewing Co",
+      "section":"Ontario",
+      "name":"Naughty Neighbour, American Pale Ale",
+      "caskNum":306
     },
     {
-      "brewery": "Nickel Brook Brewing Co",
-      "section": "Ontario",
-      "name": "Ceres , Cucumber & Lime Gose",
-      "caskNum": 307
+      "style":"",
+      "brewery":"Nickel Brook Brewing Co",
+      "section":"Ontario",
+      "name":"Ceres , Cucumber & Lime Gose",
+      "caskNum":307
     },
     {
-      "brewery": "Northwinds Brewery",
-      "section": "Ontario",
-      "name": "Rad Dog, Belgian Pale Ale",
-      "caskNum": 308
+      "style":"",
+      "brewery":"Northwinds Brewery",
+      "section":"Ontario",
+      "name":"Rad Dog, Belgian Pale Ale",
+      "caskNum":308
     },
     {
-      "brewery": "Northwinds Brewery",
-      "section": "Ontario",
-      "name": "Gatekeeper, Belgian IPA",
-      "caskNum": 309
+      "style":"",
+      "brewery":"Northwinds Brewery",
+      "section":"Ontario",
+      "name":"Gatekeeper, Belgian IPA",
+      "caskNum":309
     },
     {
-      "brewery": "Pitschfork Brewing",
-      "section": "Ontario",
-      "name": "Pitsch Perfect Pilsner, Unfiltered German name Pilsner",
-      "caskNum": 310
+      "style":"",
+      "brewery":"Pitschfork Brewing",
+      "section":"Ontario",
+      "name":"Pitsch Perfect Pilsner, Unfiltered German name Pilsner",
+      "caskNum":310
     },
     {
-      "brewery": "Pitschfork Brewing",
-      "section": "Ontario",
-      "name": "Fistful Of Festbier, Munich name Festbier",
-      "caskNum": 311
+      "style":"",
+      "brewery":"Pitschfork Brewing",
+      "section":"Ontario",
+      "name":"Fistful Of Festbier, Munich name Festbier",
+      "caskNum":311
     },
     {
-      "brewery": "Rainhard Brewing Co.",
-      "section": "Ontario",
-      "name": "Double KaPow!, Double IPA",
-      "caskNum": 312
+      "style":"",
+      "brewery":"Rainhard Brewing Co.",
+      "section":"Ontario",
+      "name":"Double KaPow!, Double IPA",
+      "caskNum":312
     },
     {
-      "brewery": "Redline Brewhouse",
-      "section": "Ontario",
-      "name": "Southern Hospitality, Sweet Potato Ale w. Brown Sugar, Marshmallow, & Pecans",
-      "caskNum": 313
+      "style":"",
+      "brewery":"Redline Brewhouse",
+      "section":"Ontario",
+      "name":"Southern Hospitality, Sweet Potato Ale w. Brown Sugar, Marshmallow, & Pecans",
+      "caskNum":313
     },
     {
-      "brewery": "Redline Brewhouse",
-      "section": "Ontario",
-      "name": "Clutch w. Apricot & Peach, American Pale Ale",
-      "caskNum": 314
+      "style":"",
+      "brewery":"Redline Brewhouse",
+      "section":"Ontario",
+      "name":"Clutch w. Apricot & Peach, American Pale Ale",
+      "caskNum":314
     },
     {
-      "brewery": "Royal City Brewing Co.",
-      "section": "Ontario",
-      "name": "Pining For The Fjords, Norwegian Farmhouse Ale",
-      "caskNum": 315
+      "style":"",
+      "brewery":"Royal City Brewing Co.",
+      "section":"Ontario",
+      "name":"Pining For The Fjords, Norwegian Farmhouse Ale",
+      "caskNum":315
     },
     {
-      "brewery": "Royal City Brewing Co.",
-      "section": "Ontario",
-      "name": "Earl Grey Porter, Tea Infused Porter",
-      "caskNum": 316
+      "style":"",
+      "brewery":"Royal City Brewing Co.",
+      "section":"Ontario",
+      "name":"Earl Grey Porter, Tea Infused Porter",
+      "caskNum":316
     },
     {
-      "brewery": "Sawdust City Brewing Company",
-      "section": "Ontario",
-      "name": "Fiebre De Calabaza, Bourbon Barrel Fermented Mexican Pumpkin Stout",
-      "caskNum": 317
+      "style":"",
+      "brewery":"Sawdust City Brewing Company",
+      "section":"Ontario",
+      "name":"Fiebre De Calabaza, Bourbon Barrel Fermented Mexican Pumpkin Stout",
+      "caskNum":317
     },
     {
-      "brewery": "Sawdust City Brewing Company",
-      "section": "Ontario",
-      "name": "11.05 2016, Belgian Tripel w. Brett",
-      "caskNum": 318
+      "style":"",
+      "brewery":"Sawdust City Brewing Company",
+      "section":"Ontario",
+      "name":"11.05 2016, Belgian Tripel w. Brett",
+      "caskNum":318
     },
     {
-      "brewery": "Stack Brewing",
-      "section": "Ontario",
-      "name": "PIPA, Pumpkin IPA",
-      "caskNum": 319
+      "style":"",
+      "brewery":"Stack Brewing",
+      "section":"Ontario",
+      "name":"PIPA, Pumpkin IPA",
+      "caskNum":319
     },
     {
-      "brewery": "Stack Brewing",
-      "section": "Ontario",
-      "name": "Time Bomb, Brett Belgian Ale w. Hibiscus",
-      "caskNum": 320
+      "style":"",
+      "brewery":"Stack Brewing",
+      "section":"Ontario",
+      "name":"Time Bomb, Brett Belgian Ale w. Hibiscus",
+      "caskNum":320
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "Ontario",
-      "name": "Ships In The Night w. Raspberries, Oatmeal Stout",
-      "caskNum": 321
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"Ontario",
+      "name":"Ships In The Night w. Raspberries, Oatmeal Stout",
+      "caskNum":321
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "Ontario",
-      "name": "Grizzled Hipster, Double IPA",
-      "caskNum": 322
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"Ontario",
+      "name":"Grizzled Hipster, Double IPA",
+      "caskNum":322
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "Ontario",
-      "name": "Patricia, Saison w. Squash & Sweet Potato",
-      "caskNum": 323
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"Ontario",
+      "name":"Patricia, Saison w. Squash & Sweet Potato",
+      "caskNum":323
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "Ontario",
-      "name": "Everything is Purple, Sour Witbier w. Haskap Berries",
-      "caskNum": 324
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"Ontario",
+      "name":"Everything is Purple, Sour Witbier w. Haskap Berries",
+      "caskNum":324
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "Ontario",
-      "name": "Conundrum, Barrel Aged Sour Brown Ale w. Cherries",
-      "caskNum": 325
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"Ontario",
+      "name":"Conundrum, Barrel Aged Sour Brown Ale w. Cherries",
+      "caskNum":325
     },
     {
-      "brewery": "The Collingwood Brewery",
-      "section": "Ontario",
-      "name": "Bilbo Flagons, Honey Brown Ale",
-      "caskNum": 326
+      "style":"",
+      "brewery":"The Collingwood Brewery",
+      "section":"Ontario",
+      "name":"Bilbo Flagons, Honey Brown Ale",
+      "caskNum":326
     },
     {
-      "brewery": "The Exchange Brewery",
-      "section": "Ontario",
-      "name": "De 'Peach' Mode, Sour Brown Ale w. Peaches",
-      "caskNum": 327
+      "style":"",
+      "brewery":"The Exchange Brewery",
+      "section":"Ontario",
+      "name":"De 'Peach' Mode, Sour Brown Ale w. Peaches",
+      "caskNum":327
     },
     {
-      "brewery": "The Exchange Brewery",
-      "section": "Ontario",
-      "name": "Framboise, Belgian Pale Ale w. Raspberries",
-      "caskNum": 328
+      "style":"",
+      "brewery":"The Exchange Brewery",
+      "section":"Ontario",
+      "name":"Framboise, Belgian Pale Ale w. Raspberries",
+      "caskNum":328
     },
     {
-      "brewery": "The Second Wedge Brewing Company",
-      "section": "Ontario",
-      "name": "Monday Morning Wood, Scottish-name Ale",
-      "caskNum": 329
+      "style":"",
+      "brewery":"The Second Wedge Brewing Company",
+      "section":"Ontario",
+      "name":"Monday Morning Wood, Scottish-name Ale",
+      "caskNum":329
     },
     {
-      "brewery": "The Second Wedge Brewing Company",
-      "section": "Ontario",
-      "name": "Blackcurrant Porter, Porter",
-      "caskNum": 330
+      "style":"",
+      "brewery":"The Second Wedge Brewing Company",
+      "section":"Ontario",
+      "name":"Blackcurrant Porter, Porter",
+      "caskNum":330
     },
     {
-      "brewery": "Tooth & Nail Brewing Company",
-      "section": "Ontario",
-      "name": "Eerste, Blended Barrel-Aged Ale w. Brett.",
-      "caskNum": 331
+      "style":"",
+      "brewery":"Tooth & Nail Brewing Company",
+      "section":"Ontario",
+      "name":"Eerste, Blended Barrel-Aged Ale w. Brett.",
+      "caskNum":331
     },
     {
-      "brewery": "Tooth & Nail Brewing Company",
-      "section": "Ontario",
-      "name": "Tenacity, Pale Ale",
-      "caskNum": 332
+      "style":"",
+      "brewery":"Tooth & Nail Brewing Company",
+      "section":"Ontario",
+      "name":"Tenacity, Pale Ale",
+      "caskNum":332
     },
     {
-      "brewery": "Tooth & Nail Brewing Company",
-      "section": "Ontario",
-      "name": "Fortified, Imperial Stout",
-      "caskNum": 333
+      "style":"",
+      "brewery":"Tooth & Nail Brewing Company",
+      "section":"Ontario",
+      "name":"Fortified, Imperial Stout",
+      "caskNum":333
     },
     {
-      "brewery": "Tooth & Nail Brewing Company",
-      "section": "Ontario",
-      "name": "Sucker Punch, Double IPA",
-      "caskNum": 334
+      "style":"",
+      "brewery":"Tooth & Nail Brewing Company",
+      "section":"Ontario",
+      "name":"Sucker Punch, Double IPA",
+      "caskNum":334
     },
     {
-      "brewery": "Wellington Brewery",
-      "section": "Ontario",
-      "name": "Quick Brown Fox, ESB",
-      "caskNum": 335
+      "style":"",
+      "brewery":"Wellington Brewery",
+      "section":"Ontario",
+      "name":"Quick Brown Fox, ESB",
+      "caskNum":335
     },
     {
-      "brewery": "Wellington Brewery",
-      "section": "Ontario",
-      "name": "Ghost Cow: The Way of the Samurai, Milk Stout w. Ghost Peppers & Cocoa",
-      "caskNum": 336
+      "style":"",
+      "brewery":"Wellington Brewery",
+      "section":"Ontario",
+      "name":"Ghost Cow: The Way of the Samurai, Milk Stout w. Ghost Peppers & Cocoa",
+      "caskNum":336
     },
     {
-      "brewery": "Mark Verok @ Rainhard Brewing Co",
-      "section": "Homebrew",
-      "name": "Vanilla Gorilla, Vanilla Coconut Porter",
-      "caskNum": 337
+      "style":"",
+      "brewery":"Mark Verok @ Rainhard Brewing Co",
+      "section":"Homebrew",
+      "name":"Vanilla Gorilla, Vanilla Coconut Porter",
+      "caskNum":337
     },
     {
-      "brewery": "John Jenkinson @ Forked River,",
-      "section": "Homebrew",
-      "name": "Chocolate Doom, American Stout w Bourbon Soaked Cocoa Nibs & Vanilla Beans",
-      "caskNum": 338
+      "style":"",
+      "brewery":"John Jenkinson @ Forked River,",
+      "section":"Homebrew",
+      "name":"Chocolate Doom, American Stout w Bourbon Soaked Cocoa Nibs & Vanilla Beans",
+      "caskNum":338
     },
     {
-      "brewery": "Chris Saunders & Virginie Corneau @ Folly Brewpub",
-      "section": "Homebrew",
-      "name": "Wit Male Tears, Gose",
-      "caskNum": 339
+      "style":"",
+      "brewery":"Chris Saunders & Virginie Corneau @ Folly Brewpub",
+      "section":"Homebrew",
+      "name":"Wit Male Tears, Gose",
+      "caskNum":339
     },
     {
-      "brewery": "Guillaume Couture-Lévesque & Pamela McBride @ Halo Brewery",
-      "section": "Homebrew",
-      "name": "Trust Fam, English Mild w. Blackberries",
-      "caskNum": 340
+      "style":"",
+      "brewery":"Guillaume Couture-Lévesque & Pamela McBride @ Halo Brewery",
+      "section":"Homebrew",
+      "name":"Trust Fam, English Mild w. Blackberries",
+      "caskNum":340
     },
     {
-      "brewery": "Nick Hodowsky @ Indie Ale House",
-      "section": "Homebrew",
-      "name": "Spreadsheets & Rye, Irish Extra Rye Stout",
-      "caskNum": 341
+      "style":"",
+      "brewery":"Nick Hodowsky @ Indie Ale House",
+      "section":"Homebrew",
+      "name":"Spreadsheets & Rye, Irish Extra Rye Stout",
+      "caskNum":341
     },
     {
-      "brewery": "Sean Owen @ Halo Brewery",
-      "section": "Homebrew",
-      "name": "V2.0 Bottle Rocket, American IPA",
-      "caskNum": 342
+      "style":"",
+      "brewery":"Sean Owen @ Halo Brewery",
+      "section":"Homebrew",
+      "name":"V2.0 Bottle Rocket, American IPA",
+      "caskNum":342
     },
     {
-      "brewery": "Michael Naish @ Forked River",
-      "section": "Homebrew",
-      "name": "The Hunter, American Porter",
-      "caskNum": 343
+      "style":"",
+      "brewery":"Michael Naish @ Forked River",
+      "section":"Homebrew",
+      "name":"The Hunter, American Porter",
+      "caskNum":343
     },
     {
-      "brewery": "Quincy Jermyn @ Henderson Brewing Co",
-      "section": "Homebrew",
-      "name": "Pucked Up, Sour Brett Pale Ale",
-      "caskNum": 344
+      "style":"",
+      "brewery":"Quincy Jermyn @ Henderson Brewing Co",
+      "section":"Homebrew",
+      "name":"Pucked Up, Sour Brett Pale Ale",
+      "caskNum":344
     },
     {
-      "brewery": "Steve Pilotto @ Granite Brewery",
-      "section": "Homebrew",
-      "name": "Wild Turkey IPA, American IPA w. Ontario Wild Turkey hops, Azacca, & Cascade",
-      "caskNum": 345
+      "style":"",
+      "brewery":"Steve Pilotto @ Granite Brewery",
+      "section":"Homebrew",
+      "name":"Wild Turkey IPA, American IPA w. Ontario Wild Turkey hops, Azacca, & Cascade",
+      "caskNum":345
     },
     {
-      "brewery": "Mark Samborski @ Henderson Brewing Co",
-      "section": "Homebrew",
-      "name": "Borski's Best Bitter, Best Bitter",
-      "caskNum": 346
+      "style":"",
+      "brewery":"Mark Samborski @ Henderson Brewing Co",
+      "section":"Homebrew",
+      "name":"Borski's Best Bitter, Best Bitter",
+      "caskNum":346
     },
     {
-      "brewery": "GTA Brews @ Henderson Brewing Co",
-      "section": "Homebrew",
-      "name": "Grandma Lucile's Libation, Apple Pie Ale",
-      "caskNum": 347
+      "style":"",
+      "brewery":"GTA Brews @ Henderson Brewing Co",
+      "section":"Homebrew",
+      "name":"Grandma Lucile's Libation, Apple Pie Ale",
+      "caskNum":347
     },
     {
-      "brewery": "Eric Cousineau @ Henderson Brewing Co",
-      "section": "Homebrew",
-      "name": "Kentucky Common, Kentucky Common",
-      "caskNum": 348
+      "style":"",
+      "brewery":"Eric Cousineau @ Henderson Brewing Co",
+      "section":"Homebrew",
+      "name":"Kentucky Common, Kentucky Common",
+      "caskNum":348
     },
     {
-      "brewery": "Zack Weinberg & Eric Ecclestone @ Great Lakes",
-      "section": "Homebrew",
-      "name": "What a Time, Cinnamon Raisin Oatmeal Brown Ale w. Vermont Ale Yeast",
-      "caskNum": 349
+      "style":"",
+      "brewery":"Zack Weinberg & Eric Ecclestone @ Great Lakes",
+      "section":"Homebrew",
+      "name":"What a Time, Cinnamon Raisin Oatmeal Brown Ale w. Vermont Ale Yeast",
+      "caskNum":349
     },
     {
-      "brewery": "Eric Emery & Danny Pimenta @ Common Good Brewery",
-      "section": "Homebrew",
-      "name": "Zest on the Beach, Pale Ale w. Fresh Citrus Zest",
-      "caskNum": 350
+      "style":"",
+      "brewery":"Eric Emery & Danny Pimenta @ Common Good Brewery",
+      "section":"Homebrew",
+      "name":"Zest on the Beach, Pale Ale w. Fresh Citrus Zest",
+      "caskNum":350
     },
     {
-      "brewery": "Mike Capiak & JP Tibensky @ Common Good Brewery",
-      "section": "Homebrew",
-      "name": "5am in Toronto, Black IPA .Fresh Citrus Zest",
-      "caskNum": 351
+      "style":"",
+      "brewery":"Mike Capiak & JP Tibensky @ Common Good Brewery",
+      "section":"Homebrew",
+      "name":"5am in Toronto, Black IPA .Fresh Citrus Zest",
+      "caskNum":351
     },
     {
-      "brewery": "101 Cider House",
-      "section": "Cider",
-      "name": "Sour Cider w. Island Hopper, Gauva, Passionfruit & Citra Hops",
-      "caskNum": 352
+      "style":"",
+      "brewery":"101 Cider House",
+      "section":"Cider",
+      "name":"Sour Cider w. Island Hopper, Gauva, Passionfruit & Citra Hops",
+      "caskNum":352
     },
     {
-      "brewery": "101 Cider House",
-      "section": "Cider",
-      "name": "Sour Cider w. Fire & Ashes, Sriracha, Lemon Verbena, Blood Orange & Activated Charcoal",
-      "caskNum": 353
+      "style":"",
+      "brewery":"101 Cider House",
+      "section":"Cider",
+      "name":"Sour Cider w. Fire & Ashes, Sriracha, Lemon Verbena, Blood Orange & Activated Charcoal",
+      "caskNum":353
     },
     {
-      "brewery": "101 Cider House",
-      "section": "Cider",
-      "name": "Sour Cider w. Black Hop Down, Dry Hopped w. Citra & Activated Charcoal",
-      "caskNum": 354
+      "style":"",
+      "brewery":"101 Cider House",
+      "section":"Cider",
+      "name":"Sour Cider w. Black Hop Down, Dry Hopped w. Citra & Activated Charcoal",
+      "caskNum":354
     },
     {
-      "brewery": "Cider Creek",
-      "section": "Cider",
-      "name": "D'Crango Unchained, Cider",
-      "caskNum": 355
+      "style":"",
+      "brewery":"Cider Creek",
+      "section":"Cider",
+      "name":"D'Crango Unchained, Cider",
+      "caskNum":355
     },
     {
-      "brewery": "Duxbury Cider",
-      "section": "Cider",
-      "name": "Heritage 1650, North American Cider",
-      "caskNum": 356
+      "style":"",
+      "brewery":"Duxbury Cider",
+      "section":"Cider",
+      "name":"Heritage 1650, North American Cider",
+      "caskNum":356
     },
     {
-      "brewery": "Duxbury Cider",
-      "section": "Cider",
-      "name": "Tilted Barn , Dry Hopped Cider",
-      "caskNum": 357
+      "style":"",
+      "brewery":"Duxbury Cider",
+      "section":"Cider",
+      "name":"Tilted Barn , Dry Hopped Cider",
+      "caskNum":357
     },
     {
-      "brewery": "Embark Craft Ciderworks",
-      "section": "Cider",
-      "name": "Farmhouse Raspberry Cider",
-      "caskNum": 358
+      "style":"",
+      "brewery":"Embark Craft Ciderworks",
+      "section":"Cider",
+      "name":"Farmhouse Raspberry Cider",
+      "caskNum":358
     },
     {
-      "brewery": "Embark Craft Ciderworks",
-      "section": "Cider",
-      "name": "Farmhouse Barrel Aged Cider",
-      "caskNum": 359
+      "style":"",
+      "brewery":"Embark Craft Ciderworks",
+      "section":"Cider",
+      "name":"Farmhouse Barrel Aged Cider",
+      "caskNum":359
     },
     {
-      "brewery": "Ernest Cider Co.",
-      "section": "Cider",
-      "name": "Cherriots of Fire, Bourbon Barrel Aged Cider w. Black Cherries, Cloves, Pink Peppercorns & Cinnamon",
-      "caskNum": 360
+      "style":"",
+      "brewery":"Ernest Cider Co.",
+      "section":"Cider",
+      "name":"Cherriots of Fire, Bourbon Barrel Aged Cider w. Black Cherries, Cloves, Pink Peppercorns & Cinnamon",
+      "caskNum":360
     },
     {
-      "brewery": "Ernest Cider Co.",
-      "section": "Cider",
-      "name": "Key West, Dry Hopped Cider w. Key Limes, Lemongrass & Liquorice",
-      "caskNum": 361
+      "style":"",
+      "brewery":"Ernest Cider Co.",
+      "section":"Cider",
+      "name":"Key West, Dry Hopped Cider w. Key Limes, Lemongrass & Liquorice",
+      "caskNum":361
     },
     {
-      "brewery": "Ernest Cider Co.",
-      "section": "Cider",
-      "name": "Hopiphany, Dry Hopped Cider w. Ontario Fresh Cranberries",
-      "caskNum": 362
+      "style":"",
+      "brewery":"Ernest Cider Co.",
+      "section":"Cider",
+      "name":"Hopiphany, Dry Hopped Cider w. Ontario Fresh Cranberries",
+      "caskNum":362
     },
     {
-      "brewery": "Ernest Cider Co.",
-      "section": "Cider",
-      "name": "Wilderbean, Bourbon Barrel Aged Cider w. Ontario Wild Blueberries, Saffron & Madagascar Vanilla Beans",
-      "caskNum": 363
+      "style":"",
+      "brewery":"Ernest Cider Co.",
+      "section":"Cider",
+      "name":"Wilderbean, Bourbon Barrel Aged Cider w. Ontario Wild Blueberries, Saffron & Madagascar Vanilla Beans",
+      "caskNum":363
     },
     {
-      "brewery": "Ironwood Hard Cider",
-      "section": "Cider",
-      "name": "Hopped Up On Razzies,  Dry Hopped Cider w. Cascade & Raspberry",
-      "caskNum": 364
+      "style":"",
+      "brewery":"Ironwood Hard Cider",
+      "section":"Cider",
+      "name":"Hopped Up On Razzies,  Dry Hopped Cider w. Cascade & Raspberry",
+      "caskNum":364
     },
     {
-      "brewery": "Ironwood Hard Cider",
-      "section": "Cider",
-      "name": "Szechuan Love, Red-Fleshed Apple Cider w. Szechuan Pepper",
-      "caskNum": 365
+      "style":"",
+      "brewery":"Ironwood Hard Cider",
+      "section":"Cider",
+      "name":"Szechuan Love, Red-Fleshed Apple Cider w. Szechuan Pepper",
+      "caskNum":365
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Cuivre Fut De Chene, Wood Aged Cider",
-      "caskNum": 366
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Cuivre Fut De Chene, Wood Aged Cider",
+      "caskNum":366
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Honeycrisp Sour, Brett Crabbple Cider",
-      "caskNum": 367
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Honeycrisp Sour, Brett Crabbple Cider",
+      "caskNum":367
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Api-Hop, Hopped Cider",
-      "caskNum": 368
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Api-Hop, Hopped Cider",
+      "caskNum":368
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Galaxy Cider, Hopped Cider",
-      "caskNum": 369
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Galaxy Cider, Hopped Cider",
+      "caskNum":369
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Bouche 2015, Bouche Traditional Cider",
-      "caskNum": 370
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Bouche 2015, Bouche Traditional Cider",
+      "caskNum":370
     },
     {
-      "brewery": "Les Vergers De La Colline",
-      "section": "Cider",
-      "name": "Apple Tea, Tea Cider",
-      "caskNum": 371
+      "style":"",
+      "brewery":"Les Vergers De La Colline",
+      "section":"Cider",
+      "name":"Apple Tea, Tea Cider",
+      "caskNum":371
     },
     {
-      "brewery": "Pommies Cider Co. ",
-      "section": "Cider",
-      "name": "Cherrio, Apple Cider w. Ontario Sour Cherries & Ontario Heritage Apples",
-      "caskNum": 372
+      "style":"",
+      "brewery":"Pommies Cider Co. ",
+      "section":"Cider",
+      "name":"Cherrio, Apple Cider w. Ontario Sour Cherries & Ontario Heritage Apples",
+      "caskNum":372
     },
     {
-      "brewery": "Pommies Cider Co. ",
-      "section": "Cider",
-      "name": "Mac Daddy, Apple Cider w. Mcintosh Apples Aged for 2 Years",
-      "caskNum": 373
+      "style":"",
+      "brewery":"Pommies Cider Co. ",
+      "section":"Cider",
+      "name":"Mac Daddy, Apple Cider w. Mcintosh Apples Aged for 2 Years",
+      "caskNum":373
     },
     {
-      "brewery": "Pommies Cider Co. ",
-      "section": "Cider",
-      "name": "Life's a Peach, Apple Cider w. Ontario Peaches & Rosemary",
-      "caskNum": 374
+      "style":"",
+      "brewery":"Pommies Cider Co. ",
+      "section":"Cider",
+      "name":"Life's a Peach, Apple Cider w. Ontario Peaches & Rosemary",
+      "caskNum":374
     },
     {
-      "brewery": "Pommies Cider Co. ",
-      "section": "Cider",
-      "name": "Wild Perry, Pear Cider w. Wild Yeast",
-      "caskNum": 375
+      "style":"",
+      "brewery":"Pommies Cider Co. ",
+      "section":"Cider",
+      "name":"Wild Perry, Pear Cider w. Wild Yeast",
+      "caskNum":375
     },
     {
-      "brewery": "Pommies Cider Co. ",
-      "section": "Cider",
-      "name": "Pommies Farmhouse, Farmhouse Cider",
-      "caskNum": 376
+      "style":"",
+      "brewery":"Pommies Cider Co. ",
+      "section":"Cider",
+      "name":"Pommies Farmhouse, Farmhouse Cider",
+      "caskNum":376
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Pear Necessitites, Perry Cider w. Sauvignon Blanc Yeast",
-      "caskNum": 377
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Pear Necessitites, Perry Cider w. Sauvignon Blanc Yeast",
+      "caskNum":377
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Lucy's Orange Beret, Zero Sugar Cider w. Citra & Oranges",
-      "caskNum": 378
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Lucy's Orange Beret, Zero Sugar Cider w. Citra & Oranges",
+      "caskNum":378
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Tepache, Mexcian name Cider w. Pineapple, Clove, Cinnamon",
-      "caskNum": 379
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Tepache, Mexcian name Cider w. Pineapple, Clove, Cinnamon",
+      "caskNum":379
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Lime Apfelgose, Apfelgose w. Lacto, Sea Salt, Corriander & Lime",
-      "caskNum": 380
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Lime Apfelgose, Apfelgose w. Lacto, Sea Salt, Corriander & Lime",
+      "caskNum":380
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Red White & Bugs, Wild Fermented Cider Blended From Red/White Wine Barrels",
-      "caskNum": 381
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Red White & Bugs, Wild Fermented Cider Blended From Red/White Wine Barrels",
+      "caskNum":381
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Bittersweet Freedom, Wild Cider Aged w. Malolactic Bacteria",
-      "caskNum": 382
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Bittersweet Freedom, Wild Cider Aged w. Malolactic Bacteria",
+      "caskNum":382
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Roses are Red, Cider w. Rose Petals & Hibiscus",
-      "caskNum": 383
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Roses are Red, Cider w. Rose Petals & Hibiscus",
+      "caskNum":383
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Mango Earl, Cider w. Mango & Earl Grey",
-      "caskNum": 384
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Mango Earl, Cider w. Mango & Earl Grey",
+      "caskNum":384
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Spirit of India, Cider w. Gin Botanicals & Tamarind",
-      "caskNum": 385
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Spirit of India, Cider w. Gin Botanicals & Tamarind",
+      "caskNum":385
     },
     {
-      "brewery": "Revel Cider",
-      "section": "Cider",
-      "name": "Lucy's Lucid Dream, Tart Cider Dry Hopped w. Citra & Hop X",
-      "caskNum": 386
+      "style":"",
+      "brewery":"Revel Cider",
+      "section":"Cider",
+      "name":"Lucy's Lucid Dream, Tart Cider Dry Hopped w. Citra & Hop X",
+      "caskNum":386
     },
     {
-      "brewery": "Reverend Nat's Hard Cider",
-      "section": "Cider",
-      "name": "Lorrie's Gold, Cider",
-      "caskNum": 387
+      "style":"",
+      "brewery":"Reverend Nat's Hard Cider",
+      "section":"Cider",
+      "name":"Lorrie's Gold, Cider",
+      "caskNum":387
     },
     {
-      "brewery": "Reverend Nat's Hard Cider",
-      "section": "Cider",
-      "name": "Shoot The Glass, Cider",
-      "caskNum": 388
+      "style":"",
+      "brewery":"Reverend Nat's Hard Cider",
+      "section":"Cider",
+      "name":"Shoot The Glass, Cider",
+      "caskNum":388
     },
     {
-      "brewery": "Reverend Nat's Hard Cider",
-      "section": "Cider",
-      "name": "Revelation Newtown Pippin, Cider",
-      "caskNum": 389
+      "style":"",
+      "brewery":"Reverend Nat's Hard Cider",
+      "section":"Cider",
+      "name":"Revelation Newtown Pippin, Cider",
+      "caskNum":389
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "BBQ Smoke, New England Cider",
-      "caskNum": 390
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"BBQ Smoke, New England Cider",
+      "caskNum":390
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Grandpa's GoGo Juice, Hopped Scrumpy",
-      "caskNum": 391
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Grandpa's GoGo Juice, Hopped Scrumpy",
+      "caskNum":391
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Pumpkin Chai, Speciality Infused Cider",
-      "caskNum": 392
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Pumpkin Chai, Speciality Infused Cider",
+      "caskNum":392
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Sour Cherry Pear, Fruit Flavoured Pear Cider",
-      "caskNum": 393
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Sour Cherry Pear, Fruit Flavoured Pear Cider",
+      "caskNum":393
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Purple Rain, Fruit/Veg Flavoured Cider w. Black Currants & Beet Juice",
-      "caskNum": 394
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Purple Rain, Fruit/Veg Flavoured Cider w. Black Currants & Beet Juice",
+      "caskNum":394
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Flaming Peach, Fruit Flavoured Cider",
-      "caskNum": 395
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Flaming Peach, Fruit Flavoured Cider",
+      "caskNum":395
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Double Pagan, Oak Aged Rose Cider w. Herbs",
-      "caskNum": 396
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Double Pagan, Oak Aged Rose Cider w. Herbs",
+      "caskNum":396
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "WTF Hopped Cider, Hopped Cider",
-      "caskNum": 397
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"WTF Hopped Cider, Hopped Cider",
+      "caskNum":397
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Funky Old Scrumpy, Unfiltered English Farmhouse Cider",
-      "caskNum": 398
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Funky Old Scrumpy, Unfiltered English Farmhouse Cider",
+      "caskNum":398
     },
     {
-      "brewery": "Spirit Tree Estate Cidery",
-      "section": "Cider",
-      "name": "Hopped Chesnut Crapabble, Hopped Cider w. Crabapple",
-      "caskNum": 399
+      "style":"",
+      "brewery":"Spirit Tree Estate Cidery",
+      "section":"Cider",
+      "name":"Hopped Chesnut Crapabble, Hopped Cider w. Crabapple",
+      "caskNum":399
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Barrett Fuller's Secret, Bourbon Barrel Aged Cider",
-      "caskNum": 400
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Barrett Fuller's Secret, Bourbon Barrel Aged Cider",
+      "caskNum":400
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Gold Dust, Single Variety Golden Russet Apple Cider",
-      "caskNum": 401
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Gold Dust, Single Variety Golden Russet Apple Cider",
+      "caskNum":401
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Legend (of the Fall) 2015, Farmhouse Cider",
-      "caskNum": 402
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Legend (of the Fall) 2015, Farmhouse Cider",
+      "caskNum":402
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "SlaughterMelon, Watermelon & Apple Cider",
-      "caskNum": 403
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"SlaughterMelon, Watermelon & Apple Cider",
+      "caskNum":403
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "The Catalyst MK III: Hopped Peach Cider",
-      "caskNum": 404
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"The Catalyst MK III: Hopped Peach Cider",
+      "caskNum":404
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "SPY, Single Variety Northern Spy Apple Cider",
-      "caskNum": 405
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"SPY, Single Variety Northern Spy Apple Cider",
+      "caskNum":405
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Staghorn, Sumac Cider",
-      "caskNum": 406
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Staghorn, Sumac Cider",
+      "caskNum":406
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "The Switch, Cabernet Franc & Apple Cider",
-      "caskNum": 407
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"The Switch, Cabernet Franc & Apple Cider",
+      "caskNum":407
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Heritage Funk, Farmhouse Cider",
-      "caskNum": 408
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Heritage Funk, Farmhouse Cider",
+      "caskNum":408
     },
     {
-      "brewery": "West Ave Cider",
-      "section": "Cider",
-      "name": "Cherriosity, Niagara Montmorency Cherry Cider",
-      "caskNum": 409
+      "style":"",
+      "brewery":"West Ave Cider",
+      "section":"Cider",
+      "name":"Cherriosity, Niagara Montmorency Cherry Cider",
+      "caskNum":409
     },
     {
-      "brewery": "Amsterdam Brewery",
-      "section": "IPA Challenge",
-      "name": "Bad Life Decisions , American IPA",
-      "caskNum": 410
+      "style":"",
+      "brewery":"Amsterdam Brewery",
+      "section":"IPA Challenge",
+      "name":"Bad Life Decisions , American IPA",
+      "caskNum":410
     },
     {
-      "brewery": "Bad Apple",
-      "section": "IPA Challenge",
-      "name": "Box Cutter, American IPA",
-      "caskNum": 411
+      "style":"",
+      "brewery":"Bad Apple",
+      "section":"IPA Challenge",
+      "name":"Box Cutter, American IPA",
+      "caskNum":411
     },
     {
-      "brewery": "Barnstormer Brewing Co.",
-      "section": "IPA Challenge",
-      "name": "Flight Delay, American IPA",
-      "caskNum": 412
+      "style":"",
+      "brewery":"Barnstormer Brewing Co.",
+      "section":"IPA Challenge",
+      "name":"Flight Delay, American IPA",
+      "caskNum":412
     },
     {
-      "brewery": "BATCH",
-      "section": "IPA Challenge",
-      "name": "India Pale Ale, American IPA",
-      "caskNum": 413
+      "style":"",
+      "brewery":"BATCH",
+      "section":"IPA Challenge",
+      "name":"India Pale Ale, American IPA",
+      "caskNum":413
     },
     {
-      "brewery": "Benelux",
-      "section": "IPA Challenge",
-      "name": "Sabotage, American IPA",
-      "caskNum": 414
+      "style":"",
+      "brewery":"Benelux",
+      "section":"IPA Challenge",
+      "name":"Sabotage, American IPA",
+      "caskNum":414
     },
     {
-      "brewery": "Brasserie Dunham",
-      "section": "IPA Challenge",
-      "name": "Cyclope Thêta, American IPA",
-      "caskNum": 415
+      "style":"",
+      "brewery":"Brasserie Dunham",
+      "section":"IPA Challenge",
+      "name":"Cyclope Thêta, American IPA",
+      "caskNum":415
     },
     {
-      "brewery": "Collective Arts",
-      "section": "IPA Challenge",
-      "name": "Ransack the Universe, American IPA",
-      "caskNum": 416
+      "style":"",
+      "brewery":"Collective Arts",
+      "section":"IPA Challenge",
+      "name":"Ransack the Universe, American IPA",
+      "caskNum":416
     },
     {
-      "brewery": "Driftwood",
-      "section": "IPA Challenge",
-      "name": "Fat Tug, Northwest IPA",
-      "caskNum": 417
+      "style":"",
+      "brewery":"Driftwood",
+      "section":"IPA Challenge",
+      "name":"Fat Tug, Northwest IPA",
+      "caskNum":417
     },
     {
-      "brewery": "Flying Monkeys",
-      "section": "IPA Challenge",
-      "name": "Hoppy Minaj, American IPA",
-      "caskNum": 418
+      "style":"",
+      "brewery":"Flying Monkeys",
+      "section":"IPA Challenge",
+      "name":"Hoppy Minaj, American IPA",
+      "caskNum":418
     },
     {
-      "brewery": "Folly Brewing",
-      "section": "IPA Challenge",
-      "name": "Double Dry Hopped Imposter Syndrome, Farmhouse IPA",
-      "caskNum": 419
+      "style":"",
+      "brewery":"Folly Brewing",
+      "section":"IPA Challenge",
+      "name":"Double Dry Hopped Imposter Syndrome, Farmhouse IPA",
+      "caskNum":419
     },
     {
-      "brewery": "Forked River Brewing Company",
-      "section": "IPA Challenge",
-      "name": "Catch 23, Northeast IPA",
-      "caskNum": 420
+      "style":"",
+      "brewery":"Forked River Brewing Company",
+      "section":"IPA Challenge",
+      "name":"Catch 23, Northeast IPA",
+      "caskNum":420
     },
     {
-      "brewery": "Granite Brewery",
-      "section": "IPA Challenge",
-      "name": "Hopping Mad, American IPA",
-      "caskNum": 421
+      "style":"",
+      "brewery":"Granite Brewery",
+      "section":"IPA Challenge",
+      "name":"Hopping Mad, American IPA",
+      "caskNum":421
     },
     {
-      "brewery": "Great Lakes Brewery",
-      "section": "IPA Challenge",
-      "name": "Karma Citra, American IPA",
-      "caskNum": 422
+      "style":"",
+      "brewery":"Great Lakes Brewery",
+      "section":"IPA Challenge",
+      "name":"Karma Citra, American IPA",
+      "caskNum":422
     },
     {
-      "brewery": "High Park Brewery",
-      "section": "IPA Challenge",
-      "name": "Off the Leash, American IPA",
-      "caskNum": 423
+      "style":"",
+      "brewery":"High Park Brewery",
+      "section":"IPA Challenge",
+      "name":"Off the Leash, American IPA",
+      "caskNum":423
     },
     {
-      "brewery": "Hopfenstark",
-      "section": "IPA Challenge",
-      "name": "Postcolonial, Amercian IPA",
-      "caskNum": 424
+      "style":"",
+      "brewery":"Hopfenstark",
+      "section":"IPA Challenge",
+      "name":"Postcolonial, Amercian IPA",
+      "caskNum":424
     },
     {
-      "brewery": "Indie Alehouse ",
-      "section": "IPA Challenge",
-      "name": "Instigator, American IPA",
-      "caskNum": 425
+      "style":"",
+      "brewery":"Indie Alehouse ",
+      "section":"IPA Challenge",
+      "name":"Instigator, American IPA",
+      "caskNum":425
     },
     {
-      "brewery": "Junction Craft Brewing",
-      "section": "IPA Challenge",
-      "name": "Engineer's, English IPA",
-      "caskNum": 426
+      "style":"",
+      "brewery":"Junction Craft Brewing",
+      "section":"IPA Challenge",
+      "name":"Engineer's, English IPA",
+      "caskNum":426
     },
     {
-      "brewery": "Kensington Brewhouse",
-      "section": "IPA Challenge",
-      "name": "Homegrown, American IPA",
-      "caskNum": 427
+      "style":"",
+      "brewery":"Kensington Brewhouse",
+      "section":"IPA Challenge",
+      "name":"Homegrown, American IPA",
+      "caskNum":427
     },
     {
-      "brewery": "Le Castor ",
-      "section": "IPA Challenge",
-      "name": "Yakima IPA, American IPA",
-      "caskNum": 428
+      "style":"",
+      "brewery":"Le Castor ",
+      "section":"IPA Challenge",
+      "name":"Yakima IPA, American IPA",
+      "caskNum":428
     },
     {
-      "brewery": "Leftfield Brewery",
-      "section": "IPA Challenge",
-      "name": "Laser Show, Vermont name IPA",
-      "caskNum": 429
+      "style":"",
+      "brewery":"Leftfield Brewery",
+      "section":"IPA Challenge",
+      "name":"Laser Show, Vermont name IPA",
+      "caskNum":429
     },
     {
-      "brewery": "Les Trois Mousquetaires",
-      "section": "IPA Challenge",
-      "name": "IPA, American IPA",
-      "caskNum": 430
+      "style":"",
+      "brewery":"Les Trois Mousquetaires",
+      "section":"IPA Challenge",
+      "name":"IPA, American IPA",
+      "caskNum":430
     },
     {
-      "brewery": "Manantler Craft Brewing Co",
-      "section": "IPA Challenge",
-      "name": "Liquid Swords, Amercian IPA",
-      "caskNum": 431
+      "style":"",
+      "brewery":"Manantler Craft Brewing Co",
+      "section":"IPA Challenge",
+      "name":"Liquid Swords, Amercian IPA",
+      "caskNum":431
     },
     {
-      "brewery": "Mill Street Brewery",
-      "section": "IPA Challenge",
-      "name": "West Coast name IPA,  American IPA",
-      "caskNum": 432
+      "style":"",
+      "brewery":"Mill Street Brewery",
+      "section":"IPA Challenge",
+      "name":"West Coast name IPA,  American IPA",
+      "caskNum":432
     },
     {
-      "brewery": "Muskoka Brewery",
-      "section": "IPA Challenge",
-      "name": "The Spicy Old Man, American IPA",
-      "caskNum": 433
+      "style":"",
+      "brewery":"Muskoka Brewery",
+      "section":"IPA Challenge",
+      "name":"The Spicy Old Man, American IPA",
+      "caskNum":433
     },
     {
-      "brewery": "Niagara Oast House Brewers",
-      "section": "IPA Challenge",
-      "name": "Bigger Than Yours By A Country Mile, American IPA",
-      "caskNum": 434
+      "style":"",
+      "brewery":"Niagara Oast House Brewers",
+      "section":"IPA Challenge",
+      "name":"Bigger Than Yours By A Country Mile, American IPA",
+      "caskNum":434
     },
     {
-      "brewery": "Nickelbrook",
-      "section": "IPA Challenge",
-      "name": "Headstock, American IPA",
-      "caskNum": 435
+      "style":"",
+      "brewery":"Nickelbrook",
+      "section":"IPA Challenge",
+      "name":"Headstock, American IPA",
+      "caskNum":435
     },
     {
-      "brewery": "Rainhard Brewing Co.",
-      "section": "IPA Challenge",
-      "name": "KaPow! American IPA",
-      "caskNum": 436
+      "style":"",
+      "brewery":"Rainhard Brewing Co.",
+      "section":"IPA Challenge",
+      "name":"KaPow! American IPA",
+      "caskNum":436
     },
     {
-      "brewery": "Redline Brewhouse",
-      "section": "IPA Challenge",
-      "name": "Dennis is Bastard Man, American IPA",
-      "caskNum": 437
+      "style":"",
+      "brewery":"Redline Brewhouse",
+      "section":"IPA Challenge",
+      "name":"Dennis is Bastard Man, American IPA",
+      "caskNum":437
     },
     {
-      "brewery": "Stone City Ales",
-      "section": "IPA Challenge",
-      "name": "Uncharted, American IPA",
-      "caskNum": 438
+      "style":"",
+      "brewery":"Stone City Ales",
+      "section":"IPA Challenge",
+      "name":"Uncharted, American IPA",
+      "caskNum":438
     },
     {
-      "brewery": "The Collingwood Brewery",
-      "section": "IPA Challenge",
-      "name": "Market Garden, American IPA",
-      "caskNum": 439
+      "style":"",
+      "brewery":"The Collingwood Brewery",
+      "section":"IPA Challenge",
+      "name":"Market Garden, American IPA",
+      "caskNum":439
     },
     {
-      "brewery": "Tooth & Nail Brewing Company",
-      "section": "IPA Challenge",
-      "name": "Rabble Rouser, American IPA",
-      "caskNum": 440
+      "style":"",
+      "brewery":"Tooth & Nail Brewing Company",
+      "section":"IPA Challenge",
+      "name":"Rabble Rouser, American IPA",
+      "caskNum":440
     },
     {
-      "brewery": "Unfiltered",
-      "section": "IPA Challenge",
-      "name": "Exile On North St, American IPA",
-      "caskNum": 441
+      "style":"",
+      "brewery":"Unfiltered",
+      "section":"IPA Challenge",
+      "name":"Exile On North St, American IPA",
+      "caskNum":441
     }
   ]
 }

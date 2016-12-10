@@ -1,3 +1,9 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -6,9 +12,7 @@ import {
   View
 } from 'react-native';
 
-// this will happen later
-
-export default class caskDaysNative extends Component {
+export default class caskDaysRedux extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -46,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('caskDaysNative', () => caskDaysNative);
+AppRegistry.registerComponent('caskDaysRedux', () => caskDaysRedux);

@@ -1,35 +1,36 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
   View,
-  StatusBar,
-  TouchableWithoutFeedback,
-  Navigator
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import { Col } from 'react-native-easy-grid'
 
-import styles from './../global/styles'
+import { Actions } from 'react-native-router-flux';
 
-// TODO convert to stateless component
+import styles from './../global/styles'
 
 class ByStyle extends Component {
 
   constructor(props) {
     super(props)
+    this.onButtonPress = this.onButtonPress.bind(this)
+  }
+
+  onButtonPress() {
+    Actions.Styles()
   }
 
   render() {
-    return(
-    <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
-      <Col style={[ styles.homeSmall, { backgroundColor: '#FBCCCB' }]}>
-        <View>
-          <Text>Browse by Style</Text>
-        </View>
-      </Col>
-    </TouchableWithoutFeedback>
+    return (
+      <TouchableWithoutFeedback onPress={this.onButtonPress}>
+        <Col style={[styles.homeSmall, {backgroundColor: '#FBCCCB'}]}>
+          <View>
+            <Text>Browse by Style</Text>
+          </View>
+        </Col>
+      </TouchableWithoutFeedback>
     )
   }
 }

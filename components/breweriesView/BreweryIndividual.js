@@ -2,37 +2,49 @@ import React, { Component } from 'react';
 import {
   Text,
   View,
-  ScrollView
+  TouchableWithoutFeedback,
+  ScrollView,
 } from 'react-native';
 
+import { Actions } from 'react-native-router-flux'
 import BeerBlock from './../locationsView/BeerBlock'
 
 import beer from './../../beer.json'
 const beerList = beer.beer
 
-class IPAs extends Component {
+class BreweryBlock extends Component {
+
+  // need to fetch brewery name from props, then show only beers with relevant brewery name
 
   constructor(props) {
     super(props)
   }
 
-  render() {
+  componentDidMount() {
+    Actions.refresh({title: this.props.data})
+    // update the page title based on props
+  }
 
+  render() {
     let getBeers = beerList.map(function(currentBeer, index) {
 
-      if( currentBeer.section === 'IPA Challenge' ) {
+      if( currentBeer.brewery === this.props.data ) {
         return <BeerBlock key={index} beerData={beerList[index]} />
       }
     }, this)
 
     return(
-      <View style={{marginTop:62}}>
+      <View style={{ marginTop:62 }}>
         <ScrollView>
           { getBeers }
         </ScrollView>
       </View>
+
     )
   }
 }
 
-export default IPAs
+export default BreweryBlock
+
+
+

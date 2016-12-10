@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
-  View,
-  StatusBar
+  View
 } from 'react-native';
 
-import { Col, Row, Grid } from "react-native-easy-grid";
+import { Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
-import Header from '../global/Header'
-import Navbar from '../global/Navbar'
 
 class Info extends Component {
 
@@ -23,13 +18,11 @@ class Info extends Component {
     console.log('rendering locations')
     return(
       <View>
-        <Header />
         <Grid>
           <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
             <Text>Hello Info</Text>
           </Row>
         </Grid>
-        <Navbar />
       </View>
     )
   }

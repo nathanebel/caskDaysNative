@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
   View,
-  StatusBar,
-  TouchableWithoutFeedback,
-  Navigator
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import { Row } from 'react-native-easy-grid'
 
 import styles from './../global/styles'
 
-// TODO convert to stateless component
+import { Actions } from 'react-native-router-flux';
 
 class ByBrewery extends Component {
 
   constructor(props) {
     super(props)
+    this.onButtonPress = this.onButtonPress.bind(this)
+  }
+
+  onButtonPress() {
+    Actions.Breweries()
   }
 
   render() {
     return(
-      <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.target)}>
+      <TouchableWithoutFeedback onPress={this.onButtonPress}>
         <Row style={ [ styles.homeLarge, { backgroundColor:'#DEECDE' } ] }>
           <View>
             <Text style={ styles.homeLocationText }>Browse by Brewery</Text>

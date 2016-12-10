@@ -1,43 +1,49 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
   Text,
   View,
-  StatusBar,
   TouchableWithoutFeedback,
   ScrollView,
-  Image,
 } from 'react-native';
 
-import navStyle from './../global/navigatorStyle'
 import { Row, Grid } from "react-native-easy-grid";
 import styles from '../global/styles'
+import { Actions } from 'react-native-router-flux'
 
 class Locations extends Component {
-
-  static navigatorStyle = navStyle.navigatorStyle
 
   constructor(props) {
     super(props)
     this.onButtonPress = this.onButtonPress.bind(this)
   }
 
+  // todo generate buttons and route targets dynamically based on json so we have less template pages
+
   onButtonPress(target) {
-    console.log('going to ' + target)
-    this.props.navigator.push({
-      screen: target,
-      title: target,
-      backButtonTitle: '',
-    });
+      console.log('pressed')
+    if(target === 'British Columbia') {
+      Actions.BritishColumbia()
+    } else if(target === 'Oregon') {
+      Actions.Oregon()
+    } else if(target === 'California') {
+      Actions.California()
+    } else if(target === 'New York') {
+      Actions.NewYork()
+    } else if(target === 'Maritimes') {
+      Actions.Maritimes()
+    } else if(target === 'Quebec') {
+      Actions.Quebec()
+    } else if(target === 'Ontario') {
+      Actions.Ontario()
+    }
   }
 
 
   render() {
-    // TODO this definitely needs to be split up into multiple smaller components ¯\_(ツ)_/¯
+    // TODO this definitely needs to be split up into multiple smaller components or done dynamically ¯\_(ツ)_/¯
     console.log('rendering locations')
     return(
-      <View>
+      <View style={{ marginTop:62, marginBottom:60 }}>
         <ScrollView>
           <Grid>
             <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>
