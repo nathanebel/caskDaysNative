@@ -4,13 +4,11 @@ import {
   View,
 } from 'react-native';
 
-import { Button } from 'native-base'
+import AddOrRemove from './AddOrRemove'
 
-import styles from '../global/styles'
+import { Grid, Col, Row  } from 'native-base'
 
-import { connect } from 'react-redux'
-
-import * as actions from '../../actions/index'
+// todo probably want to move this component elsewhere, since its being used in a ton of other places.
 
 class BeerBlock extends Component {
 
@@ -18,34 +16,27 @@ class BeerBlock extends Component {
     super(props)
   }
 
+  // todo check if this block's beer is currently selected, then render either the Add or Remove
+
   render() {
     let newBeer = this.props.beerData
 
     return(
-        <View style={styles.listRow}>
-          <Text>{newBeer.name}</Text>
-          <Text>{newBeer.brewery}</Text>
-          <Text>{newBeer.caskNum}</Text>
-          <Button onPress={() => { this.props.onAddClick(newBeer) }}>
-            Add
-          </Button>
-        </View>
+      <View style={{paddingTop:60, paddingBottom:60, flex: 1}}>
+        <Grid>
+          <Col size={65}>
+            <Text>{newBeer.name}</Text>
+            <Text>{newBeer.brewery}</Text>
+            <Text>{newBeer.caskNum}</Text>
+          </Col>
+          <Col size={35} style={{marginRight:0, paddingRight:0}}>
+            <AddOrRemove backgroundColor="#etc" beerData={this.props.beerData} />
+          </Col>
+        </Grid>
+      </View>
+
     )
   }
 }
 
-function mapStateToProps(state) {
-  return { selectedBeers: state }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onAddClick: (beerData) => {
-      dispatch(actions.addBeer(beerData))
-    }
-  }
-}
-
-
-
-export default connect(mapStateToProps, mapDispatchToProps)(BeerBlock);
+export default BeerBlock

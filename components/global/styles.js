@@ -7,6 +7,8 @@ console.log(Dimensions.get('window'))
 const winWidth = Dimensions.get('window').width
 const winHeight = Dimensions.get('window').height - 25
 
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -38,6 +40,13 @@ const styles = StyleSheet.create({
   },
   homeLocationText: {
     color:'purple'
+  },
+  beerBlockButton:{
+    marginLeft:0,
+    marginRight:0,
+    paddingLeft:0,
+    paddingRight:0,
+    backgroundColor:'transparent',
   },
   listRow:{
     height:winHeight / 7

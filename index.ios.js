@@ -3,8 +3,9 @@ import './ReactotronConfig'
 import React, {Component} from 'react';
 import {
   AppRegistry,
-  Text
-} from 'react-native';
+  Text,
+  View
+} from 'react-native'
 
 import {Router, Scene} from 'react-native-router-flux';
 
@@ -42,7 +43,6 @@ import Cider from './components/ciderView/Cider'
 import Homebrew from './components/homebrewView/Homebrew'
 
 //IPAs
-
 import IPAs from './components/IPAView/IPAs'
 
 //MyList
@@ -50,12 +50,35 @@ import MyList from './components/myListView/MyList'
 
 // info
 import Info from './components/infoView/Info'
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const add = (<Icon name="plus" size={30} color="#900" />)
+
+const getIcons = (title) => {
+  switch(title) {
+    case 'Home' :
+      return <Icon style={{ height:25 }} name="ios-beer" size={25} color="#E9F5F1" />
+    case 'My List' :
+      return <Icon style={{ height:25 }} name="md-clipboard" size={25} color="#E9F5F1" />
+    case 'Info' :
+      return <Icon style={{ height:25 }} name="ios-map-outline" size={25} color="#E9F5F1" />
+  }
+}
 
 const TabIcon = ({selected, title}) => {
   return (
-    <Text style={{color: selected ? 'red' : 'black'}}>{title}</Text>
+    <View style={{
+      flex:1,
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center', }}>
+      {getIcons(title)}
+      <Text style={{ textAlign:'center', color:'#E9F5F1', marginBottom:0, paddingBottom:0 }} >{title}</Text>
+    </View>
+
   )
 }
+
 
 export default class caskDaysRedux extends Component {
 
@@ -68,7 +91,7 @@ export default class caskDaysRedux extends Component {
             <Scene
               key="tabbar"
               tabs={true}
-              tabBarStyle={{backgroundColor: '#ffffff'}}
+              tabBarStyle={{backgroundColor: '#07698C'}}
             >
               <Scene key="Home" title="Home" icon={TabIcon}>
                 <Scene

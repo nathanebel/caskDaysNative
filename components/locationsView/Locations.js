@@ -16,9 +16,7 @@ class Locations extends Component {
     super(props)
     this.onButtonPress = this.onButtonPress.bind(this)
   }
-
-  // todo generate buttons and route targets dynamically based on json so we have less template pages
-
+  
   onButtonPress(target) {
       console.log('pressed')
     if(target === 'British Columbia') {
@@ -40,7 +38,7 @@ class Locations extends Component {
 
 
   render() {
-    // TODO this definitely needs to be split up into multiple smaller components or done dynamically ¯\_(ツ)_/¯
+    // TODO this definitely needs to be split up into multiple smaller components or done programmatically ¯\_(ツ)_/¯
     console.log('rendering locations')
     return(
       <View style={{ marginTop:62, marginBottom:60 }}>
