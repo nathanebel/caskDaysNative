@@ -24,6 +24,10 @@ class AddOrRemove extends Component {
     super(props)
   }
 
+  componentWillUpdate() {
+    console.log('i am updating')
+  }
+
   render() {
     let beers = this.props.selectedBeers
     let newBeer = this.props.beerData
@@ -34,7 +38,7 @@ class AddOrRemove extends Component {
     });
 
     selectedBeers()
-    console.log(beerIDs)
+    // push all selected beers into beerIDs on render
 
     const checkCask = (caskNum) => {
       return beerIDs.find(beer => beer === caskNum)

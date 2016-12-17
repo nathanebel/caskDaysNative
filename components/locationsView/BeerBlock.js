@@ -19,6 +19,7 @@ class BeerBlock extends Component {
   // todo check if this block's beer is currently selected, then render either the Add or Remove
 
   render() {
+    console.log('creating new block')
     let newBeer = this.props.beerData
 
     return(
