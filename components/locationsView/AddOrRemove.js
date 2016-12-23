@@ -11,8 +11,8 @@ import {
 import { connect } from 'react-redux'
 
 import Icon from 'react-native-vector-icons/Ionicons';
-const add = (<Icon name="ios-add" size={40} color="#900" />)
-const remove = (<Icon  name="ios-close" size={40} color="#900" />)
+const add = (<Icon name="ios-add" size={40} color="#000" />)
+const remove = (<Icon  name="ios-close" size={40} color="#000" />)
 
 import * as actions from '../../actions/index'
 
@@ -43,8 +43,6 @@ class AddOrRemove extends Component {
     const checkCask = (caskNum) => {
       return beerIDs.find(beer => beer === caskNum)
     }
-
-    // if checkCask(thisBeer.props.selectedBeers) === undefined
 
     return(
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
