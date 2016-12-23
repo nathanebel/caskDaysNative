@@ -12,13 +12,13 @@ We'll see how this evolves, since I'm still getting the hang of React Native. If
 
 For the record I'm not associated with Cask Days. Just a big fan who wanted to build something fun.
 
-Status report - December 17th
+Status report - December 22
 
-- Created tab icons, cleaned up data fetching on some components, converted BeerBlocks to + / X 
+- Added colour pattern loops, lots of styling
 
-[Click here for high-res gfycat](https://gfycat.com/AgedQualifiedCutworm)
+[Click here for high-res gfycat](https://gfycat.com/MemorableNeatAurochs)
 
-![gif of current state](https://thumbs.gfycat.com/AgedQualifiedCutworm-size_restricted.gif)
+![gif of current state](https://thumbs.gfycat.com/MemorableNeatAurochs-size_restricted.gif)
 
 Rough mocks -
 
