@@ -5,7 +5,9 @@ import {
   StatusBar
 } from 'react-native';
 
-import { Row, Grid } from "react-native-easy-grid";
+import {Column as Col, Row} from 'react-native-flexbox-grid';
+
+
 import styles from '../global/styles'
 import ByBrewery from './ByBrewery'
 import ByLocation from './ByLocation'
@@ -25,7 +27,6 @@ class HomePage extends Component {
     const nav = this.props.navigator
     return(
       <View style={{ marginTop:62 }}>
-        <Grid>
           <ByLocation target='Locations' navigator={nav} />
           <ByBrewery target='Breweries' navigator={nav} />
           <ByStyle target='Styles' navigator={nav} />
@@ -38,8 +39,6 @@ class HomePage extends Component {
           </Row>
 
           <IPAChallenge target='IPAs' navigator={nav} />
-
-        </Grid>
       </View>
     )
   }

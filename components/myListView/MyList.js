@@ -14,8 +14,8 @@ class MyList extends Component {
   render() {
     console.log(this)
     let selectedBeers = this.props.selectedBeers
+
     let getList = selectedBeers.map(function (currentBeer, index) {
-      console.log(currentBeer)
       return <ListBlock
                 data={currentBeer}
                 key={index}

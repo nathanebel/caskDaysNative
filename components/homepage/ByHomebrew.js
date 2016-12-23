@@ -25,9 +25,9 @@ class ByHomebrew extends Component {
   render() {
     return(
     <TouchableWithoutFeedback onPress={this.onButtonPress}>
-      <Col style={[ styles.homeHalfWidth, { backgroundColor: '#B0DFE2' } ]}>
+      <Col style={[ styles.homeHalfWidth, { flex:1, backgroundColor:'#B0DFE2', alignItems:'center', justifyContent:'center', flexDirection:'row' } ]}>
         <View>
-          <Text>Homebrew</Text>
+          <Text style={ styles.homePageButtonText } >HOMEBREW</Text>
         </View>
       </Col>
     </TouchableWithoutFeedback>

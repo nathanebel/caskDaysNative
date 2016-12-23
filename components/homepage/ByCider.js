@@ -25,9 +25,9 @@ class ByCider extends Component {
   render() {
     return(
     <TouchableWithoutFeedback onPress={this.onButtonPress}>
-      <Col style={[ styles.homeHalfWidth, { backgroundColor: '#FFE9CF' } ]}>
+      <Col style={[ styles.homeHalfWidth, { flex:1, backgroundColor:'#FFE9CF', alignItems:'center', justifyContent:'center', flexDirection:'row' } ]}>
         <View>
-          <Text>Cider</Text>
+          <Text style={ styles.homePageButtonText }>CIDER</Text>
         </View>
       </Col>
     </TouchableWithoutFeedback>

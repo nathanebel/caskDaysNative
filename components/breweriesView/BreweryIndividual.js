@@ -26,10 +26,24 @@ class BreweryBlock extends Component {
   }
 
   render() {
+
+
+    const getColour = (index) => {
+      if (index % 4 === 0 ) {
+        return '#FEE9D0'
+      } else if (index % 4 === 1) {
+        return '#B1DFE1'
+      } else if (index % 4 === 2) {
+        return '#DEECDE'
+      } else if (index% 4 === 3) {
+        return '#FACCCC'
+      }
+    }
+
     let getBeers = beerList.map(function(currentBeer, index) {
 
       if( currentBeer.brewery === this.props.data ) {
-        return <BeerBlock key={index} beerData={beerList[index]} />
+        return <BeerBlock getBG={getColour(index)} key={index} beerData={beerList[index]} />
       }
     }, this)
 

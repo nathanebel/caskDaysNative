@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 
 import { Row } from "react-native-easy-grid";
-import styles from '../global/styles'
+import styles, { winWidth, winHeight } from '../global/styles'
 import { Actions } from 'react-native-router-flux'
 
 class BreweryBlock extends Component {
@@ -14,6 +14,8 @@ class BreweryBlock extends Component {
   constructor(props) {
     super(props)
     this.onButtonPress = this.onButtonPress.bind(this)
+    console.log('brewery block')
+    console.log(this.props)
   }
 
   onButtonPress(target) {
@@ -22,9 +24,10 @@ class BreweryBlock extends Component {
   }
 
   render() {
+
     return(
-      <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>
-        <TouchableWithoutFeedback onPress={() => this.onButtonPress(this.props.name)}>
+      <Row style={[ { width:winWidth, backgroundColor:this.props.getBG }]}>
+        <TouchableWithoutFeedback style={{ backgroundColor:'red' }} onPress={() => this.onButtonPress(this.props.name)}>
           <View>
             <Text style={styles.locationText} >{this.props.name}</Text>
           </View>

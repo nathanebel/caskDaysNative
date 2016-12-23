@@ -26,9 +26,9 @@ class IPAChallenge extends Component {
   render() {
     return(
     <TouchableWithoutFeedback onPress={this.onButtonPress}>
-      <Col style={[ styles.homeSmall, { backgroundColor: '#DEECDE' }]}>
+      <Col style={[ styles.homeSmall, { flex:1, backgroundColor:'#DEECDE', alignItems:'center', justifyContent:'center', flexDirection:'row' }]}>
         <View>
-          <Text>IPA Challenge</Text>
+          <Text style={ styles.homePageButtonText } >IPA CHALLENGE</Text>
         </View>
       </Col>
     </TouchableWithoutFeedback>

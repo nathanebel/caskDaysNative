@@ -24,13 +24,16 @@ class ByStyle extends Component {
 
   render() {
     return (
-      <TouchableWithoutFeedback onPress={this.onButtonPress}>
-        <Col style={[styles.homeSmall, {backgroundColor: '#FBCCCB'}]}>
-          <View>
-            <Text>Browse by Style</Text>
-          </View>
-        </Col>
-      </TouchableWithoutFeedback>
+      <View>
+        <TouchableWithoutFeedback onPress={this.onButtonPress}>
+          <Col style={[styles.homeSmall, { flex:1, backgroundColor:'#FBCCCB', alignItems:'center', justifyContent:'center', flexDirection:'row' }]}>
+            <View>
+              <Text style={ styles.homePageButtonText } >BROWSE BY STYLE</Text>
+            </View>
+          </Col>
+        </TouchableWithoutFeedback>
+      </View>
+
     )
   }
 }

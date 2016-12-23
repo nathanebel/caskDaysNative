@@ -10,6 +10,9 @@ import { Row, Grid } from "react-native-easy-grid";
 import styles from '../global/styles'
 import { Actions } from 'react-native-router-flux'
 
+import beer from './../../beer.json'
+const beerList = beer.beer
+
 class Locations extends Component {
 
   constructor(props) {
@@ -40,6 +43,7 @@ class Locations extends Component {
   render() {
     // TODO this definitely needs to be split up into multiple smaller components or done programmatically ¯\_(ツ)_/¯
     console.log('rendering locations')
+
     return(
       <View style={{ marginTop:62, marginBottom:60 }}>
         <ScrollView>

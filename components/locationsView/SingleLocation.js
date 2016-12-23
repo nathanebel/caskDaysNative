@@ -21,13 +21,13 @@ class Oregon extends Component {
 
         const getColour = () => {
           if (currentBeer.caskNum % 4 === 0 ) {
-              return '#FEE9D0'
+            return '#FEE9D0'
           } else if (currentBeer.caskNum % 4 === 1) {
-              return '#B1DFE1'
+            return '#B1DFE1'
           } else if (currentBeer.caskNum % 4 === 2) {
-              return '#DEECDE'
+            return '#DEECDE'
           } else if (currentBeer.caskNum % 4 === 3) {
-              return '#FACCCC'
+            return '#FACCCC'
           }
         }
 

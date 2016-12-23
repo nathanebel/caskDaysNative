@@ -9,6 +9,8 @@ import { Row, Grid } from "react-native-easy-grid";
 
 import beer from './../../beer.json'
 
+import styles from './../global/styles'
+
 import BreweryBlock from './BreweryBlock'
 
 const beerList = beer.beer
@@ -26,9 +28,24 @@ class Breweries extends Component {
 
     function createBreweryBlocks(elem, index, arr) {
 
+      const getColour = () => {
+        console.log('get colour')
+        console.log(elem)
+        console.log(index)
+        if (index % 4 === 0 ) {
+          return '#FEE9D0'
+        } else if (index % 4 === 1) {
+          return '#B1DFE1'
+        } else if (index % 4 === 2) {
+          return '#DEECDE'
+        } else if (index% 4 === 3) {
+          return '#FACCCC'
+        }
+      }
+
       return(
-        <Row key={index}>
-          <BreweryBlock name={uniqueBreweries[index]} />
+        <Row key={index} style={[ styles.listRow, {flex:1, justifyContent:'center'}]}>
+          <BreweryBlock getBG={getColour()} name={uniqueBreweries[index]} />
         </Row>
         )
     }

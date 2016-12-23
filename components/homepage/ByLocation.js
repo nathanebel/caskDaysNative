@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import {
   Text,
   View,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
+  Image
 } from 'react-native';
 
 import { Actions } from 'react-native-router-flux';
 
-import { Row } from 'react-native-easy-grid'
+import {Column as Col, Row} from 'react-native-flexbox-grid';
 
-import styles from './../global/styles'
+import styles, { winWidth, winHeight} from './../global/styles'
 
 class ByLocation extends Component {
 
@@ -24,13 +25,25 @@ class ByLocation extends Component {
 
   render() {
     return(
+    <View>
       <TouchableWithoutFeedback onPress={this.onButtonPress}>
-          <Row style={ [ styles.homeLarge, { backgroundColor:'#B0DFE2' } ] }>
-            <View>
-              <Text style={ styles.homeLocationText }>Browse by Location</Text>
-            </View>
-          </Row>
+        <Row size={12} style={ [ styles.homeLarge, { flex:1, backgroundColor:'#B1DFE1', alignItems:'center', justifyContent:'center', flexDirection:'row' } ] } >
+          <Col sm={6} md={6} lg={6} style={{ flex:1, backgroundColor:'#B1DFE1', alignItems:'center', justifyContent:'center', left:-15 }}>
+            <Image
+              source={require('./../img/casks.png')}
+              style={{ resizeMode:'contain',
+                width:125,
+                height:100
+              }} />
+          </Col>
+          <Col sm={6} md={6} lg={6} style={{ flex:1, backgroundColor:'#B1DFE1', alignItems:'center', justifyContent:'center', left:-15 }} >
+            <Text style={ styles.homePageButtonText }>
+              BROWSE BY LOCATION
+            </Text>
+          </Col>
+        </Row>
       </TouchableWithoutFeedback>
+    </View>
     )
   }
 }

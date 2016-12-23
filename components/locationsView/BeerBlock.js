@@ -4,6 +4,8 @@ import {
   View,
 } from 'react-native';
 
+import styles from './../global/styles'
+
 import AddOrRemove from './AddOrRemove'
 
 import { Grid, Col, Row  } from 'native-base'
@@ -20,18 +22,19 @@ class BeerBlock extends Component {
 
   render() {
     console.log('creating new block')
+    console.log(this.props)
     let newBeer = this.props.beerData
 
     return(
-      <View style={{paddingTop:60, paddingBottom:60, flex: 1}}>
+      <View style={{paddingTop:25, paddingBottom:25, flex: 1, backgroundColor:this.props.getBG }}>
         <Grid>
-          <Col size={65}>
-            <Text>{newBeer.name}</Text>
-            <Text>{newBeer.brewery}</Text>
-            <Text>{newBeer.caskNum}</Text>
+          <Col style={{marginLeft:15}} size={65}>
+            <Text style={styles.beerBlockName}>{newBeer.name}</Text>
+            <Text style={[styles.beerBlockBrewery, { paddingTop:15, paddingBottom:15} ]}>{newBeer.brewery}</Text>
+            <Text style={[styles.beerBlockCaskNum, { fontStyle:'italic' }]}>{"Cask # " + newBeer.caskNum}</Text>
           </Col>
           <Col size={35} style={{marginRight:0, paddingRight:0}}>
-            <AddOrRemove backgroundColor="#etc" beerData={this.props.beerData} />
+            <AddOrRemove beerData={this.props.beerData} />
           </Col>
         </Grid>
       </View>

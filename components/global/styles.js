@@ -10,11 +10,27 @@ const winHeight = Dimensions.get('window').height - 25
 
 
 const styles = StyleSheet.create({
+  navBar: {
+    backgroundColor: '#07698C', // changing navbar color
+  },
+  navTitle: {
+    color: '#E9F5F1', // changing navbar title color
+  },
+  routerScene: {
+    //
+  },
   container: {
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     backgroundColor:'white',
+  },
+  homePageButtonText: {
+    fontFamily:'Raleway',
+    color:'#5E6465',
+    opacity:0.95,
+    fontWeight:'500',
+    letterSpacing:1.5
   },
   halfHeight: {
     flex: .5,
@@ -48,23 +64,28 @@ const styles = StyleSheet.create({
     paddingRight:0,
     backgroundColor:'transparent',
   },
+  beerBlockName:{
+    fontFamily:'Raleway',
+    fontWeight:'600',
+  },
+  beerBlockBrewery:{
+    fontFamily:'Raleway',
+    fontWeight:'400',
+  },
+  beerBlockCaskNum:{
+    fontFamily:'Raleway',
+    fontWeight:'400',
+    fontStyle:'italic'
+  },
   listRow:{
     height:winHeight / 7
   },
   locationText: {
     textAlign:'center',
     lineHeight: winHeight / 7,
-    fontWeight:'200',
     fontSize:32,
-  },
-  navbar: {
-    top: winHeight - winHeight / 10,
-    left: 0,
-    position: 'absolute',
-    width:winWidth,
-    height:winHeight / 10,
-    backgroundColor:'#07698C',
-    alignItems: 'center'
+    fontFamily:'Raleway',
+    fontWeight:'300',
   },
   navButton: {
     fontSize: 30,
