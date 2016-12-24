@@ -18,16 +18,22 @@ class BeerBlock extends Component {
     super(props)
   }
 
+  componentDidUpdate() {
+   // console.log('beerBlock update')
+  }
+
+  componentDidRender() {
+   // console.log('rendering beerblock')
+  }
+
   // todo check if this block's beer is currently selected, then render either the Add or Remove
 
   render() {
-    console.log('creating new block')
-    console.log(this.props)
     let newBeer = this.props.beerData
 
     return(
-      <View style={{paddingTop:25, paddingBottom:25, flex: 1, backgroundColor:this.props.getBG }}>
-        <Grid>
+      <View style={{ flex: 1, backgroundColor:this.props.getBG }}>
+        <Grid style={{ marginTop:15, marginBottom:15 }}>
           <Col style={{marginLeft:15}} size={65}>
             <Text style={styles.beerBlockName}>{newBeer.name}</Text>
             <Text style={[styles.beerBlockBrewery, { paddingTop:15, paddingBottom:15} ]}>{newBeer.brewery}</Text>

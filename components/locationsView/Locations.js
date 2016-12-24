@@ -42,10 +42,9 @@ class Locations extends Component {
 
   render() {
     // TODO this definitely needs to be split up into multiple smaller components or done programmatically ¯\_(ツ)_/¯
-    console.log('rendering locations')
 
     return(
-      <View style={{ marginTop:62, marginBottom:60 }}>
+      <View style={{ marginTop:62, marginBottom:50}}>
         <ScrollView>
           <Grid>
             <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>

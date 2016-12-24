@@ -3,7 +3,8 @@ export const addBeer = (beerData) => {
     type: 'ADD_BEER',
     name: beerData.name,
     brewery: beerData.brewery,
-    caskNum: beerData.caskNum
+    caskNum: beerData.caskNum,
+    section: beerData.section
   }
 }
 

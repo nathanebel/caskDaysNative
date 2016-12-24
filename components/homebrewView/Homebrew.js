@@ -17,16 +17,28 @@ class Homebrew extends Component {
 
   render() {
 
-    let getBeers = beerList.map(function(currentBeer, index) {
-
+    const getBeers = beerList.map(function(currentBeer, index) {
       if( currentBeer.section === 'Homebrew' ) {
-        return <BeerBlock key={index} beerData={beerList[index]} />
+
+        const getColour = () => {
+          if (currentBeer.caskNum % 4 === 0 ) {
+            return '#FEE9D0'
+          } else if (currentBeer.caskNum % 4 === 1) {
+            return '#B1DFE1'
+          } else if (currentBeer.caskNum % 4 === 2) {
+            return '#DEECDE'
+          } else if (currentBeer.caskNum % 4 === 3) {
+            return '#FACCCC'
+          }
+        }
+
+        return <BeerBlock getBG={getColour()} key={index} beerData={currentBeer} />
       }
-    }, this)
+    })
 
     return(
-      <View style={{marginTop:62}}>
-        <ScrollView>
+      <View>
+        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>
       </View>

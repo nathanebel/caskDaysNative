@@ -29,9 +29,6 @@ class Breweries extends Component {
     function createBreweryBlocks(elem, index, arr) {
 
       const getColour = () => {
-        console.log('get colour')
-        console.log(elem)
-        console.log(index)
         if (index % 4 === 0 ) {
           return '#FEE9D0'
         } else if (index % 4 === 1) {

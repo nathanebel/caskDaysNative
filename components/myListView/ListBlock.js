@@ -19,12 +19,13 @@ class ListBlock extends Component {
   }
 
   render() {
-    console.log(this)
+    console.log(this.props.data)
     let beer = this.props.data
 
     return(
       <View style={styles.listRow}>
         <Text>{ beer.name }</Text>
+        <Text>{ beer.brewery } </Text>
         <Button onPress={() => { this.props.onRemoveClick(beer) }}>
           Remove
         </Button>

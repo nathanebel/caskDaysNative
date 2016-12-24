@@ -37,7 +37,7 @@ class Ontario extends Component {
 
     return(
       <View>
-        <ScrollView style={{ marginTop:62 }}>
+        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>
       </View>

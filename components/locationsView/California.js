@@ -9,6 +9,7 @@ import BeerBlock from './BeerBlock'
 const beerList = beer.beer
 
 class California extends Component {
+  // todo these locations can totally be consolidated to 1 component and this makes me sick.
 
   constructor(props) {
     super(props)
@@ -37,7 +38,7 @@ class California extends Component {
 
     return(
       <View>
-        <ScrollView style={{ marginTop:62 }}>
+        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>
       </View>

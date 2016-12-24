@@ -91,7 +91,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: '#E9F5F1',
     textAlign:'center',
-    paddingTop: 5
   },
   header: {
     height: winHeight / 10,

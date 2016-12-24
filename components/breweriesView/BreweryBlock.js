@@ -14,12 +14,9 @@ class BreweryBlock extends Component {
   constructor(props) {
     super(props)
     this.onButtonPress = this.onButtonPress.bind(this)
-    console.log('brewery block')
-    console.log(this.props)
   }
 
   onButtonPress(target) {
-    console.log('pressed')
     Actions.BreweryIndividual(target)
   }
 
