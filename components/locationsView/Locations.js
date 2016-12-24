@@ -17,10 +17,9 @@ class Locations extends Component {
 
   constructor(props) {
     super(props)
-    this.onButtonPress = this.onButtonPress.bind(this)
   }
   
-  onButtonPress(target) {
+  onButtonPress = (target) => {
       console.log('pressed')
     if(target === 'British Columbia') {
       Actions.BritishColumbia()

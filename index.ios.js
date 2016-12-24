@@ -98,10 +98,9 @@ export default class caskDaysRedux extends Component {
             >
               <Scene key="Home" title="HOME" icon={TabIcon}>
                 <Scene
-                  navBar={false}
                   key="homePage"
                   component={HomePage}
-                  title="CASK DAYS"
+                  title="Cask Days"
                 />
                 <Scene key="Locations" title="Locations"
                        component={Locations}

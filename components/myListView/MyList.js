@@ -23,19 +23,31 @@ class MyList extends Component {
       // Push into beerIDs > reference beerList[caskNum] maybe thats faster than doing the whole map thanggggg
       })
 
-
     let getList = selectedBeers.map(function (currentBeer, index) {
       console.log('beer IDs')
       console.log(beerIDs)
 
+      const getColour = () => {
+        if (currentBeer.caskNum % 4 === 0 ) {
+          return '#FEE9D0'
+        } else if (currentBeer.caskNum % 4 === 1) {
+          return '#B1DFE1'
+        } else if (currentBeer.caskNum % 4 === 2) {
+          return '#DEECDE'
+        } else if (currentBeer.caskNum % 4 === 3) {
+          return '#FACCCC'
+        }
+      }
+
       return <ListBlock
                 data={currentBeer}
                 key={index}
+                getBG={getColour()}
               />
     })
 
     return (
-      <View style={{paddingTop: 62}}>
+      <View style={{paddingTop: 62, paddingBottom:50}}>
         <ScrollView>
             { getList }
         </ScrollView>

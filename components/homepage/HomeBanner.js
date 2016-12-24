@@ -27,19 +27,18 @@ class HomePage extends Component {
     const nav = this.props.navigator
     return(
       <View style={{ marginTop:62 }}>
+        <ByLocation target='Locations' navigator={nav} />
+        <ByBrewery target='Breweries' navigator={nav} />
+        <ByStyle target='Styles' navigator={nav} />
 
-          <ByLocation target='Locations' navigator={nav} />
-          <ByBrewery target='Breweries' navigator={nav} />
-          <ByStyle target='Styles' navigator={nav} />
+        <Row style={styles.homeHalfWidthContainer}>
 
-          <Row style={styles.homeHalfWidthContainer}>
+          <ByCider target='Cider' navigator={nav} />
+          <Homebrew target='Homebrew' navigator={nav} />
 
-            <ByCider target='Cider' navigator={nav} />
-            <Homebrew target='Homebrew' navigator={nav} />
+        </Row>
 
-          </Row>
-
-          <IPAChallenge target='IPAs' navigator={nav} />
+        <IPAChallenge target='IPAs' navigator={nav} />
       </View>
     )
   }
