@@ -1,0 +1,5 @@
+todo add info page content (map, food, transit? location, transit? cost?)
+todo rotation animations for + / x on beerBlocks
+todo removal animations for myList
+todo replace some of the .maps with indexOf / splice magic
+todo maybe make a dummy 'styles' page even if we arent going to label the json?

@@ -8,6 +8,10 @@ import {
 import beer from './../../beer.json'
 const beerList = beer.beer
 
+import Dimensions from 'Dimensions'
+
+import  winHeight  from './../global/styles'
+
 import ListBlock from './ListBlock'
 
 import { connect } from 'react-redux'
@@ -47,7 +51,7 @@ class MyList extends Component {
     })
 
     return (
-      <View style={{paddingTop: 62, paddingBottom:50}}>
+      <View style={{paddingTop: 62, paddingBottom:50, backgroundColor:'#D5E8F0', height:Dimensions.get('window').height, }}>
         <ScrollView>
             { getList }
         </ScrollView>
