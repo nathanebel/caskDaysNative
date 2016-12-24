@@ -12,7 +12,7 @@ We'll see how this evolves, since I'm still getting the hang of React Native. If
 
 For the record I'm not associated with Cask Days. Just a big fan who wanted to build something fun.
 
-Status report - December 22
+Status report - December 23
 
 - Made more consistent styling between beerBlocks and myList -> listBlocks
 
