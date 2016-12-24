@@ -23,6 +23,37 @@ class ListBlock extends Component {
 
   constructor(props) {
     super(props)
+    this.getLocation = this.getLocation.bind(this)
+  }
+
+  getLocation() {
+    // creating a switch etc to grab the caskNum and return the location
+    let beer = this.props.data.caskNum
+
+    if(beer > 0 && beer < 50   ) {
+      console.log('yep')
+      return "Oregon"
+    } else if(beer > 49 && beer < 78) {
+      // Cali
+      return "California"
+    } else if(beer > 77 && beer < 105) {
+      // New York
+      return "New York"
+    } else if(beer > 104 && beer < 126) {
+      // Maritimes
+      return "Maritimes"
+    } else if(beer > 125 && beer < 155) {
+      // BC
+      return "British Columbia"
+    } else if(beer > 155 && beer < 208) {
+      // quebec
+      return "Quebec"
+    } else if(beer > 207 && beer < 336) {
+      // ontario
+      return "Ontario"
+    } else {
+      console.log('nope')
+    }
   }
 
   render() {
@@ -36,7 +67,8 @@ class ListBlock extends Component {
             <View style={{ flex:1, justifyContent:'center' }}>
               <Text style={styles.beerBlockName}>{ beer.name }</Text>
               <Text style={[styles.beerBlockBrewery, { paddingTop:15, paddingBottom:15}]}>{ beer.brewery } </Text>
-              <Text style={styles.beerBlockCaskNum}>{"Cask Num #" + beer.caskNum }</Text>
+              <Text style={styles.beerBlockCaskNum}>{"Cask # " + beer.caskNum + " (" + this.getLocation() +  ")" }</Text>
+              <Text></Text>
             </View>
           </Col>
           <Col style={{ marginLeft:15 }} size={35}>
