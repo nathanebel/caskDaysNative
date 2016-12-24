@@ -14,11 +14,11 @@ For the record I'm not associated with Cask Days. Just a big fan who wanted to b
 
 Status report - December 22
 
-- Added colour pattern loops, lots of styling
+- Made more consistent styling between beerBlocks and myList -> listBlocks
 
-[Click here for high-res gfycat](https://gfycat.com/MemorableNeatAurochs)
+[Click here for high-res gfycat](https://gfycat.com/PositiveSeparateAurochs)
 
-![gif of current state](https://thumbs.gfycat.com/MemorableNeatAurochs-size_restricted.gif)
+![gif of current state](https://thumbs.gfycat.com/PositiveSeparateAurochs-size_restricted.gif)
 
 Rough mocks -
 
