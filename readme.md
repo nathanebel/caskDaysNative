@@ -12,13 +12,13 @@ We'll see how this evolves, since I'm still getting the hang of React Native. If
 
 For the record I'm not associated with Cask Days. Just a big fan who wanted to build something fun.
 
-Status report - December 23
+Status report - December 25
 
-- Made more consistent styling between beerBlocks and myList -> listBlocks
+- Made styling more consistent across the app, added an empty state for the myList component. Fixed styling error where long brewery names were not wrapping.
 
-[Click here for high-res gfycat](https://gfycat.com/PositiveSeparateAurochs)
+[Click here for high-res gfycat](https://gfycat.com/NiceGracefulGlowworm)
 
-![gif of current state](https://thumbs.gfycat.com/PositiveSeparateAurochs-size_restricted.gif)
+![gif of current state](https://thumbs.gfycat.com/NiceGracefulGlowworm-size_restricted.gif)
 
 Rough mocks -
 
