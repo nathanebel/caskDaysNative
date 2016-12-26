@@ -15,8 +15,7 @@ class EmptyList extends Component {
     return(
       <View style={ styles.emptyListContainer }>
         <Text style={[ styles.emptyListText, { marginTop:50}] }>You haven't added any beers yet!</Text>
-        <Text style={[styles.emptyListText, {marginTop:10, marginBottom:10}]}>To get started, click 'Browse' in the bottom menu </Text>
-        <Text style={styles.emptyListText}>Enjoy!</Text>
+        <Text style={[styles.emptyListText, {marginTop:10, marginBottom:30}]}>To get started, click 'Browse' in the bottom menu </Text>
 
         <Image source={require("./../img/chug.png")} style={{ height:450, resizeMode:'contain', top:25 }} />
       </View>

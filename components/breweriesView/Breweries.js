@@ -48,8 +48,8 @@ class Breweries extends Component {
     }
 
     return(
-      <View style={[styles.viewBG, { marginTop:62, marginBottom:50 }]}>
-        <ScrollView>
+      <View style={[styles.viewBG, { marginTop:62 }]}>
+        <ScrollView style={{  marginBottom:50 }}>
           <Grid>
               { uniqueBreweries.map(createBreweryBlocks) }
           </Grid>

@@ -4,11 +4,7 @@ import {
   View
 } from 'react-native';
 
-import TabOne from './FoodTab'
-import TabTwo from './LocationTab'
-import TokensTab from './TokensTab'
-
-import { Container, Content, Tabs } from 'native-base'
+import { Row, Grid } from "react-native-easy-grid";
 
 import styles from '../global/styles'
 
@@ -18,18 +14,17 @@ class Info extends Component {
     super(props)
   }
 
-    render() {
-      return (
-        <Container>
-          <Content>
-            <Tabs>
-              <TabOne tabLabel='One' />
-              <TabTwo tabLabel='Two' />
-            </Tabs>
-          </Content>
-        </Container>
-      );
-    }
+  render() {
+    return(
+      <View style={[ styles.viewBG, { marginTop:62 }]}>
+        <Grid>
+          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
+            <Text>Hello Info</Text>
+          </Row>
+        </Grid>
+      </View>
+    )
+  }
 }
 
 export default Info

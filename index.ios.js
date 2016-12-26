@@ -60,11 +60,22 @@ const add = (<Icon name="plus" size={30} color="#900" />)
 const getIcons = (title) => {
   switch(title) {
     case 'Browse' :
-      return <Icon style={{ height:25 }} name="ios-beer" size={25} color="#E9F5F1" />
+      return <Icon style={{ height:25 }} name="ios-beer" size={25} color='#E9F5F1'/>
     case 'My List' :
-      return <Icon style={{ height:25 }} name="md-clipboard" size={25} color="#E9F5F1" />
+      return <Icon style={{ height:25 }} name="md-clipboard" size={25} color='#E9F5F1'/>
     case 'Info' :
-      return <Icon style={{ height:25 }} name="ios-map-outline" size={25} color="#E9F5F1" />
+      return <Icon style={{ height:25 }} name="ios-map-outline" size={25} color='#E9F5F1'/>
+  }
+}
+
+const getSelectedIcons = (title) => {
+  switch(title) {
+    case 'Browse' :
+      return <Icon style={{ height:25 }} name="ios-beer" size={25} color='#FACCCC'/>
+    case 'My List' :
+      return <Icon style={{ height:25 }} name="md-clipboard" size={25} color='#FACCCC'/>
+    case 'Info' :
+      return <Icon style={{ height:25 }} name="ios-map-outline" size={25} color='#FACCCC'/>
   }
 }
 
@@ -75,8 +86,8 @@ const TabIcon = ({selected, title}) => {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center', }}>
-      {getIcons(title)}
-      <Text style={{ textAlign:'center', color:'#E9F5F1', marginBottom:0, paddingBottom:0, fontFamily:'Raleway', fontWeight:'500', letterSpacing:1, fontSize:11, top:2.5, }} >
+      {selected ? getSelectedIcons(title) : getIcons(title)}
+      <Text style={{ textAlign:'center', color:selected ? '#FACCCC' : '#E9F5F1' , marginBottom:0, paddingBottom:0, fontFamily:'Raleway', fontWeight:'500', letterSpacing:1, fontSize:11, top:2.5, }} >
         {title}
       </Text>
     </View>
