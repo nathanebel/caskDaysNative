@@ -41,7 +41,7 @@ class Breweries extends Component {
       }
 
       return(
-        <Row key={index} style={[ styles.listRow, {flex:1, justifyContent:'center'}]}>
+        <Row key={index} style={[ {flex:1, justifyContent:'center'}]}>
           <BreweryBlock getBG={getColour()} name={uniqueBreweries[index]} />
         </Row>
         )

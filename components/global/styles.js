@@ -93,6 +93,12 @@ const styles = StyleSheet.create({
     fontFamily:'Raleway',
     fontWeight:'300',
   },
+  breweryText: {
+    textAlign:'center',
+    fontSize:25,
+    fontFamily:'Raleway',
+    fontWeight:'300',
+  },
   navButton: {
     fontSize: 30,
     color: '#E9F5F1',
