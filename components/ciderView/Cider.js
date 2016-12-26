@@ -6,6 +6,8 @@ import {
 
 import BeerBlock from './../locationsView/BeerBlock'
 
+import styles from './../global/styles'
+
 import beer from './../../beer.json'
 const beerList = beer.beer
 
@@ -38,7 +40,7 @@ class Cider extends Component {
 
     return(
       <View>
-        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
+        <ScrollView style={[styles.viewBG, { marginTop:62, marginBottom:50 }]}>
           { getBeers }
         </ScrollView>
       </View>

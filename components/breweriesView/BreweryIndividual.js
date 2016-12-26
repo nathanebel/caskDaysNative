@@ -12,6 +12,8 @@ import BeerBlock from './../locationsView/BeerBlock'
 import beer from './../../beer.json'
 const beerList = beer.beer
 
+import styles from './../global/styles'
+
 class BreweryBlock extends Component {
 
   // need to fetch brewery name from props, then show only beers with relevant brewery name
@@ -48,7 +50,7 @@ class BreweryBlock extends Component {
     }, this)
 
     return(
-      <View style={{ marginTop:62 }}>
+      <View style={[ styles.viewBG, { marginTop:62 }]}>
         <ScrollView>
           { getBeers }
         </ScrollView>

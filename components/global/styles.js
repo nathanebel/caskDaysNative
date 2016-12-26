@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
   routerScene: {
     //
   },
+  viewBG:{
+    backgroundColor:'#D5E8F0'
+  },
   container: {
     flex: 1,
     justifyContent: 'flex-start',

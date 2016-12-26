@@ -42,7 +42,7 @@ class Locations extends Component {
     // TODO this definitely needs to be split up into multiple smaller components or done programmatically ¯\_(ツ)_/¯
 
     return(
-      <View style={{ marginTop:62, marginBottom:50, backgroundColor:'#D6E8EF'}}>
+      <View style={[ styles.viewBG, { marginTop:62, marginBottom:50}]}>
         <ScrollView>
           <Grid>
             <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>

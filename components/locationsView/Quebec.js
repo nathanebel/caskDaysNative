@@ -8,6 +8,8 @@ import beer from './../../beer.json'
 import BeerBlock from './BeerBlock'
 const beerList = beer.beer
 
+import styles from './../global/styles'
+
 class Quebec extends Component {
 
   constructor(props) {
@@ -36,7 +38,7 @@ class Quebec extends Component {
     })
 
     return(
-      <View style={{ backgroundColor:'#D6E8EF' }}>
+      <View style={styles.listView}>
         <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>

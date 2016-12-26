@@ -25,7 +25,7 @@ class BreweryBlock extends Component {
     return(
       <Row style={[ { width:winWidth, backgroundColor:this.props.getBG, paddingTop:25, paddingBottom:25 }]}>
         <TouchableWithoutFeedback style={{ backgroundColor:'red' }} onPress={() => this.onButtonPress(this.props.name)}>
-          <View>
+          <View style={{ paddingLeft:15, paddingRight:15 }}>
             <Text style={styles.breweryText} >{this.props.name}</Text>
           </View>
         </TouchableWithoutFeedback>

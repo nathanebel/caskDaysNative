@@ -8,6 +8,8 @@ import beer from './../../beer.json'
 import BeerBlock from './BeerBlock'
 const beerList = beer.beer
 
+import styles from './../global/styles'
+
 class California extends Component {
   // todo these locations can totally be consolidated to 1 component and this makes me sick.
 
@@ -37,7 +39,7 @@ class California extends Component {
     })
 
     return(
-      <View style={{ backgroundColor:'#D6E8EF' }}>
+      <View style={styles.viewBG}>
         <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>

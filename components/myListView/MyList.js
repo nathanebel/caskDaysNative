@@ -8,6 +8,8 @@ import {
 import beer from './../../beer.json'
 const beerList = beer.beer
 
+import styles from './../global/styles'
+
 import Dimensions from 'Dimensions'
 
 import ListBlock from './ListBlock'
@@ -49,7 +51,7 @@ class MyList extends Component {
     })
 
     return (
-      <View style={{paddingTop: 62, paddingBottom:50, backgroundColor:'#D5E8F0', height:Dimensions.get('window').height, }}>
+      <View style={[styles.viewBG,{paddingTop: 62, paddingBottom:50, backgroundColor:'#D5E8F0', height:Dimensions.get('window').height, }]}>
         <ScrollView>
             { selectedBeers.length > 0 ? getList : <EmptyList /> }
         </ScrollView>
