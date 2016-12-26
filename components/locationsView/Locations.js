@@ -20,7 +20,6 @@ class Locations extends Component {
   }
   
   onButtonPress = (target) => {
-      console.log('pressed')
     if(target === 'British Columbia') {
       Actions.BritishColumbia()
     } else if(target === 'Oregon') {
@@ -43,7 +42,7 @@ class Locations extends Component {
     // TODO this definitely needs to be split up into multiple smaller components or done programmatically ¯\_(ツ)_/¯
 
     return(
-      <View style={{ marginTop:62, marginBottom:50}}>
+      <View style={{ marginTop:62, marginBottom:50, backgroundColor:'#D6E8EF'}}>
         <ScrollView>
           <Grid>
             <Row style={[ styles.listRow, { backgroundColor:'#B0DFE2'}]}>

@@ -4,7 +4,11 @@ import {
   View
 } from 'react-native';
 
-import { Row, Grid } from "react-native-easy-grid";
+import TabOne from './FoodTab'
+import TabTwo from './LocationTab'
+import TokensTab from './TokensTab'
+
+import { Container, Content, Tabs } from 'native-base'
 
 import styles from '../global/styles'
 
@@ -14,18 +18,18 @@ class Info extends Component {
     super(props)
   }
 
-  render() {
-    console.log('rendering locations')
-    return(
-      <View>
-        <Grid>
-          <Row style={[ styles.homeLarge, { backgroundColor:'#B0DFE2'}]}>
-            <Text>Hello Info</Text>
-          </Row>
-        </Grid>
-      </View>
-    )
-  }
+    render() {
+      return (
+        <Container>
+          <Content>
+            <Tabs>
+              <TabOne tabLabel='One' />
+              <TabTwo tabLabel='Two' />
+            </Tabs>
+          </Content>
+        </Container>
+      );
+    }
 }
 
 export default Info

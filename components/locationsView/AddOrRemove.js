@@ -24,10 +24,6 @@ class AddOrRemove extends Component {
     super(props)
   }
 
-  componentWillUpdate() {
-    console.log('i am updating')
-  }
-
   render() {
     let beers = this.props.selectedBeers
     let newBeer = this.props.beerData

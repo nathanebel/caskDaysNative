@@ -26,7 +26,7 @@ class HomePage extends Component {
   render() {
     const nav = this.props.navigator
     return(
-      <View style={{ marginTop:62 }}>
+      <View style={{ marginTop:62, backgroundColor:'#D6E8EF' }}>
 
           <ByLocation target='Locations' navigator={nav} />
           <ByBrewery target='Breweries' navigator={nav} />

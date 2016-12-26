@@ -59,11 +59,11 @@ const add = (<Icon name="plus" size={30} color="#900" />)
 
 const getIcons = (title) => {
   switch(title) {
-    case 'HOME' :
+    case 'Browse' :
       return <Icon style={{ height:25 }} name="ios-beer" size={25} color="#E9F5F1" />
-    case 'MY LIST' :
+    case 'My List' :
       return <Icon style={{ height:25 }} name="md-clipboard" size={25} color="#E9F5F1" />
-    case 'INFO' :
+    case 'Info' :
       return <Icon style={{ height:25 }} name="ios-map-outline" size={25} color="#E9F5F1" />
   }
 }
@@ -76,7 +76,9 @@ const TabIcon = ({selected, title}) => {
       justifyContent: 'center',
       alignItems: 'center', }}>
       {getIcons(title)}
-      <Text style={{ textAlign:'center', color:'#E9F5F1', marginBottom:0, paddingBottom:0, fontFamily:'Raleway', fontWeight:'500', letterSpacing:1, fontSize:11, top:2.5, }} >{title}</Text>
+      <Text style={{ textAlign:'center', color:'#E9F5F1', marginBottom:0, paddingBottom:0, fontFamily:'Raleway', fontWeight:'500', letterSpacing:1, fontSize:11, top:2.5, }} >
+        {title}
+      </Text>
     </View>
 
   )
@@ -96,7 +98,7 @@ export default class caskDaysRedux extends Component {
               tabs={true}
               tabBarStyle={{backgroundColor: '#07698C'}}
             >
-              <Scene key="Home" title="HOME" icon={TabIcon}>
+              <Scene key="Home" title="Browse" icon={TabIcon}>
                 <Scene
                   key="homePage"
                   component={HomePage}
@@ -173,22 +175,22 @@ export default class caskDaysRedux extends Component {
                 />
               </Scene>
 
-              <Scene key="myList" title="MY LIST" icon={TabIcon}>
+              <Scene key="myList" title="My List" icon={TabIcon}>
                 <Scene
                   key="myListHome"
                   component={MyList}
-                  title="MY LIST"
+                  title="My List"
                   initial={true}
                   leftButtonIconStyle = {{ tintColor:'#E9F5F1'}}
                 />
               </Scene>
 
-              <Scene key="info" title="INFO" icon={TabIcon}>
+              <Scene key="info" title="Info" icon={TabIcon}>
                 <Scene
                   key="infoHome"
                   component={Info}
                   leftButtonIconStyle = {{ tintColor:'#E9F5F1'}}
-                  title="INFO"
+                  title="Info"
                 />
               </Scene>
             </Scene>

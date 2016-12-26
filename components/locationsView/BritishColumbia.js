@@ -36,7 +36,7 @@ class BritishColumbia extends Component {
     })
 
     return(
-      <View>
+      <View style={{ backgroundColor:'#D6E8EF' }}>
         <ScrollView style={{ marginTop:62, marginBottom:50 }}>
           { getBeers }
         </ScrollView>

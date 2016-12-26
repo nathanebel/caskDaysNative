@@ -10,9 +10,9 @@ const beerList = beer.beer
 
 import Dimensions from 'Dimensions'
 
-import  winHeight  from './../global/styles'
-
 import ListBlock from './ListBlock'
+
+import EmptyList from './EmptyList'
 
 import { connect } from 'react-redux'
 
@@ -28,8 +28,6 @@ class MyList extends Component {
       })
 
     let getList = selectedBeers.map(function (currentBeer, index) {
-      console.log('beer IDs')
-      console.log(beerIDs)
 
       const getColour = () => {
         if (currentBeer.caskNum % 4 === 0 ) {
@@ -53,7 +51,7 @@ class MyList extends Component {
     return (
       <View style={{paddingTop: 62, paddingBottom:50, backgroundColor:'#D5E8F0', height:Dimensions.get('window').height, }}>
         <ScrollView>
-            { getList }
+            { selectedBeers.length > 0 ? getList : <EmptyList /> }
         </ScrollView>
       </View>
     )

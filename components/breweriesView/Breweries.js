@@ -26,7 +26,7 @@ class Breweries extends Component {
     const uniqueBreweries = [...new Set(beerList.map(item => item.brewery))];
     const breweriesSorted = uniqueBreweries.sort()
 
-    function createBreweryBlocks(elem, index, arr) {
+    const createBreweryBlocks = (elem, index) => {
 
       const getColour = () => {
         if (index % 4 === 0 ) {
@@ -48,7 +48,7 @@ class Breweries extends Component {
     }
 
     return(
-      <View style={{ marginTop:62, marginBottom:62 }}>
+      <View style={{ marginTop:62, marginBottom:50 }}>
         <ScrollView>
           <Grid>
               { uniqueBreweries.map(createBreweryBlocks) }

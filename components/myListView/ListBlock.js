@@ -31,7 +31,6 @@ class ListBlock extends Component {
     let beer = this.props.data.caskNum
 
     if(beer > 0 && beer < 50   ) {
-      console.log('yep')
       return "Oregon"
     } else if(beer > 49 && beer < 78) {
       // Cali
@@ -51,13 +50,16 @@ class ListBlock extends Component {
     } else if(beer > 207 && beer < 336) {
       // ontario
       return "Ontario"
-    } else {
-      console.log('nope')
+    } else if(beer > 336 && beer < 355) {
+      return "Homebrew"
+    } else if(beer > 354 && beer <  410 ) {
+      return "Cider"
+    } else if(beer > 410 && beer < 441) {
+      return "IPA Challenge"
     }
   }
 
   render() {
-    console.log(this.props.data)
     let beer = this.props.data
 
     return(
@@ -68,7 +70,6 @@ class ListBlock extends Component {
               <Text style={styles.beerBlockName}>{ beer.name }</Text>
               <Text style={[styles.beerBlockBrewery, { paddingTop:15, paddingBottom:15}]}>{ beer.brewery } </Text>
               <Text style={styles.beerBlockCaskNum}>{"Cask # " + beer.caskNum + " (" + this.getLocation() +  ")" }</Text>
-              <Text></Text>
             </View>
           </Col>
           <Col style={{ marginLeft:15 }} size={35}>

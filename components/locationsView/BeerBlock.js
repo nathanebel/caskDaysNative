@@ -18,14 +18,6 @@ class BeerBlock extends Component {
     super(props)
   }
 
-  componentDidUpdate() {
-   // console.log('beerBlock update')
-  }
-
-  componentDidRender() {
-   // console.log('rendering beerblock')
-  }
-
   // todo check if this block's beer is currently selected, then render either the Add or Remove
 
   render() {

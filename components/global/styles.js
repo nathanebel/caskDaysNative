@@ -2,8 +2,6 @@ import { StyleSheet } from 'react-native'
 
 import Dimensions from 'Dimensions'
 
-console.log(Dimensions.get('window'))
-
 const winWidth = Dimensions.get('window').width
 const winHeight = Dimensions.get('window').height - 25
 
@@ -79,6 +77,14 @@ const styles = StyleSheet.create({
   },
   listRow:{
     height:winHeight / 7
+  },
+  emptyListContainer:{
+    justifyContent:'center',
+    alignItems:'center'
+},
+  emptyListText:{
+  fontFamily:'Raleway',
+    fontWeight:'400'
   },
   locationText: {
     textAlign:'center',
