@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   View,
   ScrollView,
-  Text
+  Text,
+  Image
 } from 'react-native';
 
 import styles from './../global/styles'
@@ -16,6 +17,8 @@ class EmptyList extends Component {
         <Text style={[ styles.emptyListText, { marginTop:50}] }>You haven't added any beers yet!</Text>
         <Text style={[styles.emptyListText, {marginTop:10, marginBottom:10}]}>To get started, click 'Browse' in the bottom menu </Text>
         <Text style={styles.emptyListText}>Enjoy!</Text>
+
+        <Image source={require("./../img/chug.png")} style={{ height:450, resizeMode:'contain', top:25 }} />
       </View>
 
     )

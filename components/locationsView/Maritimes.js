@@ -38,8 +38,8 @@ class Maritimes extends Component {
     })
 
     return(
-      <View style={{ backgroundColor:'#D6E8EF' }}>
-        <ScrollView style={[styles.viewBG, { marginTop:62, marginBottom:50 }]}>
+      <View style={styles.viewBG}>
+        <ScrollView style={styles.locationListContainer}>
           { getBeers }
         </ScrollView>
       </View>

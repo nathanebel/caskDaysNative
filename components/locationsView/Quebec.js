@@ -39,7 +39,7 @@ class Quebec extends Component {
 
     return(
       <View style={styles.listView}>
-        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
+        <ScrollView style={styles.locationListContainer}>
           { getBeers }
         </ScrollView>
       </View>

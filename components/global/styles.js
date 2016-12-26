@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
     //
   },
   viewBG:{
-    backgroundColor:'#D5E8F0'
+    backgroundColor:'#D5E8F0',
+    height: winHeight,
   },
   container: {
     flex: 1,
@@ -95,6 +96,9 @@ const styles = StyleSheet.create({
     fontSize:32,
     fontFamily:'Raleway',
     fontWeight:'300',
+  },
+  locationListContainer:{
+    marginTop:62, marginBottom:25
   },
   breweryText: {
     textAlign:'center',

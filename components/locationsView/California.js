@@ -40,7 +40,7 @@ class California extends Component {
 
     return(
       <View style={styles.viewBG}>
-        <ScrollView style={{ marginTop:62, marginBottom:50 }}>
+        <ScrollView style={styles.locationListContainer}>
           { getBeers }
         </ScrollView>
       </View>
