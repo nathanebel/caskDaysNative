@@ -22,7 +22,7 @@ class Info extends Component {
         <Grid>
           <Row style={[ styles.infoRow, { backgroundColor:'#B0DFE2'}]}>
             <Text style={styles.infoRowHeader}>FESTIVAL</Text>
-            <Text style={[styles.infoRowParagraph, { marginTop:10 }]}>
+            <Text style={[styles.infoRowParagraph,]}>
               The 12th Annual Cask Days Cask-Conditioned Beer Festival takes place October 21st to Sunday, October 23rd, 2016 at Evergreen Brickworks in Toronto, Ontario.
               </Text>
             <Text style={[styles.infoRowParagraph, { marginTop:10 }]}>
