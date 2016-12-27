@@ -115,8 +115,8 @@ const styles = StyleSheet.create({
   infoRow:{
     paddingLeft:15,
     paddingRight:15,
-    paddingTop:25,
-    paddingBottom:25
+    paddingTop:15,
+    paddingBottom:15
   },
   infoRowHeader:{
     paddingBottom:10,

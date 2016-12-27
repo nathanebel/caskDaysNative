@@ -52,7 +52,10 @@ class Info extends Component {
               There will be a variety of 50 beers and ciders available from Oregon State that are available for the first time in Ontario.
             </Text>
           </Row>
-          <Row style={[ styles.infoRow,  { backgroundColor:'#FEE9D0', marginBottom:50}]}>
+          <Row>
+            <Image source={require('./../img/brews.jpg')} style={styles.infoRowImage} />
+          </Row>
+          <Row style={[ styles.infoRow,  { backgroundColor:'#FEE9D0'}]}>
             <Text style={styles.infoRowHeader}>REAL FOOD & REAL ALE</Text>
             <Text style={styles.infoRowParagraph}>
               Cask Days gathers some of Toronto’s most admired chef’s and top restaurants to compliment real food with real ale. </Text>
@@ -60,6 +63,10 @@ class Info extends Component {
               This year the festival welcomes Lardo Sandwiches from Portland, Oregon as the international feature vendor.
             </Text>
           </Row>
+          <Row style={{ marginBottom:50 }}>
+            <Image source={require('./../img/food.jpg')} style={styles.infoRowImage} />
+          </Row>
+
         </Grid>
       </ScrollView>
     )
