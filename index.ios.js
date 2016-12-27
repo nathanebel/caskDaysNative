@@ -100,6 +100,12 @@ export default class caskDaysRedux extends Component {
 
   render() {
 
+    const homeTitleColourChange = () => {
+      console.log('home title')
+      console.log(this)
+      return "#000"
+    }
+
     return (
       <Provider store={store}>
         <Router navigationBarStyle={styles.navBar} titleStyle={styles.navTitle} sceneStyle={styles.routerScene}>

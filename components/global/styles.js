@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   },
   navTitle: {
     color: '#E9F5F1', // changing navbar title color
+
   },
   routerScene: {
     //
@@ -110,6 +111,31 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: '#E9F5F1',
     textAlign:'center',
+  },
+  infoRow:{
+    paddingLeft:15,
+    paddingRight:15,
+    paddingTop:25,
+    paddingBottom:25
+  },
+  infoRowHeader:{
+    paddingBottom:10,
+    fontFamily:'Raleway',
+    textAlign:'left',
+    letterSpacing:1,
+    fontWeight:'800',
+    fontSize:28
+  },
+  infoRowParagraph:{
+    fontFamily:'Raleway',
+    lineHeight:18,
+    letterSpacing:1,
+    textAlign:'left'
+  },
+  infoRowImage:{
+    resizeMode:'cover',
+    height:260,
+    width:winWidth,
   },
   header: {
     height: winHeight / 10,
