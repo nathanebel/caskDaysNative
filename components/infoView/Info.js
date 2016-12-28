@@ -53,7 +53,7 @@ class Info extends Component {
             </Text>
           </Row>
           <Row>
-            <Image source={require('./../img/brews.jpg')} style={styles.infoRowImage} />
+            <Image source={require('./../img/brews2.jpg')} style={styles.infoRowImage} />
           </Row>
           <Row style={[ styles.infoRow,  { backgroundColor:'#FEE9D0'}]}>
             <Text style={styles.infoRowHeader}>REAL FOOD & REAL ALE</Text>
